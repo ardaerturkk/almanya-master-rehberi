@@ -1,5 +1,6 @@
 ---
 title: "Adım 5: GRE / GMAT ve Diğer Testler"
+description: "Almanya'daki master programları GRE veya GMAT ister mi? Hangi programlarda gerekli, ücreti ve Türkiye'de sınav seçenekleri, program bazlı kontrol yöntemi."
 ---
 
 # Adım 5: GRE / GMAT ve Diğer Testler

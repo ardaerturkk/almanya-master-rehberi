@@ -1,5 +1,6 @@
 ---
 title: "Adım 32: Mezuniyet Sonrası"
+description: "Mezuniyet sonrası Almanya'da kalmak: 18 aylık iş arama izni, Chancenkarte, AB Mavi Kart eşikleri ve Niederlassungserlaubnis (kalıcı oturum) için yol haritası."
 ---
 
 # Adım 32: Mezuniyet Sonrası

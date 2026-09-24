@@ -1,5 +1,6 @@
 ---
 title: "Adım 24: Varış Günü"
+description: "Almanya'ya vardığın gün: SIM kart seçenekleri, toplu taşıma, ilk gıda alışverişi ve ilk günlerin öncelikli işleri için pratik kontrol listesi ve ipuçları."
 ---
 
 # Adım 24: Varış Günü

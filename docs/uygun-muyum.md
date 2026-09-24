@@ -1,6 +1,6 @@
 ---
 title: "Uygun muyum? (Öz değerlendirme)"
-description: "Almanya'da master için kısa bir sihirbazla durumunu değerlendir: lisans, yaş, dil, finansman ve hedef dönemine göre sana özel rota."
+description: "Almanya'da master için kısa bir sihirbazla durumunu değerlendir: lisans, yaş, dil, finansman ve hedef döneme göre sana özel rota ve atlanabilir adımlar."
 ---
 
 # Uygun muyum? (Öz değerlendirme)

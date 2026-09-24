@@ -1,6 +1,6 @@
 ---
 title: "Adım 4: Dil Sınavları"
-description: "Almanya'da master için dil sınavı seçimi: TestDaF, DSH, Goethe, telc, IELTS ve TOEFL karşılaştırması, ücretler, Türkiye'deki merkezler ve programın hangisini kabul ettiğini kontrol yöntemi."
+description: "Almanya'da master için dil sınavı seçimi: TestDaF, DSH, Goethe, telc, IELTS ve TOEFL karşılaştırması, ücretler ve programın hangisini kabul ettiğini kontrol."
 ---
 
 # Adım 4: Dil Sınavları

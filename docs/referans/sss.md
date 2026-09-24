@@ -1,5 +1,6 @@
 ---
 title: "Sık Sorulan Sorular"
+description: "Almanya'da master hakkında sık sorulan sorular: başvuru, vize, Sperrkonto, sigorta, askerlik, çalışma hakları ve yaşam maliyeti için kısa ve kaynaklı cevaplar."
 ---
 
 # Sık Sorulan Sorular

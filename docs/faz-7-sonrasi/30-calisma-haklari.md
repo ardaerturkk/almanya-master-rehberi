@@ -1,5 +1,6 @@
 ---
 title: "Adım 30: Çalışma Hakları"
+description: "Almanya'da öğrenci çalışma hakları: yılda 140 tam gün limiti, Werkstudent 20 saat sınırı, Minijob, asgari ücret ve üniversite içi işlerin hesaba girmemesi."
 ---
 
 # Adım 30: Çalışma Hakları

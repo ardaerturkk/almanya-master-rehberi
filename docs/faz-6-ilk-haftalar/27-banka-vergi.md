@@ -1,5 +1,6 @@
 ---
 title: "Adım 27: Banka Hesabı ve Steuer-ID"
+description: "Almanya'da banka hesabı açma (N26, DKB) ve Steuer-ID: gereken belgeler, Türk pasaportuyla hesap açma, vergi kimlik numarasının ne zaman geleceği rehberi."
 ---
 
 # Adım 27: Banka Hesabı ve Steuer-ID

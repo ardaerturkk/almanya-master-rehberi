@@ -1,5 +1,6 @@
 ---
 title: "Kaynaklar ve Katkı"
+description: "Rehberin kaynak hiyerarşisi, tüm değişken değerlerin (tutar, süre) kaynak ve doğrulama tarihi tablosu, doğrulanamayan noktalar ve katkıda bulunma yolları."
 ---
 
 # Kaynaklar ve Katkı
@@ -41,8 +42,7 @@ Bulunamayan veya doğrulanamayan bilgi tahminle doldurulmadı. Sayfada "Teyit et
 
 ## Katkıda bulunma
 
-Bu site açık kaynak — hata bulursan veya güncel olmayan bir bilgi fark edersen, repodaki GitHub
-sayfası üzerinden issue açabilir veya pull request gönderebilirsin:
+Bu site açık kaynak. Güncel olmayan bir bilgi görürsen ["Güncel olmayan bilgi"](https://github.com/ardaerturkk/almanya-master-rehberi/issues/new?template=guncel-olmayan-bilgi.yml) formunu (sayfa, eski değer, yeni değer ve kaynak linki zorunlu), rehberde bulamadığın bir konu için ["Eksik konu"](https://github.com/ardaerturkk/almanya-master-rehberi/issues/new?template=eksik-konu.yml) formunu doldur; her sayfanın altındaki "Bu sayfada hata mı var?" bağlantısı da doğrudan düzenleme sayfasını açar. Pull request de gönderebilirsin:
 [github.com/ardaerturkk/almanya-master-rehberi](https://github.com/ardaerturkk/almanya-master-rehberi)
 
 ## Lisans

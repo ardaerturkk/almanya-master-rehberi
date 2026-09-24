@@ -1,6 +1,6 @@
 ---
 title: "Adım 16: Vize Türü ve Başvuru Kanalı"
-description: "Almanya öğrenci vizesi türleri, Türkiye'de Auslandsportal ve iDATA üzerinden başvuru, randevu bekleme süresi ve vize ücreti."
+description: "Almanya öğrenci vizesi türleri, Türkiye'de Auslandsportal ve iDATA üzerinden başvuru, randevu kuyruğu stratejisi, bekleme süresi ve vize ücreti rehberi."
 ---
 
 # Adım 16: Vize Türü ve Başvuru Kanalı

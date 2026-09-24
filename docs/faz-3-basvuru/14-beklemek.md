@@ -1,5 +1,6 @@
 ---
 title: "Adım 14: Beklemek"
+description: "Başvurudan sonra beklerken neler yapılır? uni-assist ve üniversite bekleme süreleri, süreyi vize ve konaklama hazırlığıyla birlikte verimli geçirme rehberi."
 ---
 
 # Adım 14: Beklemek

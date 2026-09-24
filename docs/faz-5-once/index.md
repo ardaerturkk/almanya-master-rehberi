@@ -1,5 +1,6 @@
 ---
 title: "Faz 5: Gitmeden Önce"
+description: "Faz 5 Gitmeden Önce: konaklama, Türkiye tarafı işler ve bavul hazırlığı. Bu faz sonunda elinde ne olmalı, toplam süre ve maliyet aralığı ile kısa özet."
 ---
 
 # Faz 5: Gitmeden Önce

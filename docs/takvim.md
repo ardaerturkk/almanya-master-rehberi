@@ -1,6 +1,6 @@
 ---
 title: "Takvim: Geriye Doğru Planlama"
-description: "Almanya'da master için geriye doğru takvim: kış (WiSe) ve yaz (SoSe) dönemi için hazırlıktan varışa kadar ne zaman ne yapılmalı, vize randevu kuyruğu dahil gerçekçi süreler."
+description: "Almanya'da master için geriye doğru takvim: kış (WiSe) ve yaz (SoSe) dönemi, vize randevu kuyruğu, uni-assist süreleri ve sonucu .ics ile takvime ekleme."
 ---
 
 # Takvim: Geriye Doğru Planlama

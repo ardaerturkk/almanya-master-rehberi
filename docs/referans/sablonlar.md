@@ -1,5 +1,6 @@
 ---
 title: "Belge Şablonları"
+description: "Belge şablonları ve kontrol listeleri: tabellarischer Lebenslauf yapısı, motivasyon mektubu soru çerçevesi, askerlik tecili ve vize belgeleri kontrol listesi."
 ---
 
 # Belge Şablonları

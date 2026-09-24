@@ -1,6 +1,6 @@
 ---
 title: "Adım 10: CV, Motivasyon Mektubu, Referans"
-description: "Almanya master başvurusu için tabellarischer Lebenslauf, motivasyon mektubu ve referans mektubu: üniversiteler ne bekliyor, DAAD ne öneriyor."
+description: "Almanya master başvurusu için tabellarischer Lebenslauf, motivasyon mektubu ve referans mektubu: üniversiteler ne bekliyor, DAAD ne öneriyor, neden kaçınmalı?"
 ---
 
 # Adım 10: CV, Motivasyon Mektubu, Referans

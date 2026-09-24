@@ -1,5 +1,6 @@
 ---
 title: "Sorun Giderme"
+description: "Almanya master sürecinde sık karşılaşılan sorunlar ve çözümleri: vize randevusu, Sperrkonto, konaklama, Anmeldung, banka hesabı ve askerlik tecili soruları."
 ---
 
 # Sorun Giderme

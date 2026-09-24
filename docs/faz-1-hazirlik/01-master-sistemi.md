@@ -1,5 +1,6 @@
 ---
 title: "Adım 1: Almanya'da Master Sistemi"
+description: "Almanya'da master sistemi: konsekutif ve weiterbildend program farkı, Numerus Clausus (NC) nedir, Türk notlarının Alman not sistemindeki karşılığı ve başlangıç."
 ---
 
 # Adım 1: Almanya'da Master Sistemi

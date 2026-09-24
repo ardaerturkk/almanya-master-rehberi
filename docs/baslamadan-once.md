@@ -1,5 +1,6 @@
 ---
 title: "Başlamadan Önce"
+description: "Almanya master rehberini nasıl kullanacağını, rotanın 7 fazını, kaynakların nasıl doğrulandığını ve sitenin sınırlarını anlatan kısa giriş ve sorumluluk notu."
 ---
 
 # Başlamadan Önce

@@ -1,6 +1,6 @@
 ---
 title: "Adım 7: Askerlik Tecili"
-description: "Almanya'da yüksek lisans için askerlik tecili: yaş sınırı (yüksek lisans 32, doktora 35), başvuru yolu, gereken belgeler ve tecil kaybının sonuçları."
+description: "Almanya'da yüksek lisans için askerlik tecili: yaş sınırı (yüksek lisans 32, doktora 35), başvuru yolu, gereken belgeler ve tecil kaybının sonuçları rehberi."
 ---
 
 # Adım 7: Askerlik Tecili

@@ -1,6 +1,6 @@
 ---
 title: "Adım 17: Sperrkonto Açma"
-description: "Almanya öğrenci vizesi için Sperrkonto (bloke hesap): güncel aylık ve yıllık tutar, sağlayıcı karşılaştırması ve alternatif finansman yolları."
+description: "Almanya öğrenci vizesi için Sperrkonto (bloke hesap): güncel aylık ve yıllık tutar, sağlayıcı karşılaştırması ve alternatif finansman yolları rehberi."
 ---
 
 # Adım 17: Sperrkonto Açma

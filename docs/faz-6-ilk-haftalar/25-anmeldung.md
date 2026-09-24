@@ -1,5 +1,6 @@
 ---
 title: "Adım 25: Anmeldung"
+description: "Anmeldung (adres kaydı) rehberi: taşınmadan itibaren 2 haftalık yasal süre, gereken belgeler, randevu bulma ipuçları ve Anmeldebescheinigung'un kullanımı."
 ---
 
 # Adım 25: Anmeldung

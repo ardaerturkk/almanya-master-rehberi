@@ -1,0 +1,27 @@
+name: Eksik konu
+description: Rehberde bulamadığım bir konu var.
+title: "[Eksik konu] "
+labels: ["eksik-konu"]
+body:
+  - type: input
+    id: sayfa
+    attributes:
+      label: İlgili sayfa (varsa)
+      description: Konunun eklenmesi gereken sayfa veya adım.
+  - type: textarea
+    id: konu
+    attributes:
+      label: Eksik olan konu
+      description: Hangi soruya cevap bulamadın?
+    validations:
+      required: true
+  - type: textarea
+    id: durum
+    attributes:
+      label: Durumun (isteğe bağlı)
+      description: Konuyu anlamamıza yardım edecek kısa bağlam (hedef dönem, program türü vb.). Kişisel bilgi yazma.
+  - type: input
+    id: kaynak
+    attributes:
+      label: Biliyorsan kaynak linki
+      placeholder: "https://"

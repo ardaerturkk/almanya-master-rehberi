@@ -1,5 +1,6 @@
 ---
 title: "Almanca Programa mı, İngilizce Programa mı?"
+description: "Almanca mı İngilizce mi program seçmeli? Dil belgesi, program sayısı, günlük hayat, iş piyasası ve hazırlık süresi açısından karşılaştırma ve karar rehberi."
 ---
 
 # Almanca Programa mı, İngilizce Programa mı?

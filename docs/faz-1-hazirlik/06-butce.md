@@ -1,5 +1,6 @@
 ---
 title: "Adım 6: Bütçe Planı"
+description: "Almanya'da master için gerçekçi bütçe: aylık yaşam maliyeti, şehir bazlı kira, Semesterbeitrag, sağlık sigortası ve hesaplayıcıyla kendi bütçeni çıkar."
 ---
 
 # Adım 6: Bütçe Planı

@@ -1,5 +1,6 @@
 ---
 title: "Araçlar"
+description: "Almanya master sürecinde işine yarayacak araçlar: program arama, denklik ve not çevrimi, başvuru, vize ve finansman, konaklama, sınavlar ve T.C. tarafı."
 ---
 
 # Araçlar

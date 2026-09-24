@@ -139,11 +139,12 @@ v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzelti
 - [x] Her faz index sayfasına "Bu fazın sonunda elinde ne olmalı" ve toplam süre/maliyet
 - [x] Sözlüğe yeni Almanca terimler eklendi (Remonstration, Klage, VIDEX, Auslandsportal, Ausländerbehörde vb.)
 
-## Paket 5: Keşfedilebilirlik ve katkı (P2)
+## Paket 5: Keşfedilebilirlik ve katkı (P2) — PR açık
 
-- [ ] sitemap, robots.txt, OG/Twitter meta ve OG görseli
-- [ ] Sayfa bazlı `description`
-- [ ] editLink, issue şablonları, "işine yaradı mı?" bağlantısı
+- [x] `sitemap` (61 sayfa), `robots.txt`, sayfa bazlı `og:*`/`twitter:*` meta (`transformHead`), canonical, 1200×630 OG görseli (`docs/public/og-image.png`, kaynağı `scripts/og-image.html`)
+- [x] Her sayfaya 150-160 karakterlik Türkçe `description` (61/61)
+- [x] `editLink` ("Bu sayfada hata mı var? GitHub'da düzenle"), iki issue formu (Güncel olmayan bilgi, Eksik konu) ve `config.yml`
+- [x] Adım ve dallanma sayfalarının altında "Bu sayfa işine yaradı mı?" (önceden doldurulmuş issue linkleri, backend yok)
 
 ## Paket 6: Kalite kapısı (P2)
 

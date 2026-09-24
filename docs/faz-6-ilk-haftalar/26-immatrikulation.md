@@ -1,5 +1,6 @@
 ---
 title: "Adım 26: Immatrikulation"
+description: "Immatrikulation (üniversite kaydı) rehberi: CAU Kiel örneğiyle süreç, gereken belgeler, Semesterbeitrag ödemesi, öğrenci kimliği ve kayıt sonrası yapılacaklar."
 ---
 
 # Adım 26: Immatrikulation

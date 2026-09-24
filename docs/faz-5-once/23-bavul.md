@@ -1,5 +1,6 @@
 ---
 title: "Adım 23: Bavul ve İlk Hafta Çantası"
+description: "Almanya'ya gitmeden bavul hazırlığı: kabin bagajında taşınacak belgeler ve değerli eşyalar, ilk hafta için pratik hazırlık ve sık yapılan bavul hataları."
 ---
 
 # Adım 23: Bavul ve İlk Hafta Çantası

@@ -1,5 +1,6 @@
 ---
 title: "Adım 3: Uygunluk Analizi"
+description: "Türk diplomanın Almanya'da tanınması: anabin ile H+ kontrolü, Bayerische Formel ile not çevirisi ve programlara uygunluk analizi için adım adım rehber."
 ---
 
 # Adım 3: Uygunluk Analizi

@@ -1,6 +1,6 @@
 ---
 title: "Adım 19: Vize Belgeleri ve Başvuru"
-description: "Almanya öğrenci vizesi başvuru belgeleri: Auslandsportal ve VIDEX formu, kabul mektubu, finansman kanıtı, sigorta ve randevu günü hazırlığı."
+description: "Almanya öğrenci vizesi başvuru belgeleri: Auslandsportal ve VIDEX formu, kabul mektubu, finansman kanıtı, sigorta ve randevu günü hazırlığı kontrol listesi."
 ---
 
 # Adım 19: Vize Belgeleri ve Başvuru
