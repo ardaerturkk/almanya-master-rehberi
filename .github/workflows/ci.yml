@@ -16,11 +16,13 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run docs:build
-      - name: Kırık link kontrolü
+      - name: Kırık iç link kontrolü
         run: |
           npm run docs:preview -- --port 4173 &
           npx wait-on http://localhost:4173/almanya-master-rehberi/
+          # Dış linkler (gesetze-im-internet, üniversite siteleri vb.) GitHub runner'larından
+          # sık sık bağlantı reddi veriyor; dış link kontrolü haftalık tazelik workflow'unda.
           npx linkinator http://localhost:4173/almanya-master-rehberi/ --recurse --silent \
-            --skip "idata\.com\.tr|daad\.de|hochschulkompass\.de|mevzuat\.gov\.tr|resmigazete\.gov\.tr"
+            --concurrency 5 --skip "^https?://(?!localhost)"
       - name: Markdown lint
         run: npx markdownlint-cli2 "docs/**/*.md" "!docs/.vitepress/**"
