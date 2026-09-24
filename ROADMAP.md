@@ -3,38 +3,50 @@
 Kaynak prompt: `ardavault` reposundaki `🏰 300-Projects/almanya-masters-guide/PROMPT.md`.
 Bu dosya oturumlar arası ilerlemeyi takip eder — her iş bitince işaretlenir.
 
-## Durum (2026-09-24)
+## Durum (2026-09-24, devam eden oturum)
 
-**Blokaj:** Bu ortamın network policy'si dış siteleri engelliyor (WebFetch → `EGRESS_BLOCKED`,
-test edilen domainler: 3ds.hacks.guide, auswaertiges-amt.de, daad.de). WebSearch çalışıyor ama
-birincil kaynak sayfalarının tam metnini okuyup doğrulamaya yetmiyor. Araştırma ve yazım fazları
-bu engel kalkana kadar duraklatıldı. Arda'dan ortam ayarlarından network access'i genişletmesi
-istendi.
+Önceki oturumdaki network blokajı kalktı — hem WebFetch hem WebSearch çalışıyor. Faz 0
+tamamlandı, Faz 1 (araştırma turu) tamamlandı — 7 paralel agent ile toplandı, `data/degerler.yml`
+ve `SOURCES.md`'e işlendi. Ham raporlar `docs-internal/arastirma-notlari/` altında saklı.
 
-## Faz 0: İlham analizi + iskelet
-- [ ] `docs-internal/ilham-analizi.md` — 3ds.hacks.guide analizi (network engeli çözülünce)
+**Önemli bulgu — PROMPT.md'deki bir örnek eski çıktı:** Öğrenci çalışma gün limiti artık
+120/240 değil, **140/280** (01.03.2024'te güncellendi). Sayfa yazımında bu vurgulanmalı.
+
+**Kritik, henüz çözülmemiş çelişkiler (yazım öncesi tekrar kontrol şart):**
+- Askerlik tecili yaş sınırı: 32 mi 35 mi? (geri dönüşü olmayan konu)
+- Sperrkonto 992 EUR'un olası Mart 2026 BAföG güncellemesinden etkilenip etkilenmediği
+- Vize ücreti: 75 EUR mi 90 EUR mi (Ankara sayfasında karışıklık)
+- Dil sınavı ücretleri (TestDaF/Goethe/IELTS/TOEFL) — bot koruması nedeniyle hiçbiri
+  doğrulanamadı, resmi sayfalardan elle kontrol gerekiyor
+- Çıkış harcı / pasaport harcı tam TL rakamları — GİB resmi sayfası açılamadı
+
+## Faz 0: İlham analizi + iskelet — TAMAMLANDI
+- [x] `docs-internal/ilham-analizi.md` — 3ds.hacks.guide analizi
 - [x] `ROADMAP.md` oluşturuldu
 - [x] `SOURCES.md` oluşturuldu
-- [ ] VitePress kurulumu, sidebar, boş sayfalar, şablon, bileşen taslakları
-- [ ] Build'in geçtiğini doğrula
+- [x] VitePress kurulumu, sidebar, boş sayfalar, şablon (önceki oturumdan hazırdı)
+- [x] `.github/workflows/deploy.yml` — GitHub Pages Actions deploy workflow eklendi
+- [x] `data/degerler.yml` scaffold oluşturuldu, sonra araştırma ile dolduruldu
+- [x] Build'in geçtiğini doğrula — YAML frontmatter bug'ı düzeltildi (58 dosyada `title:` içindeki
+      `:` karakteri quote'lanmadığı için build kırıktı), şimdi `npm run docs:build` temiz geçiyor
 
-## Faz 1: Araştırma turu (her sayfa için kaynak toplama → `data/degerler.yml`)
-- [ ] Sperrkonto tutarı ve belirlenme yöntemi
-- [ ] Öğrenci çalışma gün limiti ve istisnalar
-- [ ] Asgari ücret / Minijob sınırı
-- [ ] Anmeldung süresi ve belgeler
-- [ ] İş arama oturumu (§20 AufenthG) süresi, Mavi Kart eşikleri
-- [ ] APS belgesi — Türkiye için durum
-- [ ] Türkiye'de öğrenci vizesi başvuru kanalı (güncel)
-- [ ] AB dışı öğrenci harcı olan eyaletler
-- [ ] Yasal sağlık sigortası öğrenci tarifesi kuralları
-- [ ] Sperrkonto/sigorta sağlayıcı karşılaştırması
-- [ ] uni-assist ücretleri ve süreleri
-- [ ] Dil sınavı ücretleri/merkezleri (Türkiye)
-- [ ] T.C. tarafı: askerlik tecili, çıkış harcı, apostil, tercüme, pasaport harcı
-- [ ] Rundfunkbeitrag tutarı ve muafiyet
+## Faz 1: Araştırma turu — TAMAMLANDI (7 paralel agent, 24.09.2026)
+- [x] Sperrkonto tutarı ve belirlenme yöntemi
+- [x] Öğrenci çalışma gün limiti ve istisnalar
+- [x] Asgari ücret / Minijob sınırı
+- [x] Anmeldung süresi ve belgeler
+- [x] İş arama oturumu (§20 AufenthG) süresi, Mavi Kart eşikleri
+- [x] APS belgesi — Türkiye için durum
+- [x] Türkiye'de öğrenci vizesi başvuru kanalı (güncel: iDATA)
+- [x] AB dışı öğrenci harcı olan eyaletler (BW kesin, Bayern kısmi, diğerleri belirsiz)
+- [x] Yasal sağlık sigortası öğrenci tarifesi kuralları
+- [x] Sperrkonto/sigorta sağlayıcı karşılaştırması
+- [x] uni-assist ücretleri ve süreleri
+- [x] Dil sınavı ücretleri/merkezleri (Türkiye) — çoğu doğrulanamadı, bot koruması
+- [x] T.C. tarafı: askerlik tecili, çıkış harcı, apostil, tercüme, pasaport harcı
+- [x] Rundfunkbeitrag tutarı ve muafiyet
 
-## Faz 2: Yazım (Ana rota → dallanmalar → referans)
+## Faz 2: Yazım (Ana rota → dallanmalar → referans) — SIRADA
 - [ ] Giriş: Ana sayfa, Get Started, Öz değerlendirme, Takvim
 - [ ] Faz 1 (Hazırlık): adım 1–7
 - [ ] Faz 2 (Belgeler): adım 8–10
@@ -45,9 +57,12 @@ istendi.
 - [ ] Faz 7 (Okurken/sonrası): adım 30–32
 - [ ] Dallanma sayfaları (7 adet, bkz. PROMPT.md §3)
 - [ ] Referans: Sözlük (≥80 terim), SSS, Troubleshooting, Şablonlar, Araçlar, Kaynaklar
+- [ ] Etkileşimli Vue bileşenleri: Checklist, İlerleme çubuğu, Not dönüştürücü (Bayerische
+      Formel), Bütçe hesaplayıcı, Geriye doğru takvim — henüz yok, Faz 2 ile birlikte eklenecek
 
 ## Faz 3: Doğrulama turu (ayrı geçiş, zorunlu)
 - [ ] `docs-internal/dogrulama-raporu.md` — her iddia kaynağıyla eşleştirilecek
+- [ ] Yukarıdaki "kritik, çözülmemiş çelişkiler" listesi mutlaka bu turda kapatılmalı
 
 ## Faz 4: Acemi testi + eksiklik taraması
 - [ ] Baştan sona okur gözüyle geçiş
@@ -55,3 +70,5 @@ istendi.
 
 ## Faz 5: Son kontrol
 - [ ] Build temiz, kırık link yok, README tam, teslim kriterleri (PROMPT.md §8) karşılandı
+- [ ] Repo ayarlarında GitHub Pages source'unun "GitHub Actions" olarak açık olduğu teyit
+      edilmeli (bu ajan tarafından değiştirilemez, Arda'nın kontrolü gerekir)

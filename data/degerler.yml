@@ -1,0 +1,213 @@
+# Değişken değerler için tek kaynak.
+# Her değer şu alanlarla girilir:
+#   deger: gösterilecek/kullanılacak değer
+#   kaynak: birincil (veya en iyi bulunan) kaynak URL'si
+#   dogrulama_tarihi: kaynağın kontrol edildiği tarih (GG.AA.YYYY)
+#   durum: "dogrulandi" | "belirsiz" (çelişkili/ikincil kaynak, yazım öncesi tekrar kontrol)
+#   not: (opsiyonel) kısa açıklama/istisna
+#
+# Ham araştırma raporları: docs-internal/arastirma-notlari/*.md
+# Detaylı kaynak listesi: SOURCES.md
+
+sperrkonto:
+  aylik_tutar:
+    deger: "992 EUR/ay (11.904 EUR/yıl)"
+    kaynak: "https://www.auswaertiges-amt.de/de/sperrkonto-375488"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: >
+      Sayfada son güncelleme 21.10.2024 görünüyor. Olası Mart 2026 BAföG güncellemesinin bu
+      tutarı etkileyip etkilemediği teyit edilemedi — yazım öncesi tekrar canlı kontrol şart.
+      Chancenkarte/iş arama vizesi için farklı tutar: 1.091 EUR/ay (13.092 EUR/yıl).
+
+  sağlayici_karsilastirma:
+    deger: "Fintiba (159 EUR kurulum + 9,90 EUR/ay), Expatrio (119 EUR kurulum + 9 EUR/ay, 07.07.2026 sonrası fiyat), Coracle (belirsiz/aktiflik teyit edilmeli), Deutsche Bank (şubede yüz yüze kimlik doğrulama)"
+    kaynak: "https://www.fintiba.com/blocked-account-germany; https://help.expatrio.com/hc/en-us/articles/360029158292"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Ticari/ikincil kaynaklar. Coracle'ın operasyonel durumu çelişkili, sağlayıcıyla doğrudan teyit gerekli."
+
+calisma_limiti:
+  gun_siniri:
+    deger: "140 tam gün / 280 yarım gün (yılda)"
+    kaynak: "https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+    not: >
+      AufenthG §16b Abs.3. 01.03.2024'te 120/240'tan 140/280'e yükseltildi. Üniversite bünyesinde
+      Hilfskraft/wissenschaftliche Hilfskraft işleri bu hesaba dahil değil (sınırsız).
+
+asgari_ucret:
+  saatlik:
+    deger: "13,90 EUR/saat brüt (2026), 2027'de 14,60 EUR'a çıkacak"
+    kaynak: "https://www.bundesregierung.de/breg-de/aktuelles/mindestlohn-steigt-2391010"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+
+minijob_siniri:
+  aylik:
+    deger: "603 EUR/ay (7.236 EUR/yıl)"
+    kaynak: "https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+
+werkstudent:
+  haftalik_saat_siniri:
+    deger: "20 saat/hafta (ders dönemi), istisnalar mevcut"
+    kaynak: "https://www.tk.de/firmenkunden/versicherung/versicherung-faq/haeufige-fragen-zu-studenten-und-praktikanten/was-besagt-die-werkstudenten-regel-2036662"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "26 hafta/12 ay kuralı ikincil kaynaklarda geçiyor, TK'nin PDF Beratungsblatt'ından teyit edilmeli."
+
+anmeldung:
+  sure_siniri:
+    deger: "Taşınmadan itibaren 2 hafta (14 gün)"
+    kaynak: "https://www.gesetze-im-internet.de/bmg/__17.html"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+    not: "BMG §17 Abs.1. Gerekli belge: Wohnungsgeberbestätigung (BMG §19)."
+
+is_arama_izni:
+  sure:
+    deger: "Azami 18 ay (uzatılamaz), bu süre boyunca çalışma hakkı sınırsız"
+    kaynak: "https://www.gesetze-im-internet.de/aufenthg_2004/__20.html (dejure.org/lxgesetze.de aynası ile teyitli)"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "AufenthG §20 Abs.1 Nr.1-4. §20 ile 2024 sonrası Chancenkarte (§§20a-20b) arasındaki tam sınır ayrıca teyit edilmeli."
+
+mavi_kart:
+  genel_esik:
+    deger: "50.700 EUR brüt yıllık (2026)"
+    kaynak: "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+  mangelberuf_esik:
+    deger: "45.934,20 EUR brüt yıllık (2026, kıt meslekler/yeni mezunlar, BA onayı gerekir)"
+    kaynak: "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+  niederlassungserlaubnis_suresi:
+    deger: "B1 Almanca: 21 ay; A1 Almanca: 33 ay"
+    kaynak: "netzwerk-iq.de; service.berlin.de/dienstleistung/326556"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "bamf.de'den birincil teyit alınamadı (bot engeli)."
+
+aps:
+  turkiye_durumu:
+    deger: "Gerekli değil (Türkiye APS kapsamında değil)"
+    kaynak: "https://tuerkei.diplo.de/resource/blob/2730506/be9f0c7a618fa31b5375408134f3665d/merkblatt-studium-dt-data.pdf"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Resmi Merkblatt'ta APS hiç geçmiyor (dolaylı doğrulama). Birebir 'Türkiye APS kapsamı dışında' cümlesi bulunamadı."
+
+vize_kanali:
+  saglayici:
+    deger: "iDATA (www.idata.com.tr) — Türkiye'deki tek yetkili dış hizmet sağlayıcı, 8 ofis"
+    kaynak: "https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+  ucret:
+    deger: "D-vizesi (ulusal vize) 75 EUR (18 yaş altı 37,50 EUR, doğrulanmalı) + iDATA hizmet bedeli 39,92 EUR ≈ toplam 115 EUR"
+    kaynak: "https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Ankara sayfasında 75 EUR / 90 EUR karışıklığı var, netleştirilmeli."
+
+ogrenci_harci_eyaletler:
+  liste:
+    deger: "Baden-Württemberg: 1.500 EUR/dönem (kesin). Bayern (TUM: 2.000-6.000 EUR/dönem, üniversite bazlı) — diğer eyaletler (NRW, Sachsen vb.) doğrulanamadı"
+    kaynak: "https://mwk.baden-wuerttemberg.de/de/hochschulen-studium/studieren-in-bw/studienfinanzierung/gebuehren-fuer-internationale-studierende-und-zweitstudium; https://www.tum.de/studium/studienfinanzierung/studiengebuehren-fuer-studierende-aus-nicht-eu-laendern"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "TUM'daki olası Türkiye/Ortaklık Konseyi 1/80 istisnası ayrıca doğrulanmalı."
+
+saglik_sigortasi:
+  ogrenci_tarifesi_aylik:
+    deger: "~90-135 EUR/ay (temel ~87,38 + bakım sigortası 30,78-35,91 + kasaya özel ek katkı payı)"
+    kaynak: "https://www.aok.de/pp/rechengroessen/kostenueberblick-studentischen-krankenversicherung/"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Kasa bazlı (TK/AOK/Barmer) kesin rakamlar ayrı ayrı doğrulanmalı."
+  yas_siniri:
+    deger: "30 yaş (dönemin resmi sonu). 14. Fachsemester sınırı 2020'den beri KALDIRILDI."
+    kaynak: "https://www.studis-online.de/studierendenversicherung/krankenversicherung-ue30.php"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+
+uni_assist:
+  ilk_basvuru_ucreti:
+    deger: "75 EUR"
+    kaynak: "https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+  ek_basvuru_ucreti:
+    deger: "30 EUR (her ek program)"
+    kaynak: "https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+  islem_suresi:
+    deger: "Genel 4-6 hafta; Türkiye 'Orta ve Doğu Avrupa' grubunda ~2-3 hafta (yoğun dönemde uzayabilir)"
+    kaynak: "https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/"
+    dogrulama_tarihi: "24.09.2026"
+    durum: dogrulandi
+
+dil_sinavi_ucretleri:
+  testdaf:
+    deger: null
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Kaynaklar çelişiyor (~155 vs 210 EUR), resmi sayfaya bot koruması nedeniyle erişilemedi. Doğrulanamadı."
+  goethe_c1:
+    deger: null
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Türkiye'ye özel TL rakamı bulunamadı, doğrulanamadı."
+  ielts:
+    deger: null
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "British Council ~12.000 TL / IDP ~12.210 TL iddiaları var ama resmi sayfadan teyit edilemedi."
+  toefl:
+    deger: null
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Kaynaklar arası büyük çelişki (157/185/188 USD), ETS sayfası dinamik/JS, doğrulanamadı."
+
+tc_tarafi:
+  askerlik_tecili:
+    deger: "Yüksek lisans için tecil, yaş sınırı 35 yaşını doldurduğu yıl sonu (Stockholm Eğitim Müşavirliği kaynaklı) — bazı ikincil kaynaklar 32 diyor, ÇELİŞKİLİ"
+    kaynak: "https://stokholm-be.mfa.gov.tr/Mission/ShowInfoNote/201955"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "32 vs 35 yaş çelişkisi güncel MSB mevzuatından netleştirilmeli — geri dönüşü olmayan bir konu, kritik."
+  cikis_harci:
+    deger: "1.250 TL (2026)"
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Resmi GİB sayfasından doğrulanamadı, dijital.gib.gov.tr'den teyit gerekli."
+  apostil_ucreti:
+    deger: "Devlet harcı olarak ücretsiz (Lahey Sözleşmesi)"
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Süre bilgisi bulunamadı, resmi kaynak doğrulanamadı."
+  pasaport_harci:
+    deger: "6 ay: 2.960,81 TL; 1 yıl: 4.328,65 TL; 2 yıl: 7.066,84 TL; 3 yıl: 10.039,20 TL (+ defter bedeli ~1.351-1.424 TL, kaynaklar arası fark var)"
+    kaynak: null
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "GİB resmi tarife sayfasından doğrulanamadı."
+
+rundfunkbeitrag:
+  aylik_tutar:
+    deger: "18,36 EUR/ay (hane başına)"
+    kaynak: "https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/informationen-fuer-studierende"
+    dogrulama_tarihi: "24.09.2026"
+    durum: belirsiz
+    not: "Sayfa arama özeti üzerinden görüldü, doğrudan açılamadı. Muafiyet sadece BAföG ALANLAR için — almayanlar ödemek zorunda."
