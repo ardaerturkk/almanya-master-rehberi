@@ -32,6 +32,8 @@ için [Adım 17](/faz-4-vize/17-sperrkonto) sayfasına bak.
 
 ## Verpflichtungserklärung (§§66-68 AufenthG)
 
+Adım adım süreç, belgeler, geçerlilik ve garantörün riski için [Verpflichtungserklärung rehberi](/dallanma/verpflichtungserklarung) sayfasına bak.
+
 Almanya'da ikamet eden bir kişi (aile üyesi, akraba, tanıdık), senin masraflarını üstleneceğini
 resmi olarak beyan eder. Bu beyan, garantörün oturduğu şehrin **Ausländerbehörde**'sinde
 (yabancılar dairesi) düzenlenir.
