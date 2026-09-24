@@ -34,6 +34,12 @@ Kış dönemi (Wintersemester) genelde **Ekim** ayında başlıyor, tipik son ba
 - **Askerlik tecili**: yıllık yenileme, en geç 31 Ekim (bkz. [Adım 7](/faz-1-hazirlik/07-askerlik))
 :::
 
+## Kendi tarihini hesapla
+
+<ClientOnly>
+<GeriyeDoguTakvim />
+</ClientOnly>
+
 ## Yaz dönemi başlangıcı istiyorsan
 
 Yaz dönemi (Sommersemester) genelde Nisan'da başlıyor, tipik son başvuru tarihi **15 Ocak** —

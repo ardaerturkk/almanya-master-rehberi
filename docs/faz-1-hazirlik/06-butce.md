@@ -48,6 +48,12 @@ toplu taşıma bileti (Semesterticket/Deutschlandsemesterticket) içeriyor — a
 
 Serbestçe satın alınamıyor, dönem katkı payı ödenince otomatik geliyor.
 
+### Kendi bütçeni hesapla
+
+<ClientOnly>
+<ButceHesaplayici />
+</ClientOnly>
+
 ## Toplam yıllık bütçe
 
 Sperrkonto tutarı (11.904 EUR/yıl) ile gerçek harcama tahmini pratikte birbirine yakın —

@@ -46,23 +46,26 @@ ve `SOURCES.md`'e işlendi. Ham raporlar `docs-internal/arastirma-notlari/` alt�
 - [x] T.C. tarafı: askerlik tecili, çıkış harcı, apostil, tercüme, pasaport harcı
 - [x] Rundfunkbeitrag tutarı ve muafiyet
 
-## Faz 2: Yazım (Ana rota → dallanmalar → referans) — DEVAM EDİYOR
-- [ ] Giriş: Ana sayfa, Get Started, Öz değerlendirme, Takvim
-- [ ] Faz 1 (Hazırlık): adım 1–6 kaldı, **adım 7 (Askerlik) yazıldı** (yaş sınırı çelişkisiyle
-      işaretli)
-- [ ] Faz 2 (Belgeler): adım 8–10
-- [ ] Faz 3 (Başvuru): adım 11–15
-- [x] **Faz 4 (Vize): adım 16–20 TAMAMLANDI** (vize türü/kanalı, Sperrkonto, sağlık sigortası,
-      belge listesi, vize sonrası)
-- [ ] Faz 5 (Gitmeden önce): adım 21–23
-- [ ] Faz 6 (İlk haftalar): adım 24, **25 (Anmeldung) yazıldı**, 26–29 kaldı
-- [ ] Faz 7 (Okurken/sonrası): adım 30–32
-- [ ] Dallanma sayfaları: **finansman-kanitlari.md yazıldı**, kalan 6 tanesi (30-yas-ustu,
-      almanca-mi-ingilizce-mi, sartli-kabul, lisans-bitmedi, vize-reddi, uni-assist-mi-dogrudan-mi)
-- [ ] Referans: Sözlük (≥80 terim), SSS, Troubleshooting, Şablonlar, Araçlar, Kaynaklar
-- [ ] Etkileşimli Vue bileşenleri: Checklist, İlerleme çubuğu, Not dönüştürücü (Bayerische
-      Formel), Bütçe hesaplayıcı, Geriye doğru takvim — henüz yok, sayfa içerikleri netleşince
-      eklenecek
+## Faz 2: Yazım (Ana rota → dallanmalar → referans) — İÇERİK TAMAMLANDI
+- [x] Giriş: Ana sayfa, Başlamadan Önce, Uygun muyum, Takvim, Checklist (metin — etkileşimli
+      bileşen henüz yok, aşağıya bak)
+- [x] Faz 1 (Hazırlık): adım 1–7 TAMAMLANDI
+- [x] Faz 2 (Belgeler): adım 8–10 TAMAMLANDI
+- [x] Faz 3 (Başvuru): adım 11–15 TAMAMLANDI
+- [x] Faz 4 (Vize): adım 16–20 TAMAMLANDI
+- [x] Faz 5 (Gitmeden önce): adım 21–23 TAMAMLANDI
+- [x] Faz 6 (İlk haftalar): adım 24–29 TAMAMLANDI
+- [x] Faz 7 (Okurken/sonrası): adım 30–32 TAMAMLANDI
+- [x] Tüm 7 dallanma sayfası TAMAMLANDI
+- [x] Referans: Sözlük (85 terim), SSS, Sorun Giderme, Şablonlar, Araçlar, Kaynaklar TAMAMLANDI
+- [x] Tüm faz index sayfaları (adım listeleri + sonraki faza link) dolduruldu
+- [ ] Etkileşimli Vue bileşenleri: Checklist (localStorage), İlerleme çubuğu, Not dönüştürücü
+      (Bayerische Formel hesaplayıcı), Bütçe hesaplayıcı, Geriye doğru takvim — **henüz yok,
+      sıradaki iş.** `docs/.vitepress/theme/` klasörü kurulmalı.
+
+**32 numaralı adımın hepsi, 7 dallanmanın hepsi, 6 referans sayfasının hepsi yazılı ve
+kaynaklı.** İki tur paralel araştırma (toplam 13 agent) ile toplanan veri
+`data/degerler.yml`, `SOURCES.md` ve `docs-internal/arastirma-notlari/`de kayıtlı.
 
 ## Faz 3: Doğrulama turu (ayrı geçiş, zorunlu)
 - [ ] `docs-internal/dogrulama-raporu.md` — her iddia kaynağıyla eşleştirilecek

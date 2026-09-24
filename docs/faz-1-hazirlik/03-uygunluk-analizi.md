@@ -63,6 +63,12 @@ sistemini transkriptindeki açıklamadan tespit et, formülü ona göre uygula �
 uni-assist/üniversitenin kendi hesaplamasını bekle.
 :::
 
+### Kendi notunu hesapla
+
+<ClientOnly>
+<BayerischeFormelHesaplayici />
+</ClientOnly>
+
 ## Minimum not ortalaması şartı var mı?
 
 Resmi/sabit bir asgari yok. Genel eğilim (ikincil kaynak, kesin değil): NC'li programlarda

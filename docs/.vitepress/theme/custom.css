@@ -1,0 +1,91 @@
+.amr-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  background: var(--vp-c-bg-soft);
+}
+
+.amr-card h3 {
+  margin-top: 0 !important;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.amr-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+.amr-row label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.amr-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.amr-checked label {
+  text-decoration: line-through;
+  color: var(--vp-c-text-3);
+}
+
+.amr-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0;
+}
+
+.amr-field label {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.amr-field input,
+.amr-field select {
+  padding: 6px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 1em;
+}
+
+.amr-result {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--vp-c-brand-soft);
+  font-weight: 600;
+}
+
+.amr-progress-track {
+  width: 100%;
+  height: 10px;
+  border-radius: 6px;
+  background: var(--vp-c-divider);
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.amr-progress-fill {
+  height: 100%;
+  background: var(--vp-c-brand-1);
+  transition: width 0.2s ease;
+}
+
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPDocFooter,
+  .VPDocAside,
+  .amr-no-print {
+    display: none !important;
+  }
+}
