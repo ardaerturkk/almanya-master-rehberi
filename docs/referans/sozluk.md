@@ -12,6 +12,8 @@ için.
 
 ## A
 
+**anabin** — Almanya'da yabancı üniversite ve diplomaların tanınma durumunu gösteren resmî veri tabanı (KMK/ZAB).
+
 **Anerkennung** — Tanıma/denklik. Bir diploma veya belgenin Almanya'da resmi olarak geçerli
 sayılması süreci.
 
@@ -20,6 +22,8 @@ sonraki işlem (banka, immatrikulasyon) için gerekiyor. Bkz. [Adım 25](/faz-6-
 
 **Anmeldung** — Almanya'da yaşadığın adresi resmi olarak kayıt altına alma süreci. Taşınmadan
 itibaren yasal 2 haftalık süre sınırı var (BMG §17).
+
+**Apostille** — Apostil. Belgenin resmî olduğunu gösteren uluslararası onay şerhi; Türkiye'de kaymakamlık veya valilik verir.
 
 **APS (Akademische Prüfstelle)** — Bazı ülkeler (Çin, Vietnam, Hindistan gibi) için zorunlu bir
 diploma doğrulama belgesi. **Türkiye bu kapsamda değil**, APS gerekmiyor.
@@ -40,6 +44,10 @@ iş arama izni (§20), Mavi Kart (§18g) gibi konular bu kanunda düzenleniyor.
 **AStA (Allgemeiner Studierendenausschuss)** — Öğrenci konseyi. Üniversitede öğrencileri temsil
 eden, Semesterbeitrag'a katkısı olan kurum.
 
+**Auslandsportal** — Alman Dışişleri Bakanlığı'nın çevrimiçi vize başvuru portalı (digital.diplo.de). Türkiye'de öğrenci vizesi başvurusu bu portal üzerinden yürüyor.
+
+**Ausländerbehörde** — Yabancılar dairesi. Oturum izni (Aufenthaltserlaubnis) başvurusu, uzatma ve Verpflichtungserklärung burada yapılır.
+
 **Auswärtiges Amt** — Almanya Dışişleri Bakanlığı. Vize ve Sperrkonto gibi birçok resmi bilginin
 kaynağı.
 
@@ -57,6 +65,8 @@ rakam.
 **bedingte Zulassung** — Şartlı kabul. Bir eksiğin (genelde bitmemiş lisans diploması)
 belirtilen süre içinde tamamlanması şartıyla verilen kabul. Bkz. [Şartlı Kabul Aldım](/dallanma/sartli-kabul).
 
+**Beglaubigung** — Onaylı kopya. Bir belge kopyasının aslıyla aynı olduğunun noter veya yetkili kurumca onaylanması.
+
 **Beitragsservice** — ARD ZDF Deutschlandradio'nun Rundfunkbeitrag tahsilatını yürüten kurumu
 (Köln merkezli).
 
@@ -64,6 +74,8 @@ belirtilen süre içinde tamamlanması şartıyla verilen kabul. Bkz. [Şartlı 
 kısmını düzenliyor.
 
 **Blaue Karte EU** — Bkz. AB Mavi Kartı.
+
+**Bonität** — Garantörün mali yeterliliği. Verpflichtungserklärung verilirken Ausländerbehörde garantörün geliriyle (bonite) bu yükümlülüğü karşılayıp karşılayamayacağına bakar.
 
 **BZSt (Bundeszentralamt für Steuern)** — Federal Vergi Dairesi. Steuer-ID'ni veren kurum.
 
@@ -110,8 +122,12 @@ kapsamı — Werkstudent statüsüne geçince genelde bu kapsam dışına çık�
 
 **Feststellungsprüfung** — Studienkolleg'i tamamlayanların aldığı tespit sınavı belgesi.
 
+**Fiktionsbescheinigung** — Oturum izni uzatma başvurusu yapıldıktan sonra karar çıkana kadar mevcut iznin geçerli sayıldığını gösteren belge (AufenthG §81/4, "Fortgeltungsfiktion").
+
 **Finanzierungsnachweis** — Finansman kanıtı — Sperrkonto, Verpflichtungserklärung veya burs
 belgesi.
+
+**Fortgeltungsfiktion** — Süresi dolmadan yapılan uzatma başvurusunda, mevcut oturum izninin karar çıkana kadar geçerli sayılması (AufenthG §81/4).
 
 ## G
 
@@ -134,6 +150,8 @@ Bu işler 140 günlük çalışma sınırına dahil değil.
 
 **HRK (Hochschulrektorenkonferenz)** — Almanya Rektörler Konferansı.
 
+**Härtefall** — Zor durum. Rundfunkbeitrag'da özel bir muafiyet yolu; uluslararası öğrenciler için genelde söz konusu değil (RBStV §4/6).
+
 ## I
 
 **IdNr. (Identifikationsnummer)** — Bkz. Steuer-ID.
@@ -149,6 +167,8 @@ alınıyor.
 
 **Kaution** — Depozito. Yasal üst sınırı 3 aylık net kira (§551 BGB).
 
+**Klage** — Dava. Vize reddine karşı Verwaltungsgericht Berlin'e açılan idari dava; süre ret kararının bildiriminden itibaren 1 ay.
+
 **Krankenversicherung der Studenten (KVdS)** — Öğrenci sağlık sigortası kapsamı.
 
 **Kündigungsverzicht** — Kira sözleşmesinde fesih hakkının belirli bir süre (bazen 4 yıla kadar)
@@ -162,10 +182,14 @@ ediliyor, Europass değil.
 **Lebensunterhaltssicherung** — Geçim kaynağının güvence altında olması — iş arama izni gibi
 birçok başvurunun ön koşulu.
 
+**Leistungsnachweis** — Başarı/kredi belgesi. Oturum izni uzatmada öğreniminde ilerlediğini göstermek için istenir.
+
 ## M
 
 **Meldebehörde** — Adres kayıt dairesi (Anmeldung'un yapıldığı kurum, şehre göre Bürgeramt veya
 Einwohnermeldeamt).
+
+**Midijob** — Aylık kazancı Minijob sınırının üzerinde (603,01 EUR) ve 2.000 EUR'ya kadar olan çalışma; sosyal sigorta primleri düşük tutulur.
 
 **Mietvertrag** — Kira sözleşmesi.
 
@@ -193,13 +217,21 @@ havuzuna göre kendiliğinden oluşuyor.
 
 **PKV (private Krankenversicherung)** — Özel sağlık sigortası.
 
+**Prozesskostenhilfe** — Dava masrafı yardımı. Yeterli geliri olmayan ve davada başarı şansı olan kişilere mahkeme masrafları için devlet desteği.
+
 ## R
+
+**Rechtsbehelfsbelehrung** — Hukuki başvuru yolu bilgisi. Ret mektubunda hangi mahkemeye ve hangi sürede dava açılacağını belirten bölüm.
+
+**Remonstration** — Vize ret kararına karşı Alman misyonuna yapılan yazılı itiraz. 01.07.2025'ten beri kaldırıldı; artık yeni başvuru veya dava yolu var.
 
 **Rentenversicherung** — Emeklilik sigortası. Werkstudent'lerin ödemeye devam ettiği tek sosyal
 sigorta kalemi.
 
 **Rundfunkbeitrag** — Yayın katkı payı. Hane başına <Deger k="rundfunkbeitrag.aylik_tutar" /> (2026). Sadece BAföG alanlar
 muafiyet başvurabiliyor.
+
+**Rückstellung** — Kabulün ertelenmesi (deferral). Kabul edilen adayın kaydını sonraki döneme bırakması; kuralı üniversiteye göre değişir.
 
 ## S
 
@@ -236,6 +268,8 @@ standart format.
 
 **uni-assist** — Yabancı diplomaları değerlendirip VPD düzenleyen kuruluş. Bkz. [Adım 12](/faz-3-basvuru/12-uni-assist).
 
+**Untätigkeitsklage** — Eylemsizlik davası. Başvuruya hiç karar verilmemesi halinde, 3 ay sonra açılabilen dava türü (VwGO §75).
+
 ## V
 
 **Verdienstgrenze** — Kazanç sınırı (Minijob için).
@@ -243,12 +277,20 @@ standart format.
 **Verpflichtungserklärung** — Almanya'da ikamet eden birinin finansal taahhüt beyanı — Sperrkonto
 alternatifi. Garantörün Almanya'da ikamet ediyor olması şart.
 
+**Verwaltungsgericht** — İdare mahkemesi. Vize reddi davaları Verwaltungsgericht Berlin'de görülür.
+
+**VIDEX** — Alman vize başvuru formu (Videx-Online-Visumantrag). Öğrenci vizesinde Auslandsportal içinde doldurulur.
+
 **vorläufige Zulassung** — Geçici/koşullu kabul. Bkz. bedingte Zulassung.
+
+**Vorprüfung** — Ön kontrol. Auslandsportal'da başvurun ve belgelerin randevudan önce yapılan incelemesi (genelde yaklaşık bir hafta).
 
 **VPD (Vorprüfungsdokumentation)** — uni-assist'in düzenlediği ön değerlendirme belgesi. Kabul
 mektubu DEĞİL.
 
 ## W
+
+**Warteliste** — Bekleme listesi. Auslandsportal'da vize randevu kuyruğu ve kontenjanlı programlarda yedek liste anlamında kullanılır.
 
 **Werkstudent** — Çalışan öğrenci statüsü, haftada 20 saat üst sınırıyla sosyal sigorta
 avantajı sağlıyor.

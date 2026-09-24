@@ -148,6 +148,7 @@ export default defineConfig({
           { text: "Lisansım bitmedi", link: "/dallanma/lisans-bitmedi" },
           { text: "Vize reddi aldım", link: "/dallanma/vize-reddi" },
           { text: "Kabulüm WiSe'ye yetişmezse (SoSe)", link: "/dallanma/sose-ve-erteleme" },
+          { text: "Verpflichtungserklärung rehberi", link: "/dallanma/verpflichtungserklarung" },
         ],
       },
       {

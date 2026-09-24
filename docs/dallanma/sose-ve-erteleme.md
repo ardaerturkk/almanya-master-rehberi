@@ -69,6 +69,8 @@ Kısacası: SoSe kabulü almak için pencere çoğu programda **Ekim-Ocak** aras
 
 ## Geriye doğru SoSe takvimi (Kiel Informatik örneği)
 
+Kendi tarihlerinle hesaplamak için [takvim hesaplayıcıda](/takvim) "Yaz dönemi (SoSe)" seç; sonucu .ics olarak takvimine ekleyebilirsin. Aşağıdaki tablo Kiel Informatik için elle hazırlanmış bir örnek.
+
 Kiel SoSe 2027 için dönem 01.04.-30.09.2027, ders dönemi 05.04.-16.07.2027, oryantasyon programı 22.03.-02.04.2027. Bu tarihlerden geriye doğru:
 
 | Zaman | Adım |

@@ -61,6 +61,18 @@ Bu rakamlar birleştiğinde dönem başlangıcından **en az 4-5 ay önce** sür
 Kabul mektubu olmadan Auslandsportal'da randevu kaydı açılıp açılamayacağını açık bir resmi cümle olarak bulamadık. Portal belgelerin sonradan yüklenebildiğini söylüyor, ama Zulassungsbescheid gerekiyor. Kaydı açmayı dene ve portalın ne söylediğine bak.
 :::
 
+## Randevu stratejisi
+
+Auslandsportal'ın kendi SSS'sine ve Türkiye misyonlarının sayfalarına göre kuyruk şöyle işliyor:
+
+1. **Hangi misyon?** İkamet ettiğin ile göre belirleniyor; portal ilini seçince sorumlu misyonu gösteriyor. Ankara Büyükelçiliği ağırlıklı olarak İç Anadolu, Doğu ve Karadeniz illerine bakıyor (ör. Ankara, Konya, Kayseri, Samsun, Trabzon, Gaziantep, Adana); İstanbul Başkonsolosluğu Marmara illerine (İstanbul, Bursa, Kocaeli, Edirne, Eskişehir, Çanakkale); İzmir Başkonsolosluğu Ege ve Akdeniz'in bir kısmına (İzmir, Antalya, Muğla, Denizli, Aydın, Manisa). Güncel il listesi için portalda seçim yap.
+2. **Sıraya girmek = formu ve belgeleri yüklemek.** Bekleme listesine, çevrimiçi başvuru formunu (VIDEX) doldurup gerekli belgeleri yükleyince kaydoluyorsun. Formu istediğin zaman kaydedip belgeleri sonradan yükleyebiliyorsun.
+3. **Ön kontrol (Vorprüfung):** Genelde yaklaşık bir hafta içinde geri dönüş var; ardından randevu bağlantısı geliyor.
+4. **Sırayı korumak:** Bekleme listesinde her 60 günde bir "hâlâ istiyorum" onayı isteniyor. Sıran gelince başvuruyu **30 gün** içinde göndermelisin; kalan süre için 14, 7, 3 ve 1 gün kala e-posta geliyor, süre dolarsa başvuru silinir.
+5. **Randevuda:** Yalnızca parmak izi ve fotoğraf verir, gerekirse orijinal belgeleri gösterir ve vize ücretini ödersin. İşin büyük kısmı çevrimiçi bitmiş olur.
+
+**Ne zaman girmeli?** Randevular kayıt tarihine göre sırayla verildiği için erken kayıt öneriliyor. Ne kadar önceden başvurabileceğini Türkiye'deki öğrenci vizesi için resmi bir kaynakta bulamadık (genel sayfada "en erken 6 ay" cümlesi geçiyor, ama öğrenci vizesine özel değil). Kabul mektubu gelmeden kayıt açılıp açılamadığı da net değil (yukarıdaki uyarı). Kabulü beklerken **yapabileceklerin:** Sperrkonto ve sağlık sigortası hazırlığı ([Adım 17](/faz-4-vize/17-sperrkonto), [Adım 18](/faz-4-vize/18-saglik-sigortasi)), belgelerin yeminli tercümesi ([Adım 9](/faz-2-belgeler/09-onay-tercume)), VIDEX formunun taslağı ([Adım 19](/faz-4-vize/19-vize-belgeleri)). Böylece kabul geldiğinde sıraya hazır girersin.
+
 ## Ücret
 
 - **Vize ücreti: <Deger k="vize_kanali.ucret" />.** Öğrenci vizesi ulusal (D) vize; yasal ücret AufenthV §46/2'de belirlenmiş. İnternette gördüğün 90 EUR rakamı kısa süreli Schengen vizesinin ücreti; öğrenci vizesiyle karıştırma.
@@ -108,5 +120,5 @@ Kabul mektubu olmadan Auslandsportal'da randevu kaydı açılıp açılamayacağ
 6. [AufenthG §16b](https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html) ve [§17](https://www.gesetze-im-internet.de/aufenthg_2004/__17.html)
 
 ::: warning Teyit etmen gerekenler
-iDATA'nın sitesi otomasyona kapalı olduğu için 8 ofisin güncel listesi ve randevu iptal/değiştirme kuralları doğrulanamadı. iDATA hizmet bedelinin öğrenci vizesi için kesin tutarı Auswärtiges Amt sayfalarında tutarsız; portaldaki rakama güven.
+Türkiye'deki öğrenci vizesi için kesin "en erken ne zaman başvurulur" kuralı ve vize giriş penceresi resmi kaynakta bulunamadı; randevu sırasında sor. iDATA'nın sitesi otomasyona kapalı olduğu için 8 ofisin güncel listesi ve randevu iptal/değiştirme kuralları doğrulanamadı. iDATA hizmet bedelinin öğrenci vizesi için kesin tutarı Auswärtiges Amt sayfalarında tutarsız; portaldaki rakama güven.
 :::

@@ -15,6 +15,14 @@ pahalıya patlıyor.
 19. [Vize Belgeleri ve Başvuru](/faz-4-vize/19-vize-belgeleri)
 20. [Vizeyi Aldıktan Sonra](/faz-4-vize/20-vize-sonrasi)
 
+## Bu fazın sonunda elinde ne olmalı
+
+Onaylanmış öğrenci vizen (pasaportunda), Almanya'da geçerli sağlık sigortası kanıtın ve finansman kanıtın (Sperrkonto onayı, Verpflichtungserklärung veya burs belgesi). Bunlarla birlikte vizenin geçerlilik tarihlerini ve giriş koşullarını kontrol etmiş olmalısın.
+
+## Toplam süre ve maliyet
+
+**Süre:** Auslandsportal'da randevu kuyruğu misyona göre 1-4 ay, üstüne karar süresi en az 15, bazen 45 gün; Sperrkonto onayı 1-2 hafta. Dönem başlangıcından en az 5-6 ay önce sürece başla. **Maliyet:** Vize ücreti <Deger k="vize_kanali.ucret" /> (kamu bursu alanlar muaf) + iDATA hizmet bedeli; Sperrkonto kurulum ve ilk yıl ücretleri yaklaşık 120-280 EUR ve bloke edilen <Deger k="sperrkonto.yillik_tutar" />; sağlık sigortası yaklaşık 90-135 EUR/ay.
+
 ::: info Sıradaki
 Vizeni aldıktan sonra [Faz 5: Gitmeden Önce](/faz-5-once/)'ye geçiyorsun.
 :::

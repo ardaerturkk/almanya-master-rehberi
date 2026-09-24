@@ -14,4 +14,5 @@ sayfaya bak — ana adımların yanında bu bilgiyi de göz önünde bulundur.
 - [Şartlı Kabul Aldım](/dallanma/sartli-kabul) — bedingte Zulassung süreci
 - [Lisansım Henüz Bitmedi](/dallanma/lisans-bitmedi) — son sınıf başvurusu
 - [Vize Reddi Aldım](/dallanma/vize-reddi) — Remonstration kalktı, yeni başvuru ve dava yolu
+- [Verpflichtungserklärung Rehberi](/dallanma/verpflichtungserklarung) — garantör süreci, belgeler, 5 yıllık risk
 - [Kabulüm WiSe'ye Yetişmezse (SoSe / erteleme)](/dallanma/sose-ve-erteleme) — kabul geçerliliği, SoSe tarihleri, yeni başvuru

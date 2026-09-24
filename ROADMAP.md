@@ -130,13 +130,14 @@ v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzelti
 - [x] "Uygun muyum?" sihirbazı (7 soru, kişiye özel rota)
 - [x] 375px kontrolü: 60 sayfada yatay taşma yok, geniş tablolar kaydırılabilir kapsayıcıda
 
-## Paket 4: İçerik boşlukları (P1)
+## Paket 4: İçerik boşlukları (P1) — PR açık
 
-- [ ] VIDEX formu (bulgular `docs-internal/arastirma-notlari/v2-03-vize-idata-videx.md`'de)
-- [ ] iDATA/Auslandsportal randevu stratejisi
-- [ ] SoSe dallanmasını genişlet
-- [ ] Verpflichtungserklärung pratik rehberi
-- [ ] Faz index sayfalarına "Bu fazın sonunda" özeti
+- [x] VIDEX formu (Adım 19): ne, nereden, Türkçe karakter kuralı (canlı formda denendi), garantör alanı, sık hatalar
+- [x] iDATA/Auslandsportal randevu stratejisi (Adım 16): kuyruk mekaniği, misyon dağılımı, ne zaman, paralel hazırlık
+- [x] SoSe dallanması (`dallanma/sose-ve-erteleme.md`, Paket 1'de yazıldı): takvim hesaplayıcıya bağlandı
+- [x] Verpflichtungserklärung rehberi (`dallanma/verpflichtungserklarung.md`): Ausländerbehörde süreci, belgeler, 6 ay / 5 yıl, garantörün mali riski
+- [x] Her faz index sayfasına "Bu fazın sonunda elinde ne olmalı" ve toplam süre/maliyet
+- [x] Sözlüğe yeni Almanca terimler eklendi (Remonstration, Klage, VIDEX, Auslandsportal, Ausländerbehörde vb.)
 
 ## Paket 5: Keşfedilebilirlik ve katkı (P2)
 
