@@ -39,6 +39,7 @@ uni-assist'in kendi sayfası "bazı bankalar ülkeye göre reddedebilir" uyarıs
 ## Hangi yolu seçmeliyim?
 
 Bu bir seçim değil — üniversitenin sistemine göre otomatik belirleniyor. Yapman gereken:
+
 1. Başvuracağın üniversitenin başvuru sayfasında "uni-assist" veya "Bewerbungsportal"
    ifadesini ara.
 2. uni-assist kullanıyorsa, son başvuru tarihinden **en az 8 hafta önce** başvurmaya başla —

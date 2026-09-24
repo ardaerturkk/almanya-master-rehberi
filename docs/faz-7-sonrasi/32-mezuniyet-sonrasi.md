@@ -50,6 +50,7 @@ güncel eşiği arbeitsagentur.de üzerinden kontrol et.
 ## Kalıcı oturum izni (Niederlassungserlaubnis)
 
 Mavi Kart sahipleri için:
+
 - **B1 Almanca** ile: 21 ay sonra başvurulabilir.
 - **A1 Almanca** (asgari şart) ile: 33 ay sonra.
 

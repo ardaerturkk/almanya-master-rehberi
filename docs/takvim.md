@@ -27,6 +27,7 @@ Kış dönemi (Wintersemester) genelde **Ekim** ayında başlıyor, tipik son ba
 | Kayıt döneminde | Immatrikulation, banka, Ausländerbehörde randevusu |
 
 ::: danger En kritik süre sınırları
+
 - **Anmeldung**: taşınmadan itibaren 2 hafta (yasal zorunluluk, bkz. [Adım 25](/faz-6-ilk-haftalar/25-anmeldung))
 - **Studienbewerbervisum**: azami 9 ay geçerli (bkz. [Adım 20](/faz-4-vize/20-vize-sonrasi))
 - **Şartlı kabul**: eksik belgeyi (genelde diploma) belirtilen tarihe kadar sunma zorunluluğu

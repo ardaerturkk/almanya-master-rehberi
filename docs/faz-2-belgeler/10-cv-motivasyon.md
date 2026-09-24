@@ -34,6 +34,7 @@ isteniyor. Her üniversite/program kendi uzunluk ve içerik kuralını belirliyo
 
 **İsteniyorsa genel pratik** (resmi olmayan, üçüncü parti kaynaklardan): 500-750 kelime, 1-2
 sayfa. İçerik genelde şunları kapsıyor:
+
 - Geçmiş akademik/staj deneyimin
 - Bu programı neden seçtiğin
 - Gelecek hedeflerin

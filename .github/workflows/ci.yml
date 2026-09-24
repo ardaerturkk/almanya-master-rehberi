@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run docs:build
+      - name: Kırık link kontrolü
+        run: |
+          npm run docs:preview -- --port 4173 &
+          npx wait-on http://localhost:4173/almanya-master-rehberi/
+          npx linkinator http://localhost:4173/almanya-master-rehberi/ --recurse --silent \
+            --skip "idata\.com\.tr|daad\.de|hochschulkompass\.de"
+      - name: Markdown lint
+        run: npx markdownlint-cli2 "docs/**/*.md" "!docs/.vitepress/**"

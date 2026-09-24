@@ -19,6 +19,7 @@ Kayıt, üniversitenin online portalında (CAU Kiel'de HISinOne) başlıyor:
 - NC'li programlarda kabul mektubundaki son tarihe kadar online kayıt.
 
 **Genel şartlar**:
+
 - [ ] Semesterbeitrag'ın ödeme kanıtı (başvuru numarasıyla)
 - [ ] Sağlık sigortası durumunun elektronik bildirimi (SMV üzerinden)
 - [ ] Pasaport/kimlik

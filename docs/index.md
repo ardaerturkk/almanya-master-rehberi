@@ -25,6 +25,9 @@ features:
     details: Sorun giderme, SSS ve sözlük her zaman bir tık uzakta.
 ---
 
-::: warning İnşaat halinde
-Bu site aktif olarak araştırılıp yazılıyor. İlerleme durumu için `ROADMAP.md` dosyasına bakabilirsin.
+::: info İçerik tamamlandı, doğrulama sürüyor
+32 adımın, 7 dallanmanın ve 6 referans sayfasının tamamı yazılı ve kaynaklı. Bazı sayfalarda
+`::: warning Doğrulanmadı` ile işaretli, henüz tam teyit edilememiş noktalar var — bunların
+listesi `docs-internal/dogrulama-raporu.md`'de. Değişken bilgileri (tutar, süre) kullanmadan
+önce her zaman "Kaynaklar" bölümündeki tarihe bak.
 :::
