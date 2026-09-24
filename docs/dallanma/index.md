@@ -13,4 +13,5 @@ sayfaya bak — ana adımların yanında bu bilgiyi de göz önünde bulundur.
 - [30 Yaş Üstüyüm](/dallanma/30-yas-ustu) — sigorta istisnası
 - [Şartlı Kabul Aldım](/dallanma/sartli-kabul) — bedingte Zulassung süreci
 - [Lisansım Henüz Bitmedi](/dallanma/lisans-bitmedi) — son sınıf başvurusu
-- [Vize Reddi Aldım](/dallanma/vize-reddi) — itiraz süreci
+- [Vize Reddi Aldım](/dallanma/vize-reddi) — Remonstration kalktı, yeni başvuru ve dava yolu
+- [Kabulüm WiSe'ye Yetişmezse (SoSe / erteleme)](/dallanma/sose-ve-erteleme) — kabul geçerliliği, SoSe tarihleri, yeni başvuru

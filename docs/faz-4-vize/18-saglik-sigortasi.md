@@ -25,10 +25,8 @@ tarifesinden yararlanırsın:
 **Toplam yaklaşık 90-135 EUR/ay aralığında** — kesin rakam seçtiğin kasaya (TK, AOK, Barmer
 vb.) göre değişir.
 
-::: warning Kasa bazlı rakamlar doğrulanmadı
-Bu araştırmada TK/AOK/Barmer arasındaki tam ek katkı payı farkı tek tek doğrulanmadı, sadece
-toplayıcı kaynaklardan genel aralık alındı. Kayıt olmadan önce en az 2-3 kasanın kendi
-sitesinden güncel tarifeyi karşılaştır.
+::: warning Kasa bazlı rakamlar
+TK, AOK ve Barmer gibi kasalar arasındaki ek katkı payı farkı tek tek doğrulanmadı; yukarıdaki aralık genel kaynaklardan alındı. Kayıt olmadan önce en az 2-3 kasanın kendi sitesinden güncel tarifeyi karşılaştır.
 :::
 
 ## Yaş sınırı ve istisnalar

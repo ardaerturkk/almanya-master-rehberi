@@ -18,8 +18,7 @@ Almanya'da her hane, kamu yayın kuruluşlarını (ARD, ZDF, Deutschlandradio) f
 Yani bir WG'de (paylaşımlı ev) yaşıyorsan, ev arkadaşlarınla bu ücreti paylaşabilirsin.
 
 ::: info Değişiklik yolda mı?
-Bağımsız uzman komisyonu Ocak 2027'den itibaren 18,64 EUR'a çıkarılmasını öneriyor ama bu
-henüz kesinleşmiş bir karar değil.
+İkincil kaynaklara göre bağımsız uzman komisyonu 2027'den itibaren 18,64 EUR'a çıkarılmasını öneriyor; henüz kesinleşmiş bir karar yok.
 :::
 
 ## Muafiyet — sadece BAföG alanlar için
@@ -27,7 +26,7 @@ henüz kesinleşmiş bir karar değil.
 ::: danger Sık yapılan yanlış varsayım
 Muafiyet **BAföG ALMAK** şartına bağlı — sadece "hak sahibi olmak" ya da yabancı öğrenci
 bursu/kredisi kullanmak yeterli değil. **BAföG almayan öğrenciler (bu, Türk öğrencilerin
-çoğunu kapsar) muaf DEĞİL, ödemek zorunda.**
+çoğunu kapsar) muaf DEĞİL, ödemek zorunda.** Resmi sayfa, uluslararası öğrenciler için "Härtefall" (zor durum) muafiyetinin de genelde söz konusu olmadığını söylüyor (RBStV §4/6).
 :::
 
 - BAföG alan ve ebeveynleriyle yaşamayan öğrenciler muafiyet başvurusu yapabilir.
@@ -70,10 +69,6 @@ sağlayan yabancı öğrenciler için) **bu ödemeyi bütçene dahil et.**
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. [Rundfunkbeitrag — Öğrenciler için bilgi (özet üzerinden görüldü)](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/informationen-fuer-studierende)
-2. Studis Online — Rundfunkbeitrag öğrenciler için (ikincil kaynak)
-
-::: warning Doğrulanmadı
-Rundfunkbeitrag sayfası bu araştırmada arama özeti üzerinden görüldü, doğrudan açılamadı —
-güncel tutarı ve muafiyet koşullarını yazım sonrası tekrar kontrol et.
-:::
+1. [Rundfunkbeitrag, Informationen für Studierende](https://www.rundfunkbeitrag.de/buergerinnen_und_buerger/informationen/informationen_fuer_studierende/index_ger.html)
+2. [Rundfunkbeitragsstaatsvertrag (RBStV) §4](https://bravors.brandenburg.de/vertraege/rbstv)
+3. Studis Online, Rundfunkbeitrag öğrenciler için (ikincil kaynak)

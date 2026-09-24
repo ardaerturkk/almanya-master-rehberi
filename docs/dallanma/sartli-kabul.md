@@ -47,7 +47,4 @@ göre değişir.
 1. [Köln Üniversitesi ZfL — Nicht abgeschlossener Bachelor](https://zfl.uni-koeln.de/bewerbung/master-bewerbung/nicht-abgeschlossener-bachelor)
 2. [Bamberg Üniversitesi — Zulassungsauflagen](https://www.uni-bamberg.de/erwachsenenbildung/studium/zulassungsauflagen/)
 
-::: warning Doğrulanmadı
-Farklı üniversitelerin (özellikle Bavyera eyaletindeki FAU/TU Darmstadt gibi) tam son tarih
-kuralları bu araştırmada birebir teyit edilemedi — kendi kabul mektubun her zaman esas kaynak.
-:::
+Dil belgesi eksikliğinde de kural üniversiteye göre değişiyor (bkz. [Adım 15](/faz-3-basvuru/15-kabul)): Kiel dil belgesini en geç kayıtta istiyor, FAU bazı programlarda B2 ile başvurup kabul sonrası DSH'ye izin veriyor, TU Berlin yabancı diplomalı adaylara şartlı kabul vermiyor. Kendi kabul mektubundaki tarih ve şartlar her zaman esastır.

@@ -1,5 +1,6 @@
 ---
 title: "Adım 13: Üniversite Portalı"
+description: "uni-assist sonrası veya doğrudan başvuruda üniversite portalları: TUM, HU Berlin, LMU örnekleri, FAU ve TU Darmstadt başvuru ücreti ve tarihleri."
 ---
 
 # Adım 13: Üniversite Portalı
@@ -15,9 +16,10 @@ doğrudan üniversitenin online sistemine başvuru yapacaksın.
 
 - **TUM (TUMonline)**: uni-assist'e başvuran öğrenciler aynı anda TUMonline'a da başvuru
   yapıyor, VPD sonucu sisteme yükleniyor.
-- **HU Berlin**: Kendi portalı (agnes/ELSA tabanlı) — **doğrulanmadı, birebir teyit gerekir.**
-- **LMU München**: Bazı programlar (Informatik ailesi) için ayrı online portal, başvuru dönemi
-  yaklaşık Mayıs-Temmuz — **doğrulanmadı, kaynaklar arası tarih çelişkisi var.**
+- **HU Berlin**: Yurt dışı diplomayla master başvurusu uni-assist üzerinden yapılıyor; Almanya'da bachelor bitirenler üniversitenin kendi portalını kullanıyor. Tarihleri (ör. NC'li master için 31 Mayıs, NC'siz için 15 Haziran, SoSe için 15 Ocak) her yıl üniversitenin sayfasından teyit et; bu tarihler arşiv kopyasından alındı.
+- **LMU München**: uni-assist kullanmıyor. Hem programa hem International Office'e ayrı ayrı başvuruluyor. Bazı programlar MoveIN adlı çevrimiçi başvuru formunu kullanıyor (2026'da 15 Mayıs - 15 Temmuz), diğerlerinde evrak posta ile gidiyor.
+- **FAU Erlangen-Nürnberg** (Bavyera): uni-assist kullanmıyor. Tarihler programa göre değişiyor (31 Mayıs, 15 Temmuz, bazılarında 15 Nisan). WS 2026/27'den itibaren AB dışı adaylardan başvuru başına **100 EUR** başvuru ücreti alınıyor (en fazla 3 başvuru).
+- **TU Darmstadt** (Hessen): uni-assist kullanmıyor; TUCaN portalı üzerinden başvuru, 1 Haziran'da açılıyor. Kimi programlar 15 Temmuz (kesin son tarih, "Ausschlussfrist"), Informatik gibi bazıları 31 Ağustos; bazı programlarda yabancı adaylar için daha erken tarih var.
 
 ::: warning Her üniversite farklı
 Portal isimleri, arayüzleri ve süreçleri üniversiteden üniversiteye büyük farklılık gösteriyor.
@@ -48,7 +50,7 @@ adım takip et.
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [TUM — uni-assist ve TUMonline süreci](https://www.tum.de/en/studies/application/application-info-portal/uni-assist)
-
-::: warning Doğrulanmadı
-HU Berlin ve LMU'nun portal detayları bu araştırmada birincil kaynaktan tam teyit edilemedi.
-:::
+2. [HU Berlin, master başvurusu](https://www.hu-berlin.de/de/studium/bewerbung/bewerbung-und-zulassung/informationen-fuer-internationale-studieninteressierte/allgemeine-hinweise-zur-bewerbung-fuer-masterstudiengaenge)
+3. [LMU, Leitfaden Masterbewerbung](https://www.lmu.de/de/studium/internationale-vollzeit-studierende/studienbewerbung/bewerbungshilfen-und-faq/leitfaden-fuer-die-bewerbung-zum-masterstudium/)
+4. [FAU, başvuru ücreti (AB dışı)](https://www.fau.de/studium/international-studierende/bewerbung-und-einschreibung-fuer-internationale/gebuehren-fuer-bewerbungen-aus-nicht-eu-staaten/) ve [FAU master tarihleri (PDF)](https://www.fau.de/wp-content/uploads/sites/4/2025/10/Masterstudiengaenge-Bewerbungsfristen-und-Sprachnachweise.pdf)
+5. [TU Darmstadt, master başvurusu](https://www.tu-darmstadt.de/studieren/studieninteressierte/bewerbung_zulassung_tu/bewerbung_master/index.de.jsp)

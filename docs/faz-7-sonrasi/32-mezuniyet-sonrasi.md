@@ -21,11 +21,19 @@ Almanya'da mezun olan öğrenciler, iş aramak için **azami 18 ay** süreyle ot
 - Almanya'da mezun olduğun için ayrıca diploma denkliği aranmıyor (yurt dışı diplomalarla
   başvuranlar için ZAB üzerinden tanıma gerekiyor, ama bu senin durumun değil).
 
-::: warning Doğrulanmadı — Chancenkarte ile ilişki
-2024'te gelen "Chancenkarte" (§§20a-20b AufenthG) genel nitelikli işçiler için iş arama
-kolaylığı sağlıyor; Almanya'da mezun olan öğrenciler için klasik §20 Abs.1 Nr.1 rotası (18 ay)
-hâlâ ayrı ve yürürlükte görünüyor ama iki rotanın tam sınırı bu araştırmada netleştirilemedi.
-Başvurudan önce güncel BAMF kaynağıyla teyit et.
+### Chancenkarte ile fark
+
+2024'te gelen **Chancenkarte** (§20a AufenthG) genel nitelikli işçiler için ayrı bir iş arama izni. Farkları:
+
+| | İş arama izni (§20) | Chancenkarte (§20a) |
+| --- | --- | --- |
+| Süre | En çok 18 ay, **uzatılamaz** (§20/2) | 1 yıl |
+| Kimin için | Almanya'da diploma alanlar | Genel nitelikli işçiler |
+| Çalışma | Sınırsız | Haftada 20 saate kadar |
+| Geçim kanıtı | Gerekli | 1.091 EUR/ay (13.092 EUR/yıl) |
+
+::: warning Bu ikisi art arda kullanılabilir mi?
+Almanya'da mezun olduktan sonra §20 iznini bitirip ardından Chancenkarte alıp alamayacağın hukuken tartışmalı. Tek bir ilk derece mahkeme kararı (VG Cottbus, 10.03.2026) buna izin veren yönde çıkmış, ama içeriği yalnızca ticari bir bloğun özetinden okunabildi ve genel kural olarak alınamaz. Bu yola güvenme; Ausländerbehörde'ye sor.
 :::
 
 ## AB Mavi Kartı (Blue Card) — 2026 eşikleri
@@ -51,13 +59,10 @@ güncel eşiği arbeitsagentur.de üzerinden kontrol et.
 
 Mavi Kart sahipleri için:
 
-- **B1 Almanca** ile: 21 ay sonra başvurulabilir.
-- **A1 Almanca** (asgari şart) ile: 33 ay sonra.
+- **B1 Almanca** ile: **21 ay** sonra başvurulabilir.
+- Basit Almanca (A1) ile: **27 ay** sonra (AufenthG §18c).
 
-::: warning Doğrulanmadı
-Bu rakamlar ikincil/bölgesel kaynaklardan (IQ Netzwerk, Land Berlin) teyitli; bamf.de'den
-birincil doğrulama bu araştırmada alınamadı (bot engeli). Başvuru öncesi tekrar kontrol et.
-:::
+Almanya'da diploma alan diğer nitelikli çalışanlar için genel kural: 2 yıl nitelikli iş ve 24 ay emeklilik primi (§18c). Yasa metni birincil kaynak olarak okundu; BAMF'ın kendi sayfası bot korumasından açılamadı. Eski bir rehberde gördüğün "33 ay" rakamı güncel değil.
 
 ## Neye ihtiyacın var
 
@@ -83,9 +88,11 @@ birincil doğrulama bu araştırmada alınamadı (bot engeli). Başvuru öncesi 
 
 - İş arama izninin süresini (18 ay, uzatılamaz) hafife alıp geç harekete geçmek.
 - Mavi Kart eşiğini eski yılın rakamıyla hesaplamak.
-- Kalıcı oturum için Almanca seviyesini planlamamak (A1 ile 33 ay, B1 ile 21 ay).
+- Kalıcı oturum için Almanca seviyesini planlamamak (basit Almanca ile 27 ay, B1 ile 21 ay).
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [AufenthG §20 — iş arama izni](https://www.gesetze-im-internet.de/aufenthg_2004/__20.html)
 2. [Bundesagentur für Arbeit (ZAV) — Mavi Kart 2026 eşikleri](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte)
+5. [AufenthG §20, iş arama](https://www.gesetze-im-internet.de/aufenthg_2004/__20.html), [§20a, Chancenkarte](https://www.gesetze-im-internet.de/aufenthg_2004/__20a.html), [§18c, Niederlassungserlaubnis](https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html)
+6. [Kairo Auswärtiges Amt, Chancenkarte Merkblatt (1.091 EUR/ay)](https://kairo.diplo.de/resource/blob/2664804/ff16b296556688a8ec5effaf9c727a62/250122-deu-merkblatt-chancenkarte-data.pdf)

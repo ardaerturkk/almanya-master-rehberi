@@ -57,9 +57,4 @@ title: "Adım 2: Program Bulma"
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [Hochschulkompass](https://www.hochschulkompass.de/home.html)
-2. [DAAD — Studienangebote](https://www2.daad.de/deutschland/studienangebote/) (bu araştırmada sayfa 503 verdi, arayüz detayı ikincil kaynaklarla teyitli)
-
-::: warning Doğrulanmadı
-DAAD sitesinin güncel arayüz detayları bu araştırmada canlı doğrulanamadı (sık 503 hatası) —
-kendin ziyaret ederek arayüzü tanı.
-:::
+2. [DAAD — Tüm programlar](https://www.daad.de/en/studying-in-germany/universities/all-degree-programmes/) ve [International Programmes](https://www2.daad.de/deutschland/studienangebote/international-programmes/en/) (eski `studienangebote` adresi yeni sayfaya yönleniyor; 24.09.2026'da doğrudan açıldı)

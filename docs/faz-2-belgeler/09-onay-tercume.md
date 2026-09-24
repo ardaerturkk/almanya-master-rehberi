@@ -1,5 +1,6 @@
 ---
 title: "Adım 9: Onay, Tasdik, Tercüme"
+description: "Diploma ve transkript için apostil, onaylı kopya ve yeminli tercüme: uni-assist Türkiye kuralı, Türkiye'de yeminli tercüman kabulü ve sık hatalar."
 ---
 
 # Adım 9: Onay, Tasdik, Tercüme
@@ -13,71 +14,56 @@ yanlış kişi tarafından yapılan bir tercüme, başvurunun reddine yol açabi
 
 ## Apostil
 
-Diploma/transkript gibi resmi eğitim belgelerinin apostil şerhi Türkiye'de **kaymakamlık veya
-valilikten** alınıyor (noterden değil). Lahey Sözleşmesi kapsamında devlet harcı olarak
-**ücretsiz** — bürolar operasyonel hizmet bedeli talep edebilir.
+Apostil, belgenin resmî olduğunu gösteren uluslararası bir onay şerhi. Türkiye'de **kaymakamlık (ilçede) veya valilik (ilde)** verir; adli belgeler (sabıka kaydı, mahkeme kararı) için adliyedeki Adalet Komisyonu. Devlet harcı olarak **ücretsiz**; noter ve tercüman ücreti ayrıdır.
 
-::: warning Doğrulanmadı
-İşlemin ne kadar sürdüğü net teyit edilemedi. Gideceğin kaymakamlık/valilikten önceden süreyi
-sor.
-:::
+- Belge üzerinde ıslak imza ve resmî mühür olmalı. Fotokopiye, e-Devlet çıktısına veya e-imzalı kâğıt çıktıya doğrudan apostil yapılmıyor; önce noterden "aslı gibidir" onayı gerekiyor.
+- Süre için resmi bir rakam yok: kaymakamlık ve valilik sayfaları bir süre taahhüdünde bulunmuyor ("aynı gün" bilgisi yalnızca ticari sitelerde geçiyor). Gideceğin kaymakamlığı arayıp sor.
+- **Başvuru için apostil şart değil:** uni-assist'in güncel sayfaları ve incelenen üniversiteler (Kiel, TU Berlin, TUM, Hildesheim) başvuruda apostil veya noter onaylı kopya istemiyor; belgeler tamamen dijital yükleniyor. Apostilin başka bir işlem (ör. başka bir kurum, vize dosyası) için gerekip gerekmediğini o kurumun listesinden kontrol et.
 
 ## Onaylı kopya (beglaubigte Kopie)
 
-- uni-assist ve çoğu üniversite artık **online başvuruyu tercih ediyor** — orijinal belge
-  postayla gönderilmemeli, sadece istisnai durumlarda onaylı kopya (fiziksel) talep edilebiliyor.
-- Onay yetkilisi: kamu kurumu veya noter (Almanya'da resmi mühürlü her kamu kurumu).
+- uni-assist ve çoğu üniversite online başvuruyu esas alıyor. Orijinal belge postayla gönderilmemeli; şüphe halinde üniversite orijinal veya onaylı kopya isteyebiliyor. TUM, belgenin imza/mührü veya doğrulama kodu olmasını yeterli sayıyor.
 
-## Tercüme — kritik nokta
+## Tercüme
 
-::: danger Sadece yeminli tercüman
-Almanca/İngilizce olmayan belgeler için **sadece yeminli tercüman** (vereidigter Übersetzer —
-Alman mahkemesi tarafından yeminli kılınmış) kabul ediliyor. **Standart tercüme bürolarının
-onaysız çevirileri kabul edilmiyor.**
-:::
+**Türkiye'de yaptırabilirsin.** uni-assist'in Türkiye sayfası şunu söylüyor: Türkiye'de yapılan çeviriler, kaşesinde Türkçe **"yeminli tercüman"** ibaresi bulunan yeminli tercüman tarafından yapılmış olmalı. Yalnızca İngilizce/Almanca kaşe kabul edilmiyor, sıradan tercüme bürosunun onaysız çevirisi de kabul edilmiyor. Almanya'da Alman mahkemesince yeminli (vereidigter Übersetzer) tercüman kullanman gerekmiyor.
 
-**Türkiye'de mi Almanya'da mı yaptırmalısın?** Net bir tek kural bulunamadı:
-
-- Almanya'daki kurumlar genelde Almanya'da mahkemece yeminli tercümanın çevirisini tercih
-  ediyor/istiyor.
-- Türkiye'de noter onaylı çeviri her zaman kabul görmeyebiliyor.
-- Türkiye'deki yeminli tercümanların uni-assist tarafından kabul edilip edilmediği bu
-  araştırmada net teyit edilemedi.
-
-**Pratik öneri**: Başvurduğun üniversitenin veya uni-assist'in ülke bazlı rehberinden
-(Türkiye'ye özel sayfa varsa) doğrudan teyit al — genellemeye güvenme.
+- Belgelerin Türkçe aslını da yüklersin; çeviri Almanca veya İngilizce olabilir.
+- Kiel "staatlich vereidigte Übersetzer" istiyor; Hildesheim "officially certified translation" istiyor; TU Berlin yurt dışında yapılan çeviri için o ülkede yetkili kurumdan yeminli çeviri istiyor. Hepsinde Türkiye'de yeminli tercümanın çevirisi mantıken karşılanıyor, ama her üniversite kendi şartını yazıyor; kendi programının sayfasına bak.
 
 ## Neye ihtiyacın var
 
-- [ ] Apostilli diploma/transkript
+- [ ] Diploma/transkript (apostil gerekiyorsa apostilli)
 - [ ] Hangi dilde tercüme isteneceği netleşmiş olmalı (Almanca mı İngilizce mi)
-- [ ] Yeminli tercüman iletişim bilgisi (Almanya'da justiz-dolmetscher.de üzerinden aranabiliyor)
+- [ ] Yeminli tercüman (Türkiye'de noterde kayıtlı yeminli tercüman)
 
 ## Adımlar
 
-1. Apostil işlemini kaymakamlık/valilikten yaptır.
-2. Başvuracağın kurumun tercüme dili ve onay şartını netleştir.
-3. Yeminli tercümanla (Türkiye'de veya Almanya'da, kuruma göre) tercümeyi yaptır.
+1. Başvuracağın kurumun tercüme dili ve onay/apostil şartını netleştir.
+2. Gerekiyorsa apostil işlemini kaymakamlık/valilikten yaptır (noter onaylı aslı gibidir kopyasıyla).
+3. Yeminli tercümanla (Türkiye'de, kaşesinde "yeminli tercüman" yazan) tercümeyi yaptır.
 4. Belgeleri online sisteme yükle, orijinal göndermeden önce sistemin gerçekten fiziksel
    kopya istediğinden emin ol.
 
 ## Kontrol: Bu adım bitti mi?
 
-- [ ] Apostil tamamlandı
+- [ ] Gerekiyorsa apostil tamamlandı
 - [ ] Tercüme, doğru dilde ve yeminli tercümandan yapıldı
 
 ## Sık hatalar
 
 - Standart (yeminli olmayan) bir tercüme bürosu kullanıp başvurunun reddedilmesi.
-- Hangi ülkede tercüme yaptıracağını kuruma sormadan varsayımla hareket etmek.
+- Tercüme kaşesinde "yeminli tercüman" ibaresi olmayan bir çeviri yaptırmak.
 - Orijinal belgeyi postayla göndermek (çoğu sistem artık sadece online kabul ediyor).
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. CAU Kiel Merkblatt (Stand Temmuz 2025) — onaylı kopya/tercüme kuralları
-2. [uni-assist — Certified copies and translations](https://www.uni-assist.de/en/how-to-apply/assemble-your-documents/certified-copies-and-translations/)
+1. [uni-assist, Türkiye ülke bilgisi](https://www.uni-assist.de/en/tools/info-country-by-country/details-country/country/tr/) ve [çeviriler](https://www.uni-assist.de/en/how-to-apply/assemble-your-documents/translations/)
+2. [Kiel, Bewerbungsunterlagen Master](https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/bewerbung/bewerbungsunterlagen/bewerbungsunterlagen-master)
+3. [TU Berlin, official certification and translation](https://www.tu.berlin/en/studierendensekretariat/topics-a-z/official-certification-and-translation) ve [TUM, document requirements](https://www.tum.de/en/studies/application/application-info-portal/document-requirements)
+4. [Hildesheim, uluslararası başvuru](https://www.uni-hildesheim.de/en/international/studying-at-our-university/international-bachelor-and-master-students/translate-to-english-internationale-studieninteressierte/)
+5. [Kaymakamlık apostil işlemleri (örnek: Onikişubat)](https://www.onikisubat.gov.tr/apostil-islemleri)
 
-::: warning Doğrulanmadı
-Türkiye'de mi Almanya'da mı tercüme/onay yaptırılması gerektiği net çözülemedi — bu, başvuru
-sürecinin en kritik noktalarından biri, mutlaka hedef kurumla teyit et.
+::: warning Teyit etmen gerekenler
+Apostil işlem süresi ve üniversite diploması için e-Apostil (eapostil.gov.tr) kapsamı resmi kaynakta doğrulanamadı; kaymakamlıktan sor. Kiel, TUM ve TU Berlin sayfalarında noter onayı gereği yazmıyor, ancak şüphe halinde üniversite orijinal isteyebilir.
 :::

@@ -105,6 +105,7 @@ export default defineConfig({
           { text: "Şartlı kabul aldım", link: "/dallanma/sartli-kabul" },
           { text: "Lisansım bitmedi", link: "/dallanma/lisans-bitmedi" },
           { text: "Vize reddi aldım", link: "/dallanma/vize-reddi" },
+          { text: "Kabulüm WiSe'ye yetişmezse (SoSe)", link: "/dallanma/sose-ve-erteleme" },
         ],
       },
       {

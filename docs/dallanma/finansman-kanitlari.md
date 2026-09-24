@@ -1,5 +1,6 @@
 ---
 title: "Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?"
+description: "Almanya vizesi için finansman kanıtı yolları: Sperrkonto, Verpflichtungserklärung (garantörlük beyanı) ve burs. Kim hangisini kullanabilir, riskler nelerdir."
 ---
 
 # Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?
@@ -19,7 +20,7 @@ alternatif olarak listeliyor. Hangisinin senin durumunda pratik olduğu değişi
 | | **Sperrkonto** | **Verpflichtungserklärung** | **Burs** |
 | --- | --- | --- | --- |
 | Kim için uygun | Kendi imkânıyla başvuran herkes | Almanya'da ikamet eden bir yakının/tanıdığın varsa | Aylık asgari 992 EUR'u kapsayan resmi bir burs kazandıysan |
-| Ön koşul | Yok — tamamen kendi başına açılır | **Garantör Almanya'da ikamet ediyor olmalı** — Türkiye'den biri bu yolu kullanamaz | Burs, resmi bir kurumdan (DAAD, Erasmus+, vakıf) olmalı |
+| Ön koşul | Yok — tamamen kendi başına açılır | Pratikte **garantörün Almanya'da yaşaması ve geliri Almanya'da olması** gerekiyor (aşağıya bak) | Burs, resmi bir kurumdan (DAAD, Erasmus+, vakıf) olmalı |
 | Maliyet | Kurulum ~120-160 EUR + aylık ~5-10 EUR + bloke edilen 11.904 EUR | Garantörün gelir durumuna bağlı, doğrudan bir "ücret" yok ama Ausländerbehörde harcı olabilir | Genelde ücretsiz (burs zaten kapsıyor) |
 | Hız | 1-2 hafta (sağlayıcı onayı) | Garantörün oturduğu şehrin Ausländerbehörde'sine bağlı, değişken | Burs onay sürecine bağlı |
 | Esneklik | Parayı Almanya'da harcamak üzere aylık çekiyorsun | Garantör tüm masrafları üstlenmeyi taahhüt ediyor, ekstra hesap açmana gerek yok | Burs süresi kadar geçerli, burs biterse yeniden finansman kanıtı gerekebilir |
@@ -35,13 +36,13 @@ Almanya'da ikamet eden bir kişi (aile üyesi, akraba, tanıdık), senin masrafl
 resmi olarak beyan eder. Bu beyan, garantörün oturduğu şehrin **Ausländerbehörde**'sinde
 (yabancılar dairesi) düzenlenir.
 
-::: danger Kritik koşul
-Taahhüt veren kişinin **Almanya'da ikamet ediyor olması gerekiyor**. Türkiye'den (veya başka
-bir ülkeden) uzaktan bir garantör bu yolu kullanamaz — bu en sık karıştırılan noktalardan biri.
+::: danger Türkiye'de yaşayan ebeveyn için bu yol pratikte kapalı
+Yasa (AufenthG §68) beyanın Ausländerbehörde veya Alman misyonunda verilebileceğini yazıyor; yani "yurt dışından verilemez" diye bir yasak yok. Ama uygulama yönetmeliği garantörün yükümlülüğünü **Almanya'daki gelir ve varlığıyla** karşılayabilmesini istiyor (AVwV 68.1.2.1). Türkiye'deki Alman misyonlarının güncel öğrenci bilgi notu da "Almanya'da düzenlenmiş beyan" ve "orada ikamet eden garantör"den söz ediyor. Almanya dışındaki bir garantörün misyonda beyan verebildiğine dair Türkiye'ye özel resmi bir örnek bulamadık. Yani Türkiye'de yaşayan ve geliri Türkiye'de olan biri için bu yol pratikte gerçekçi değil; garantör Almanya'da yaşıyorsa geçerli.
 :::
 
-Vize başvurusunda genelde belgenin 6 aydan eski olmaması isteniyor. Garantörün gelir/malvarlığı
-durumu Ausländerbehörde tarafından değerlendiriliyor, her zaman otomatik onaylanmıyor.
+Vize başvurusunda belgenin **6 aydan eski olmaması** isteniyor. Garantörün gelir/malvarlığı durumu Ausländerbehörde tarafından değerlendiriliyor, otomatik onaylanmıyor; Berlin Ausländerbehörde'ye göre ulusal vize için yalnızca birikimle bonite yetmiyor, düzenli gelir gerekiyor.
+
+**Garantörün yükü ağır:** Beyan, senin için harcanan kamu paralarını (sağlık, geçim, gerekirse sınır dışı masrafı) geri ödeme yükümlülüğü getiriyor ve **5 yıl** geçerli (AufenthG §68/1); başka bir oturum izni alsan da süre bitmiyor. Bu riski garantörle açıkça konuş. Misyonda beyan ücreti 29 EUR (AufenthV §47).
 
 ## Burs
 
@@ -51,12 +52,9 @@ finansman kanıtı olarak kabul ediliyor. Bursun tam süreyi kapsamadığı duru
 tamamlama gerekebilir — bu detay konsolosluğa göre değişebilir, kendi durumunu netleştirmek
 için başvuracağın misyonla iletişime geç.
 
-## Ebeveyn geliri kanıtı — ayrı bir yol mu?
+## Ebeveyn geliri kanıtı: ayrı bir yol mu?
 
-Bazı kaynaklarda "Finanzierungsnachweis" seçeneklerinden biri olarak geçiyor ama koşulları
-konsolosluktan konsolosluğa değişebiliyor. **Bu araştırmada İstanbul/Ankara misyonlarının
-kendi sayfası ayrıca kontrol edilmedi** — eğer bu yolu düşünüyorsan başvuracağın misyonun
-sayfasından doğrudan teyit et, bağımsız bir yol olarak varsayma.
+Yasa, geçimin "aylık yeterli kaynak"la güvence altında olmasını istiyor ama kaynağı kısıtlamıyor (AufenthG §2/3). Auswärtiges Amt'ın genel SSS sayfası ebeveynin gelir ve varlık durumunu Verpflichtungserklärung, Sperrkonto ve banka teminatıyla birlikte sayıyor. **Türkiye'deki Alman misyonlarının güncel bilgi notu ise yalnızca Verpflichtungserklärung ve Sperrkonto'yu anıyor.** Ankara'nın sitesinde hâlâ duran eski bir Merkblatt PDF'i ise 2019'dan kalma rakamlarla (853 EUR/ay) yazılmış, güncel değil. Sonuç: kaynaklar çelişiyor. Ebeveyn gelirinin Türkiye'de tek başına yeterli sayılıp sayılmadığını resmi kaynaktan doğrulayamadık; randevudan önce misyondan yazılı teyit al ve garanti olarak Sperrkonto'yu planla.
 
 ## Hangi yolu seçmeliyim?
 
@@ -69,10 +67,6 @@ sayfasından doğrudan teyit et, bağımsız bir yol olarak varsayma.
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [Auswärtiges Amt — Sperrkonto](https://www.auswaertiges-amt.de/de/sperrkonto-375488)
-2. [Stadt Dortmund — Verpflichtungserklärung](https://www.dortmund.de/themen/aufenthalt-einbuergerung-und-auslaenderwesen/verpflichtungserklaerung/)
-3. Örnek diplo.de finansman kanıtı sayfası (Fransa misyonu örneği, genel yapı için): [allemagneenfrance.diplo.de](https://allemagneenfrance.diplo.de/fr-de/service/visa/2521298-2521298)
-
-::: warning Doğrulanmadı
-Ebeveyn geliri kanıtının bağımsız bir yol olarak Türkiye'deki misyonlarda ne kadar kabul
-gördüğü bu araştırmada netleştirilemedi — kendi durumunu başvuracağın misyonla teyit et.
-:::
+2. [AufenthG §66-68](https://www.gesetze-im-internet.de/aufenthg_2004/__68.html) ve Türkiye misyonlarının öğrenci bilgi notu
+3. [Stadt Dortmund — Verpflichtungserklärung](https://www.dortmund.de/themen/aufenthalt-einbuergerung-und-auslaenderwesen/verpflichtungserklaerung/)
+4. Örnek diplo.de finansman kanıtı sayfası (Fransa misyonu örneği, genel yapı için): [allemagneenfrance.diplo.de](https://allemagneenfrance.diplo.de/fr-de/service/visa/2521298-2521298)

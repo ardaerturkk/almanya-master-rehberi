@@ -53,8 +53,7 @@ Vize, ikamet izni ve askerlik gibi geri dönüşü olmayan konularda mutlaka res
 uzmanla teyit et.
 :::
 
-Her sayfada belirtildiği gibi, bu araştırma projesinde **bulunamayan veya doğrulanamayan
-bilgi tahminle doldurulmadı** — ya çıkarıldı ya da "doğrulanamadı" diye açıkça işaretlendi.
+Bulunamayan veya doğrulanamayan bilgi tahminle doldurulmadı: ya sayfadan çıkarıldı ya da "Teyit etmen gerekenler" kutusuyla açıkça işaretlendi.
 Değişken değerler (tutarlar, süreler) "Son doğrulama: GG.AA.YYYY" damgası taşıyor — sen
 okurken bu tarihten sonra değişmiş olabileceğini unutma.
 

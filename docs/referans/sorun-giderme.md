@@ -24,17 +24,14 @@ uzatma mümkün olabiliyor, garanti değil ama denemeye değer. Bkz.
 ## Vize aşamasında
 
 **Sperrkonto tutarının güncel olup olmadığından emin değilim**
-Her zaman auswaertiges-amt.de/de/sperrkonto-375488 sayfasından başvurudan hemen önce kontrol
-et — bu rehberdeki rakam (992 EUR/ay) yazım tarihi itibariyle geçerliydi.
+Başvurudan hemen önce Auslandsportal'daki (digital.diplo.de) güncel tutara bak. Bu rehberdeki rakam (992 EUR/ay) 24.09.2026'da BAföG yasasından hesaplanarak doğrulandı; ileride planlanan BAföG değişikliği tutarı etkileyebilir. Bkz. [Adım 17](/faz-4-vize/17-sperrkonto).
 
 **Vize randevusu çok uzun sürede çıkıyor**
-Bekleme süresi kategoriye göre 1 hafta-1 yıl arasında değişebiliyor. Erken kayıt
-(Warteliste) öneriliyor — süreci mümkün olduğunca erken başlat. Bkz.
+Auswärtiges Amt, Türkiye'de öğrenci vizesi için misyona göre 1-4 ay bekleme bildiriyor. Randevular kayıt tarihine göre veriliyor, o yüzden Auslandsportal'a erken kayıt öneriliyor. Bkz.
 [Adım 16](/faz-4-vize/16-vize-turu).
 
 **Coracle gibi bir Sperrkonto sağlayıcısının aktif olup olmadığından emin değilim**
-Bu araştırmada bazı sağlayıcıların operasyonel durumu net teyit edilemedi. Başvurmadan önce
-sağlayıcıyla doğrudan iletişime geç. Bkz. [Adım 17](/faz-4-vize/17-sperrkonto).
+Coracle'ın yardım merkezinde "yeni başvurular duraklatıldı" bilgisi var, vitrin sayfası ise farklı gösteriyor. Başvurmadan önce sağlayıcıyla doğrudan iletişime geç. Bkz. [Adım 17](/faz-4-vize/17-sperrkonto).
 
 ## Konaklama
 
@@ -44,7 +41,7 @@ talebi. **Asla görmeden/sözleşme imzalamadan para gönderme.** Bkz.
 [Adım 21](/faz-5-once/21-konaklama).
 
 **Yurt için başvurdum ama hâlâ yer çıkmadı**
-Bekleme süresi 3-6 aydan 1 yıla kadar sürebiliyor. Paralel olarak WG veya özel kiralık
+Bekleme süresi şehre ve yurda göre çok değişiyor (bkz. [Adım 21](/faz-5-once/21-konaklama)). Paralel olarak WG veya özel kiralık
 araştırmasını da sürdür.
 
 ## Almanya'da yerleşme
@@ -65,8 +62,7 @@ Genelde 4-8 hafta sürüyor. 3 aydan sonra hâlâ gelmemişse BZSt'ye yazılı b
 ## Askerlik
 
 **Askerlik tecili yaş sınırı hakkında farklı rakamlar görüyorum**
-Bu rehberde de bu çelişki (32 vs 35 yaş) çözülemedi. **Bu, geri dönüşü olmayan bir konu** —
-mutlaka güncel MSB/ASAL mevzuatını veya bulunduğun ülkedeki T.C. Eğitim Ataşeliği'ni ara. Bkz.
+Yüksek lisans için sınır 32, doktora için 35 (7179 sayılı Kanun md. 20/4). Eski müşavirlik sayfalarındaki "lisansüstü 35" genellemesi güncel değil. **Bu, geri dönüşü olmayan bir konu**; kendi durumun için bulunduğun ülkedeki T.C. Eğitim Müşavirliği'ni ara. Bkz.
 [Adım 7](/faz-1-hazirlik/07-askerlik).
 
 ::: danger Genel kural
