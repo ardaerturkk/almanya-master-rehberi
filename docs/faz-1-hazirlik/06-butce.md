@@ -13,7 +13,7 @@ tahmin edeceksin — bu, Sperrkonto planlaması ve genel finansal hazırlık iç
 
 ## Aylık yaşam maliyeti
 
-DAAD, Almanya'da yaşamak için ayda yaklaşık **900-1.200 EUR** öngörüyor. Vize için ise ayrı bir rakam var: **992 EUR/ay** kanıtlaman gerekiyor (BAföG azami oranı, bkz. [Adım 17](/faz-4-vize/17-sperrkonto)); bu, gerçek harcamanla aynı olmak zorunda değil. Alman öğrencilerin ortalama aylık harcaması 876 EUR (kira ve yan giderler dahil ortalama 410 EUR; 22. Sozialerhebung, DZHW, 2023 verisi). Yaş, şehir ve yaşam tarzına göre bunun altına da üstüne de çıkabilirsin.
+DAAD, Almanya'da yaşamak için ayda yaklaşık **900-1.200 EUR** öngörüyor. Vize için ise ayrı bir rakam var: **<Deger k="sperrkonto.aylik_tutar" />** kanıtlaman gerekiyor (BAföG azami oranı, bkz. [Adım 17](/faz-4-vize/17-sperrkonto)); bu, gerçek harcamanla aynı olmak zorunda değil. Alman öğrencilerin ortalama aylık harcaması 876 EUR (kira ve yan giderler dahil ortalama 410 EUR; 22. Sozialerhebung, DZHW, 2023 verisi). Yaş, şehir ve yaşam tarzına göre bunun altına da üstüne de çıkabilirsin.
 
 | Kalem | Yaklaşık aylık tutar |
 | --- | --- |
@@ -47,7 +47,7 @@ Serbestçe satın alınamıyor, dönem katkı payı ödenince otomatik geliyor.
 
 ## Toplam yıllık bütçe
 
-Sperrkonto tutarı (11.904 EUR/yıl) ile gerçek harcama tahmini pratikte birbirine yakın —
+Sperrkonto tutarı (<Deger k="sperrkonto.yillik_tutar" />) ile gerçek harcama tahmini pratikte birbirine yakın —
 çünkü Sperrkonto zaten BAföG standart yaşam maliyeti tahminine dayanıyor. Şehre ve yaşam
 tarzına göre gerçek harcaman 10.800-14.400 EUR/yıl aralığında olabilir.
 
@@ -62,7 +62,7 @@ tarzına göre gerçek harcaman 10.800-14.400 EUR/yıl aralığında olabilir.
 1. Hedef üniversitenin şehrindeki ortalama kira seviyesini araştır (üniversitenin kendi
    International Office sayfası veya WG-Gesucht.de üzerinden gerçekçi ilanlara bakarak).
 2. Yukarıdaki tabloyu kendi şehrine göre güncelle.
-3. Toplam aylık bütçeni Sperrkonto tutarıyla (992 EUR) karşılaştır — büyük şehirdeysen bu
+3. Toplam aylık bütçeni Sperrkonto tutarıyla (<Deger k="sperrkonto.aylik_tutar" />) karşılaştır — büyük şehirdeysen bu
    yetersiz kalabilir, ek kaynak planla.
 
 ## Kontrol: Bu adım bitti mi?
@@ -72,7 +72,7 @@ tarzına göre gerçek harcaman 10.800-14.400 EUR/yıl aralığında olabilir.
 
 ## Sık hatalar
 
-- Sperrkonto tutarının (992 EUR/ay) gerçek harcamana yeteceğini varsaymak — pahalı şehirlerde
+- Sperrkonto tutarının (<Deger k="sperrkonto.aylik_tutar" />) gerçek harcamana yeteceğini varsaymak — pahalı şehirlerde
   bu yetersiz kalabilir.
 - Semesterbeitrag'ı bütçeye dahil etmeyi unutmak.
 

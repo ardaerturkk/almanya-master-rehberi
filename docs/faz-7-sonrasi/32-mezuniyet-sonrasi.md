@@ -30,7 +30,7 @@ Almanya'da mezun olan öğrenciler, iş aramak için **azami 18 ay** süreyle ot
 | Süre | En çok 18 ay, **uzatılamaz** (§20/2) | 1 yıl |
 | Kimin için | Almanya'da diploma alanlar | Genel nitelikli işçiler |
 | Çalışma | Sınırsız | Haftada 20 saate kadar |
-| Geçim kanıtı | Gerekli | 1.091 EUR/ay (13.092 EUR/yıl) |
+| Geçim kanıtı | Gerekli | <Deger k="sperrkonto.chancenkarte_aylik" /> (<Deger k="sperrkonto.chancenkarte_yillik" />) |
 
 ::: warning Bu ikisi art arda kullanılabilir mi?
 Almanya'da mezun olduktan sonra §20 iznini bitirip ardından Chancenkarte alıp alamayacağın hukuken tartışmalı. Tek bir ilk derece mahkeme kararı (VG Cottbus, 10.03.2026) buna izin veren yönde çıkmış, ama içeriği yalnızca ticari bir bloğun özetinden okunabildi ve genel kural olarak alınamaz. Bu yola güvenme; Ausländerbehörde'ye sor.

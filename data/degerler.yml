@@ -1,9 +1,13 @@
 # Değişken değerler için tek kaynak.
+# Sayfalar bu dosyayı <Deger k="grup.anahtar" /> bileşeniyle okur; bilinmeyen anahtar build'i kırar.
 # Her değer şu alanlarla girilir:
-#   deger: gösterilecek/kullanılacak değer
-#   kaynak: birincil (veya en iyi bulunan) kaynak URL'si
-#   dogrulama_tarihi: kaynağın kontrol edildiği tarih (GG.AA.YYYY)
-#   durum: "dogrulandi" | "belirsiz" (çelişkili/ikincil kaynak, yazım öncesi tekrar kontrol)
+#   etiket: insan okur için kısa ad (referans/kaynaklar.md tablosunda görünür)
+#   deger: tam açıklama metni
+#   kisa: (opsiyonel) sayfada satır içi gösterilen kısa biçim; yoksa deger kullanılır
+#   sayi: (opsiyonel) hesaplayıcılar için sayısal değer
+#   kaynak: birincil (veya en iyi bulunan) kaynak URL'si; birden fazlaysa ";" ile ayrılır
+#   dogrulama_tarihi: kaynağın kontrol edildiği tarih (GG.AA.YYYY); 120 günden eskiyse tazelik workflow'u issue açar
+#   durum: "dogrulandi" | "belirsiz" (çelişkili/ikincil kaynak; okura "teyit et" rozeti gösterilir)
 #   not: (opsiyonel) kısa açıklama/istisna
 #
 # Ham araştırma raporları: docs-internal/arastirma-notlari/*.md
@@ -11,201 +15,343 @@
 
 sperrkonto:
   aylik_tutar:
-    deger: "992 EUR/ay (11.904 EUR/yıl)"
-    kaynak: "https://www.gesetze-im-internet.de/baf_g/__13.html; https://www.gesetze-im-internet.de/baf_g/__13a.html; https://digital.diplo.de/studium"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 992 EUR/ay (11.904 EUR/yıl)
+    kaynak: https://www.gesetze-im-internet.de/baf_g/__13.html; https://www.gesetze-im-internet.de/baf_g/__13a.html; https://digital.diplo.de/studium
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "BAföG §13/1 Nr.2 (475) + §13/2 Nr.2 (380) + §13a/1 (102+35) = 992 EUR, yasa metninden hesaplandı; 2026/27 kış dönemi için yasada değişiklik yok. Auswärtiges Amt'ın Sperrkonto sayfası tutarı vermiyor, tutar Auslandsportal'da. 30. BAföG-Änderungsgesetz (kabine 12.08.2026, konut payı 440 EUR, planlı 01.04.2027) henüz yasalaşmadı. Chancenkarte ve aday öğrenci vizesi (Studienplatzsuche) için 1.091 EUR/ay (13.092 EUR/yıl)."
-
+    not: BAföG §13/1 Nr.2 (475) + §13/2 Nr.2 (380) + §13a/1 (102+35) = 992 EUR, yasa metninden hesaplandı; 2026/27 kış dönemi için yasada değişiklik yok. Auswärtiges Amt'ın Sperrkonto sayfası tutarı vermiyor, tutar Auslandsportal'da. 30. BAföG-Änderungsgesetz (kabine 12.08.2026, konut payı 440 EUR, planlı 01.04.2027) henüz yasalaşmadı. Chancenkarte ve aday öğrenci vizesi (Studienplatzsuche) için 1.091 EUR/ay (13.092 EUR/yıl).
+    etiket: Sperrkonto aylık tutar (öğrenci vizesi)
+    kisa: 992 EUR/ay
+    sayi: 992
   sağlayici_karsilastirma:
-    deger: "Fintiba (159 EUR kurulum + 9,90 EUR/ay), Expatrio (eski adı X-Patrio; 119 EUR kurulum + 9 EUR/ay, 07.07.2026 sonrası fiyat), Coracle (ayrı bir şirket; yeni başvuruları duraklattığını söylüyor, aktiflik teyit edilmeli), Deutsche Bank (şubede yüz yüze kimlik doğrulama)"
-    kaynak: "https://www.fintiba.com/blocked-account-germany; https://help.expatrio.com/hc/en-us/articles/360029158292"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Fintiba (159 EUR kurulum + 9,90 EUR/ay), Expatrio (eski adı X-Patrio; 119 EUR kurulum + 9 EUR/ay, 07.07.2026 sonrası fiyat), Coracle (ayrı bir şirket; yeni başvuruları duraklattığını söylüyor, aktiflik teyit edilmeli), Deutsche Bank (şubede yüz yüze kimlik doğrulama)
+    kaynak: https://www.fintiba.com/blocked-account-germany; https://help.expatrio.com/hc/en-us/articles/360029158292
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "Ticari kaynaklar. X-Patrio, Expatrio'nun eski adıdır (x-patrio.com expatrio.com'a yönleniyor); Coracle ayrı bir Hamburg GmbH'sidir. Auswärtiges Amt 2022'de kendi sağlayıcı listesini kaldırdı."
-
+    not: Ticari kaynaklar. X-Patrio, Expatrio'nun eski adıdır (x-patrio.com expatrio.com'a yönleniyor); Coracle ayrı bir Hamburg GmbH'sidir. Auswärtiges Amt 2022'de kendi sağlayıcı listesini kaldırdı.
+    etiket: Sperrkonto sağlayıcı ücretleri
+  yillik_tutar:
+    kaynak: https://www.gesetze-im-internet.de/baf_g/__13.html; https://www.gesetze-im-internet.de/baf_g/__13a.html; https://digital.diplo.de/studium
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Sperrkonto yıllık tutar (öğrenci vizesi)
+    deger: 11.904 EUR/yıl (12 x 992 EUR)
+    kisa: 11.904 EUR/yıl
+    sayi: 11904
+    not: Aylık tutarın 12 katı.
+  chancenkarte_aylik:
+    kaynak: https://kairo.diplo.de/resource/blob/2664804/ff16b296556688a8ec5effaf9c727a62/250122-deu-merkblatt-chancenkarte-data.pdf
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Sperrkonto aylık tutar (Chancenkarte ve aday öğrenci vizesi)
+    deger: 1.091 EUR/ay
+    kisa: 1.091 EUR/ay
+    sayi: 1091
+    not: Auswärtiges Amt Merkblatt (Kairo misyonu, Nisan 2026); Türkiye misyonunun kendi sayfasında rakam bulunamadı.
+  chancenkarte_yillik:
+    kaynak: https://kairo.diplo.de/resource/blob/2664804/ff16b296556688a8ec5effaf9c727a62/250122-deu-merkblatt-chancenkarte-data.pdf
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Sperrkonto yıllık tutar (Chancenkarte ve aday öğrenci vizesi)
+    deger: 13.092 EUR/yıl
+    kisa: 13.092 EUR/yıl
+    sayi: 13092
 calisma_limiti:
   gun_siniri:
-    deger: "140 tam gün / 280 yarım gün (yılda)"
-    kaynak: "https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 140 tam gün / 280 yarım gün (yılda)
+    kaynak: https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: >
-      AufenthG §16b Abs.3. 01.03.2024'te 120/240'tan 140/280'e yükseltildi. Üniversite bünyesinde
-      Hilfskraft/wissenschaftliche Hilfskraft işleri bu hesaba dahil değil (sınırsız).
-
+    not: |
+      AufenthG §16b Abs.3. 01.03.2024'te 120/240'tan 140/280'e yükseltildi. Üniversite bünyesinde Hilfskraft/wissenschaftliche Hilfskraft işleri bu hesaba dahil değil (sınırsız).
+    etiket: Yıllık çalışma gün sınırı
+    kisa: 140 tam gün / 280 yarım gün
+  tam_gun:
+    kaynak: https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Yıllık çalışma hakkı, tam gün
+    deger: 140 tam gün/yıl
+    kisa: 140 tam gün
+    sayi: 140
+  yarim_gun:
+    kaynak: https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Yıllık çalışma hakkı, yarım gün
+    deger: 280 yarım gün/yıl
+    kisa: 280 yarım gün
+    sayi: 280
 asgari_ucret:
   saatlik:
-    deger: "13,90 EUR/saat brüt (2026), 2027'de 14,60 EUR'a çıkacak"
-    kaynak: "https://www.bundesregierung.de/breg-de/aktuelles/mindestlohn-steigt-2391010"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 13,90 EUR/saat brüt (2026), 2027'de 14,60 EUR'a çıkacak
+    kaynak: https://www.bundesregierung.de/breg-de/aktuelles/mindestlohn-steigt-2391010
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-
+    etiket: Asgari ücret (2026)
+    kisa: 13,90 EUR/saat
+    sayi: 13.9
+  saatlik_2027:
+    kaynak: https://www.bundesregierung.de/breg-de/aktuelles/mindestlohn-steigt-2391010
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Asgari ücret (2027)
+    deger: 14,60 EUR/saat brüt (2027)
+    kisa: 14,60 EUR/saat
+    sayi: 14.6
 minijob_siniri:
   aylik:
-    deger: "603 EUR/ay (7.236 EUR/yıl)"
-    kaynak: "https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 603 EUR/ay (7.236 EUR/yıl)
+    kaynak: https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-
+    etiket: Minijob aylık sınır (2026)
+    kisa: 603 EUR/ay
+    sayi: 603
+  yillik:
+    kaynak: https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Minijob yıllık sınır (2026)
+    deger: 7.236 EUR/yıl
+    kisa: 7.236 EUR/yıl
+    sayi: 7236
+  aylik_2027:
+    kaynak: https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: Minijob aylık sınır (2027)
+    deger: 633 EUR/ay (2027)
+    kisa: 633 EUR/ay
+    sayi: 633
 werkstudent:
   haftalik_saat_siniri:
-    deger: "20 saat/hafta (ders dönemi); 20 saati aşılan hafta sayısı yılda en fazla 26"
-    kaynak: "https://www.tk.de/firmenkunden/versicherung/versicherung-faq/haeufige-fragen-zu-studenten-und-praktikanten/was-besagt-die-werkstudenten-regel-2036662"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 20 saat/hafta (ders dönemi); 20 saati aşılan hafta sayısı yılda en fazla 26
+    kaynak: https://www.tk.de/firmenkunden/versicherung/versicherung-faq/haeufige-fragen-zu-studenten-und-praktikanten/was-besagt-die-werkstudenten-regel-2036662
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "TK ve DRV; dayanak SGB V §6/1 Nr.3. Kural sosyal sigorta kurumlarının yorumu, yasada yazmıyor."
-
+    not: TK ve DRV; dayanak SGB V §6/1 Nr.3. Kural sosyal sigorta kurumlarının yorumu, yasada yazmıyor.
+    etiket: Werkstudent haftalık saat sınırı
 anmeldung:
   sure_siniri:
-    deger: "Taşınmadan itibaren 2 hafta (14 gün)"
-    kaynak: "https://www.gesetze-im-internet.de/bmg/__17.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Taşınmadan itibaren 2 hafta (14 gün)
+    kaynak: https://www.gesetze-im-internet.de/bmg/__17.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "BMG §17 Abs.1. Gerekli belge: Wohnungsgeberbestätigung (BMG §19)."
-
+    not: 'BMG §17 Abs.1. Gerekli belge: Wohnungsgeberbestätigung (BMG §19).'
+    etiket: Anmeldung süre sınırı
 is_arama_izni:
   sure:
-    deger: "Azami 18 ay (uzatılamaz), bu süre boyunca çalışma hakkı sınırsız"
-    kaynak: "https://www.gesetze-im-internet.de/aufenthg_2004/__20.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Azami 18 ay (uzatılamaz), bu süre boyunca çalışma hakkı sınırsız
+    kaynak: https://www.gesetze-im-internet.de/aufenthg_2004/__20.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "AufenthG §20/2 uzatmayı açıkça yasaklıyor. Chancenkarte (§20a): 1 yıl, haftada 20 saat, geçim kanıtı 1.091 EUR/ay. İki iznin art arda kullanımı tartışmalı (tek ilk derece kararı VG Cottbus 10.03.2026)."
-
+    not: 'AufenthG §20/2 uzatmayı açıkça yasaklıyor. Chancenkarte (§20a): 1 yıl, haftada 20 saat, geçim kanıtı 1.091 EUR/ay. İki iznin art arda kullanımı tartışmalı (tek ilk derece kararı VG Cottbus 10.03.2026).'
+    etiket: İş arama izni süresi (§20)
 mavi_kart:
   genel_esik:
-    deger: "50.700 EUR brüt yıllık (2026)"
-    kaynak: "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 50.700 EUR brüt yıllık (2026)
+    kaynak: https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
+    etiket: Mavi Kart genel maaş eşiği (2026)
   mangelberuf_esik:
-    deger: "45.934,20 EUR brüt yıllık (2026, kıt meslekler/yeni mezunlar, BA onayı gerekir)"
-    kaynak: "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 45.934,20 EUR brüt yıllık (2026, kıt meslekler/yeni mezunlar, BA onayı gerekir)
+    kaynak: https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/03-2026/blaue-karte
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
+    etiket: Mavi Kart kıt meslek/yeni mezun eşiği (2026)
   niederlassungserlaubnis_suresi:
-    deger: "B1 Almanca: 21 ay; basit Almanca: 27 ay"
-    kaynak: "https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 'B1 Almanca: 21 ay; basit Almanca: 27 ay'
+    kaynak: https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "AufenthG §18c yasa metninden. Eski değer '33 ay' güncel değil."
-
+    not: AufenthG §18c yasa metninden. Eski değer '33 ay' güncel değil.
+    etiket: Mavi Kart ile Niederlassungserlaubnis süresi
 aps:
   turkiye_durumu:
-    deger: "Gerekli değil (Türkiye APS kapsamında değil)"
-    kaynak: "https://tuerkei.diplo.de/resource/blob/2730506/be9f0c7a618fa31b5375408134f3665d/merkblatt-studium-dt-data.pdf"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Gerekli değil (Türkiye APS kapsamında değil)
+    kaynak: https://tuerkei.diplo.de/resource/blob/2730506/be9f0c7a618fa31b5375408134f3665d/merkblatt-studium-dt-data.pdf
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "Resmi Merkblatt'ta APS hiç geçmiyor (dolaylı doğrulama). Birebir 'Türkiye APS kapsamı dışında' cümlesi bulunamadı."
-
+    not: Resmi Merkblatt'ta APS hiç geçmiyor (dolaylı doğrulama). Birebir 'Türkiye APS kapsamı dışında' cümlesi bulunamadı.
+    etiket: APS belgesi (Türkiye)
 vize_kanali:
   saglayici:
-    deger: "iDATA (www.idata.com.tr) — Türkiye'deki tek yetkili dış hizmet sağlayıcı, 8 ofis"
-    kaynak: "https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790"
-    dogrulama_tarihi: "24.09.2026"
+    deger: iDATA (www.idata.com.tr) — Türkiye'deki tek yetkili dış hizmet sağlayıcı, 8 ofis
+    kaynak: https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
+    etiket: Vize başvuru kanalı
   ucret:
-    deger: "75 EUR (ulusal D vizesi, AufenthV §46/2) + iDATA hizmet bedeli (kaynaklarda 39,92 / 32,81 EUR ve ayrıca 12 EUR randevu bedeli, tutarsız)"
-    kaynak: "https://www.gesetze-im-internet.de/aufenthv/__46.html; https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 75 EUR (ulusal D vizesi, AufenthV §46/2) + iDATA hizmet bedeli (kaynaklarda 39,92 / 32,81 EUR ve ayrıca 12 EUR randevu bedeli, tutarsız)
+    kaynak: https://www.gesetze-im-internet.de/aufenthv/__46.html; https://tuerkei.diplo.de/tr-de/service/05-visaeinreise/2729790-2729790
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "75 EUR yasa metninden doğrulandı (90 EUR Schengen vizesi ücreti). Kamu bursu alanlar muaf (AufenthV §52/5). iDATA hizmet bedeli AA sayfalarında tutarsız. '18 yaş altı 37,50 EUR' iddiasına kaynak bulunamadı, kaldırıldı."
-
+    not: 75 EUR yasa metninden doğrulandı (90 EUR Schengen vizesi ücreti). Kamu bursu alanlar muaf (AufenthV §52/5). iDATA hizmet bedeli AA sayfalarında tutarsız. '18 yaş altı 37,50 EUR' iddiasına kaynak bulunamadı, kaldırıldı.
+    etiket: Öğrenci vizesi ücreti
+    kisa: 75 EUR
+    sayi: 75
 ogrenci_harci_eyaletler:
   liste:
-    deger: "Baden-Württemberg: 1.500 EUR/dönem (kesin). Bayern (TUM: 2.000-6.000 EUR/dönem, üniversite bazlı) — diğer eyaletler (NRW, Sachsen vb.) doğrulanamadı"
-    kaynak: "https://mwk.baden-wuerttemberg.de/de/hochschulen-studium/studieren-in-bw/studienfinanzierung/gebuehren-fuer-internationale-studierende-und-zweitstudium; https://www.tum.de/studium/studienfinanzierung/studiengebuehren-fuer-studierende-aus-nicht-eu-laendern"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 'Baden-Württemberg: 1.500 EUR/dönem (kesin). Bayern (TUM: 2.000-6.000 EUR/dönem, üniversite bazlı) — diğer eyaletler (NRW, Sachsen vb.) doğrulanamadı'
+    kaynak: https://mwk.baden-wuerttemberg.de/de/hochschulen-studium/studieren-in-bw/studienfinanzierung/gebuehren-fuer-internationale-studierende-und-zweitstudium; https://www.tum.de/studium/studienfinanzierung/studiengebuehren-fuer-studierende-aus-nicht-eu-laendern
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "TUM'daki olası Türkiye/Ortaklık Konseyi 1/80 istisnası ayrıca doğrulanmalı."
-
+    not: TUM'daki olası Türkiye/Ortaklık Konseyi 1/80 istisnası ayrıca doğrulanmalı.
+    etiket: Eyalet öğrenci harçları (AB dışı)
 saglik_sigortasi:
   ogrenci_tarifesi_aylik:
-    deger: "~90-135 EUR/ay (temel ~87,38 + bakım sigortası 30,78-35,91 + kasaya özel ek katkı payı)"
-    kaynak: "https://www.aok.de/pp/rechengroessen/kostenueberblick-studentischen-krankenversicherung/"
-    dogrulama_tarihi: "24.09.2026"
+    deger: ~90-135 EUR/ay (temel ~87,38 + bakım sigortası 30,78-35,91 + kasaya özel ek katkı payı)
+    kaynak: https://www.aok.de/pp/rechengroessen/kostenueberblick-studentischen-krankenversicherung/
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "Kasa bazlı (TK/AOK/Barmer) kesin rakamlar ayrı ayrı doğrulanmalı."
+    not: Kasa bazlı (TK/AOK/Barmer) kesin rakamlar ayrı ayrı doğrulanmalı.
+    etiket: Öğrenci sağlık sigortası aylık
   yas_siniri:
-    deger: "30 yaş (dönemin resmi sonu). 14. Fachsemester sınırı 2020'den beri KALDIRILDI."
-    kaynak: "https://www.studis-online.de/studierendenversicherung/krankenversicherung-ue30.php"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 30 yaş (dönemin resmi sonu). 14. Fachsemester sınırı 2020'den beri KALDIRILDI.
+    kaynak: https://www.studis-online.de/studierendenversicherung/krankenversicherung-ue30.php
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-
+    etiket: Öğrenci sigortası yaş sınırı
 uni_assist:
   ilk_basvuru_ucreti:
-    deger: "75 EUR"
-    kaynak: "https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 75 EUR
+    kaynak: https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
+    etiket: uni-assist ilk başvuru ücreti
+    kisa: 75 EUR
+    sayi: 75
   ek_basvuru_ucreti:
-    deger: "30 EUR (her ek program)"
-    kaynak: "https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 30 EUR (her ek program)
+    kaynak: https://www.uni-assist.de/bewerben/kosten-zahlen/bearbeitungskosten/
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
+    etiket: uni-assist ek başvuru ücreti
+    kisa: 30 EUR
+    sayi: 30
   islem_suresi:
-    deger: "Genel 4-6 hafta; Türkiye için güncel tabloda 2-3 hafta (21.09.2026)"
-    kaynak: "https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Genel 4-6 hafta; Türkiye için güncel tabloda 2-3 hafta (21.09.2026)
+    kaynak: https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "Son tarihten en az 8 hafta önce başvurmak öneriliyor. VPD verildiği tarihten 1 yıl geçerli."
-
+    not: Son tarihten en az 8 hafta önce başvurmak öneriliyor. VPD verildiği tarihten 1 yıl geçerli.
+    etiket: uni-assist işlem süresi
 dil_sinavi_ucretleri:
   testdaf:
-    deger: "Almanya: 210 EUR (dijital), 215 EUR (kâğıt). Türkiye: İstanbul Ü.-Cerrahpaşa merkezi 155 EUR"
-    kaynak: "https://www.testdaf.de/de/teilnehmende/mein-testdaf/faq/faq-allgemein/; https://sinavmerkezi.iuc.edu.tr/testdaf-sinavlari"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 'Almanya: 210 EUR (dijital), 215 EUR (kâğıt). Türkiye: İstanbul Ü.-Cerrahpaşa merkezi 155 EUR'
+    kaynak: https://www.testdaf.de/de/teilnehmende/mein-testdaf/faq/faq-allgemein/; https://sinavmerkezi.iuc.edu.tr/testdaf-sinavlari
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "testdaf.de üç ülke fiyat grubu uyguluyor; kayıt ekranındaki tutar geçerli."
+    not: testdaf.de üç ülke fiyat grubu uyguluyor; kayıt ekranındaki tutar geçerli.
+    etiket: TestDaF ücreti
   goethe_c1:
-    deger: "Almanya: B2 289, C1 349, C2 359 EUR. Türkiye TL fiyatı doğrulanamadı"
-    kaynak: "https://www.goethe.de/ins/de/de/prf/pre.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 'Almanya: B2 289, C1 349, C2 359 EUR. Türkiye TL fiyatı doğrulanamadı'
+    kaynak: https://www.goethe.de/ins/de/de/prf/pre.html
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "Türkiye fiyatı goethe.de'nin dinamik fiyat listesinde, bot korumasından okunamadı."
+    not: Türkiye fiyatı goethe.de'nin dinamik fiyat listesinde, bot korumasından okunamadı.
+    etiket: Goethe-Zertifikat ücreti
   ielts:
-    deger: "12.210 TL (IDP Türkiye, Academic = General)"
-    kaynak: "https://ielts.idp.com/turkey/test-dates/en-gb"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 12.210 TL (IDP Türkiye, Academic = General)
+    kaynak: https://ielts.idp.com/turkey/test-dates/en-gb
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "British Council Türkiye fiyatı bot korumasından okunamadı. Sonuç 2 yıl geçerli sayılır (ielts.org)."
+    not: British Council Türkiye fiyatı bot korumasından okunamadı. Sonuç 2 yıl geçerli sayılır (ielts.org).
+    etiket: IELTS Academic ücreti (Türkiye)
   toefl:
-    deger: "185 USD (Türkiye, ETS ücret tablosu)"
-    kaynak: "https://www.ets.org/toefl/test-takers/ibt/register/fees.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 185 USD (Türkiye, ETS ücret tablosu)
+    kaynak: https://www.ets.org/toefl/test-takers/ibt/register/fees.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "Ocak 2026'dan beri 1-6 puan ölçeği. Sonuç 2 yıl geçerli."
-
+    not: Ocak 2026'dan beri 1-6 puan ölçeği. Sonuç 2 yıl geçerli.
+    etiket: TOEFL iBT ücreti (Türkiye)
 tc_tarafi:
   askerlik_tecili:
-    deger: "Yüksek lisans: 32 yaşını doldurduğu yıl sonu; doktora/sanatta yeterlik/ihtisas: 35; lisans: 28"
-    kaynak: "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.7179.pdf"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 'Yüksek lisans: 32 yaşını doldurduğu yıl sonu; doktora/sanatta yeterlik/ihtisas: 35; lisans: 28'
+    kaynak: https://www.mevzuat.gov.tr/mevzuatmetin/1.5.7179.pdf
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "7179 sayılı Kanun md. 20/4 ve Askeralma Yönetmeliği md. 52-55. 35 rakamı Stockholm (2019) ve Hannover (2022, mülga 1111 sayılı Kanun) sayfalarından; eski/çelişkili. MSB sitesi doğrudan okunamadı, MSB metni müşavirlik PDF'inden."
+    not: 7179 sayılı Kanun md. 20/4 ve Askeralma Yönetmeliği md. 52-55. 35 rakamı Stockholm (2019) ve Hannover (2022, mülga 1111 sayılı Kanun) sayfalarından; eski/çelişkili. MSB sitesi doğrudan okunamadı, MSB metni müşavirlik PDF'inden.
+    etiket: Askerlik tecili yaş sınırları
   cikis_harci:
-    deger: "1.250 TL (2026)"
-    kaynak: "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M5-17.pdf"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 1.250 TL (2026)
+    kaynak: https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M5-17.pdf
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "Resmî Gazete 31.12.2025, 5. mükerrer. Öğrenci muafiyeti yok; yurt dışı oturma izni sahipleri muaf."
+    not: Resmî Gazete 31.12.2025, 5. mükerrer. Öğrenci muafiyeti yok; yurt dışı oturma izni sahipleri muaf.
+    etiket: Yurt dışı çıkış harcı (2026)
+    kisa: 1.250 TL
+    sayi: 1250
   apostil_ucreti:
-    deger: "Ücretsiz (kaymakamlık/valilik)"
-    kaynak: "https://www.onikisubat.gov.tr/apostil-islemleri"
-    dogrulama_tarihi: "24.09.2026"
+    deger: Ücretsiz (kaymakamlık/valilik)
+    kaynak: https://www.onikisubat.gov.tr/apostil-islemleri
+    dogrulama_tarihi: 24.09.2026
     durum: belirsiz
-    not: "Resmi kaynaklarda işlem süresi yok."
-  pasaport_harci:
-    deger: "Harç: 6 ay 2.806,50; 1 yıl 4.103; 2 yıl 6.698,50; 3 yıl 9.516; 10 yıl 13.410,40 TL. Defter bedeli 1.351 TL"
-    kaynak: "https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri"
-    dogrulama_tarihi: "24.09.2026"
+    not: Resmi kaynaklarda işlem süresi yok.
+    etiket: Apostil ücreti
+  pasaport_defter_bedeli:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "NVİ 2026 tablosu (01.01.2026). 1.424,31 TL ve 2.960,81 TL gibi rakamlar 2025 tutarlarının hatalı %25,49 çarpımı; gerçek artış %18,95."
-
+    etiket: Pasaport defter bedeli (2026)
+    deger: 1.351 TL
+    kisa: 1.351 TL
+    sayi: 1351
+    not: 1.424,31 TL rakamı 2025 tutarının hatalı çarpımıdır.
+  pasaport_harci_6ay:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: 6 aylık pasaport harcı (2026)
+    deger: 2.806,50 TL
+    kisa: 2.806,50 TL
+  pasaport_harci_1yil:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: 1 yıllık pasaport harcı (2026)
+    deger: 4.103 TL
+    kisa: 4.103 TL
+  pasaport_harci_2yil:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: 2 yıllık pasaport harcı (2026)
+    deger: 6.698,50 TL
+    kisa: 6.698,50 TL
+  pasaport_harci_3yil:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: 3 yıllık pasaport harcı (2026)
+    deger: 9.516 TL
+    kisa: 9.516 TL
+  pasaport_harci_10yil:
+    kaynak: https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: 10 yıllık pasaport harcı (2026)
+    deger: 13.410,40 TL
+    kisa: 13.410,40 TL
 rundfunkbeitrag:
   aylik_tutar:
-    deger: "18,36 EUR/ay (hane başına)"
-    kaynak: "https://www.rundfunkbeitrag.de/buergerinnen_und_buerger/informationen/informationen_fuer_studierende/index_ger.html"
-    dogrulama_tarihi: "24.09.2026"
+    deger: 18,36 EUR/ay (hane başına)
+    kaynak: https://www.rundfunkbeitrag.de/buergerinnen_und_buerger/informationen/informationen_fuer_studierende/index_ger.html
+    dogrulama_tarihi: 24.09.2026
     durum: dogrulandi
-    not: "Muafiyet BAföG alanlar için; uluslararası öğrenciler için Härtefall genelde söz konusu değil (RBStV §4/6). 2027'de 18,64 EUR önerisi kesinleşmiş değil."
+    not: Muafiyet BAföG alanlar için; uluslararası öğrenciler için Härtefall genelde söz konusu değil (RBStV §4/6). 2027'de 18,64 EUR önerisi kesinleşmiş değil.
+    etiket: Rundfunkbeitrag aylık tutar
+    kisa: 18,36 EUR/ay
+    sayi: 18.36
+gre:
+  ucret:
+    kaynak: https://www.ets.org/gre/test-takers/general-test/register/fees.html
+    dogrulama_tarihi: 24.09.2026
+    durum: dogrulandi
+    etiket: GRE General Test ücreti (Türkiye, 01.08.2026 sonrası)
+    deger: 249 USD
+    kisa: 249 USD
+    sayi: 249
+    not: tr.ets.org sayfasındaki 220 USD rakamı eski.

@@ -14,11 +14,11 @@ Werkstudent statüsünün ne sağladığını öğreneceksin.
 ## Yasal çalışma gün limiti: 140 / 280
 
 AB dışı (Türkiye dahil) öğrenciler için AufenthG §16b Abs.3'e göre yıllık çalışma sınırı
-**140 tam gün veya 280 yarım gün**.
+**<Deger k="calisma_limiti.tam_gun" /> veya <Deger k="calisma_limiti.yarim_gun" />**.
 
 ::: warning Eski rakamla karıştırma
 Bazı eski rehberlerde/kaynaklarda hâlâ **120 tam gün / 240 yarım gün** yazıyor — bu, 01.03.2024
-öncesi geçerliydi. Güncel rakam 140/280'dir.
+öncesi geçerliydi. Güncel sınır: <Deger k="calisma_limiti.gun_siniri" />.
 :::
 
 - **Yarım gün**: haftada ≤4 saat çalışılan gün.
@@ -45,8 +45,8 @@ TK ve Deutsche Rentenversicherung'a göre, bir yıl içinde haftada 20 saati aş
 
 ## Asgari ücret ve Minijob
 
-2026 itibariyle asgari ücret **13,90 EUR/saat** brüt (2027'de 14,60 EUR'a çıkacak). Minijob
-sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **603 EUR/ay (7.236 EUR/yıl)**; 2027'de **633 EUR/ay**. 603,01-2.000 EUR arası "Midijob" bölgesi (düşük prim).
+2026 itibariyle asgari ücret **<Deger k="asgari_ucret.saatlik" />** brüt (2027'de <Deger k="asgari_ucret.saatlik_2027" />). Minijob
+sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **<Deger k="minijob_siniri.aylik" /> (<Deger k="minijob_siniri.yillik" />)**; 2027'de **<Deger k="minijob_siniri.aylik_2027" />**. 603,01-2.000 EUR arası "Midijob" bölgesi (düşük prim).
 
 ## Neye ihtiyacın var
 
@@ -55,7 +55,7 @@ sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **603 EUR/ay (7.
 
 ## Adımlar
 
-1. İş bulurken 140/280 gün sınırını aklında tut, özellikle iki farklı işte çalışacaksan.
+1. İş bulurken çalışma gün sınırını (<Deger k="calisma_limiti.gun_siniri" />) aklında tut, özellikle iki farklı işte çalışacaksan.
 2. Üniversite bünyesinde Hilfskraft pozisyonlarını (kariyer merkezi, bölüm sekreterlikleri
    üzerinden) araştır — bunlar sınırsız.
 3. 20 saat üstü çalışacaksan Ausländerbehörde'den ek izin gerekip gerekmediğini kontrol et.

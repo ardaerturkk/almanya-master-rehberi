@@ -4,7 +4,7 @@ title: "Adım 29: Rundfunkbeitrag ve Sözleşmeler"
 
 # Adım 29: Rundfunkbeitrag ve Sözleşmeler
 
-> ⏱ Süre: —   💶 Maliyet: 18,36 EUR/ay (Rundfunkbeitrag, hane başına)   📅 Ne zaman: Konut sahibi olduktan sonraki ilk aylar
+> ⏱ Süre: —   💶 Maliyet: <Deger k="rundfunkbeitrag.aylik_tutar" /> (Rundfunkbeitrag, hane başına)   📅 Ne zaman: Konut sahibi olduktan sonraki ilk aylar
 
 ::: info Bu adımda ne yapacaksın
 Almanya'da yaşarken karşına çıkacak tekrarlayan ödemelerden en önemlisi Rundfunkbeitrag (yayın
@@ -14,7 +14,7 @@ katkı payı). Muaf olup olmadığını burada netleştireceksin.
 ## Rundfunkbeitrag nedir?
 
 Almanya'da her hane, kamu yayın kuruluşlarını (ARD, ZDF, Deutschlandradio) finanse etmek için
-**aylık 18,36 EUR** ödüyor (2026 itibariyle) — bu, kişi başına değil **hane başına** bir ücret.
+**<Deger k="rundfunkbeitrag.aylik_tutar" />** ödüyor (2026 itibariyle) — bu, kişi başına değil **hane başına** bir ücret.
 Yani bir WG'de (paylaşımlı ev) yaşıyorsan, ev arkadaşlarınla bu ücreti paylaşabilirsin.
 
 ::: info Değişiklik yolda mı?

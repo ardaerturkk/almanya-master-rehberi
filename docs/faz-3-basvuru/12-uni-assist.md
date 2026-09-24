@@ -1,11 +1,11 @@
 ---
 title: "Adım 12: uni-assist Adım Adım"
-description: "uni-assist başvurusu adım adım: VPD nedir, ücretler (75/30 EUR), Türkiye'den ödeme yöntemleri, işlem süresi ve hangi üniversiteler kullanıyor."
+description: "uni-assist başvurusu adım adım: VPD nedir, ücretler (ilk ve ek program ücretleri), Türkiye'den ödeme yöntemleri, işlem süresi ve hangi üniversiteler kullanıyor."
 ---
 
 # Adım 12: uni-assist Adım Adım
 
-> ⏱ Süre: İşlem 4-6 hafta (Türkiye için ~2-3 hafta)   💶 Maliyet: İlk program 75 EUR, her ek program 30 EUR   📅 Ne zaman: Son başvuru tarihinden en az 8 hafta önce
+> ⏱ Süre: İşlem 4-6 hafta (Türkiye için ~2-3 hafta)   💶 Maliyet: İlk program <Deger k="uni_assist.ilk_basvuru_ucreti" />, her ek program <Deger k="uni_assist.ek_basvuru_ucreti" />   📅 Ne zaman: Son başvuru tarihinden en az 8 hafta önce
 
 ::: info Bu adımda ne yapacaksın
 uni-assist başvurusunu adım adım tamamlayacaksın. Detaylı karşılaştırma için
@@ -21,8 +21,8 @@ otomatik olarak, üniversiteye göre değişir) sunulması gerekiyor.
 
 ## Ücret ve ödeme
 
-- İlk program: 75 EUR
-- Her ek program: 30 EUR (sonuçtan bağımsız, her dönem tekrar ödenir)
+- İlk program: <Deger k="uni_assist.ilk_basvuru_ucreti" />
+- Her ek program: <Deger k="uni_assist.ek_basvuru_ucreti" /> (sonuçtan bağımsız, her dönem tekrar ödenir)
 - Bazı üniversiteler bu ücreti öğrenci adına karşılıyor.
 
 **Ödeme yöntemleri:** Visa veya Mastercard (3D Secure'a kayıtlı olmalı) ya da banka havalesi. Havalede sana kişisel bir IBAN veriliyor, yalnızca bu IBAN'a gönderirsin. PayPal yok. "Online-Überweisung" (internet bankacılığıyla anında ödeme) yalnızca Almanya, Avusturya, Fransa, İspanya, İtalya, Finlandiya, İsveç ve İngiltere'deki hesaplarla çalışıyor, Türkiye'den kullanamazsın. Uluslararası havale iki haftaya kadar sürebilir; bankana "OUR" seçeneğini iste ki ücretin tamamı uni-assist'e ulaşsın. Almanya'da hesabı olan biri senin IBAN'ına yatırabilir.

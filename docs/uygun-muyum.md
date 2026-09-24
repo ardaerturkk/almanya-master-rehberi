@@ -24,7 +24,7 @@ değerlendirmen için. Kesin cevap değil, yol haritanı netleştirmen için bir
 
 ## Bütçe gerçekliği
 
-Sperrkonto için yıllık **11.904 EUR** (2026 itibariyle, güncel rakamı
+Sperrkonto için yıllık **<Deger k="sperrkonto.yillik_tutar" />** (2026 itibariyle, güncel rakamı
 [Adım 17](/faz-4-vize/17-sperrkonto)'den kontrol et) bloke etmen gerekiyor — bu, tek başına
 büyük bir finansal taahhüt. Buna ek olarak:
 

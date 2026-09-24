@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
+import { degerBul, degerSayi } from "../degerler";
 
 const kira = ref<number | null>(410);
 const yemek = ref<number | null>(180);
@@ -8,7 +9,8 @@ const materyal = ref<number | null>(31);
 const diger = ref<number | null>(50);
 const semesterbeitrag = ref<number | null>(308);
 
-const SPERRKONTO_AYLIK = 992;
+const SPERRKONTO_AYLIK = degerSayi("sperrkonto.aylik_tutar");
+const SPERRKONTO_ETIKET = degerBul("sperrkonto.aylik_tutar").kisa;
 
 const aylikToplam = computed(() => {
   const vals = [kira.value, yemek.value, sigorta.value, materyal.value, diger.value];
@@ -56,7 +58,7 @@ const sperrkontoFarki = computed(() => aylikToplam.value - SPERRKONTO_AYLIK);
     <div class="amr-result">
       Aylık toplam: {{ aylikToplam.toFixed(0) }} EUR<br />
       Yıllık toplam (2 dönem Semesterbeitrag dahil): {{ yillikToplam.toFixed(0) }} EUR<br />
-      Sperrkonto tutarıyla (992 EUR/ay) farkı:
+      Sperrkonto tutarıyla ({{ SPERRKONTO_ETIKET }}) farkı:
       <span :style="{ color: sperrkontoFarki > 0 ? 'var(--vp-c-danger-1)' : 'var(--vp-c-success-1)' }">
         {{ sperrkontoFarki > 0 ? "+" : "" }}{{ sperrkontoFarki.toFixed(0) }} EUR/ay
       </span>

@@ -1,0 +1,62 @@
+name: Tazelik
+
+# Haftalık: data/degerler.yml içinde 120 günden eski doğrulama tarihleri ve kırık dış linkler.
+# Sonuç tek bir "Güncellik kontrolü" issue'sunda toplanır (varsa güncellenir, yoksa açılır).
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  tazelik:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Eskimiş değerler
+        run: node scripts/tazelik.mjs > tazelik.md
+
+      - name: Dış link kontrolü
+        run: |
+          npm run docs:build
+          npm run docs:preview -- --port 4173 &
+          npx wait-on http://localhost:4173/almanya-master-rehberi/
+          # Bot korumalı siteler skip listesinde; kalan sahte alarmlar için 2 deneme.
+          npx linkinator http://localhost:4173/almanya-master-rehberi/ --recurse --silent \
+            --format json --concurrency 3 --retry-errors --retry-errors-count 2 --retry-errors-jitter 2000 \
+            --skip "idata\.com\.tr|daad\.de|hochschulkompass\.de|mevzuat\.gov\.tr|resmigazete\.gov\.tr" \
+            > linkler.json || true
+          node scripts/link-ozeti.mjs linkler.json > linkler.md
+
+      - name: Issue oluştur veya güncelle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ESKI=$(grep -m1 '^ESKI_SAYISI=' tazelik.md | cut -d= -f2)
+          KIRIK=$(grep -m1 '^KIRIK_SAYISI=' linkler.md | cut -d= -f2)
+          {
+            echo "Otomatik haftalık kontrol, ${GITHUB_RUN_ID} numaralı çalıştırma."
+            echo
+            grep -v '^ESKI_SAYISI=' tazelik.md
+            echo
+            grep -v '^KIRIK_SAYISI=' linkler.md
+          } > govde.md
+          NUM=$(gh issue list --state open --search '"Güncellik kontrolü" in:title' --json number --jq '.[0].number // empty')
+          if [ "$ESKI" = "0" ] && [ "$KIRIK" = "0" ]; then
+            if [ -n "$NUM" ]; then
+              gh issue close "$NUM" --comment "Eskimiş değer ve kırık link kalmadı."
+            fi
+          elif [ -n "$NUM" ]; then
+            gh issue edit "$NUM" --body-file govde.md
+          else
+            gh issue create --title "Güncellik kontrolü" --body-file govde.md
+          fi

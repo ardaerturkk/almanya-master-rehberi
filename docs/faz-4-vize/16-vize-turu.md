@@ -1,11 +1,11 @@
 ---
 title: "Adım 16: Vize Türü ve Başvuru Kanalı"
-description: "Almanya öğrenci vizesi türleri, Türkiye'de Auslandsportal ve iDATA üzerinden başvuru, randevu bekleme süresi (1-4 ay) ve vize ücreti (75 EUR)."
+description: "Almanya öğrenci vizesi türleri, Türkiye'de Auslandsportal ve iDATA üzerinden başvuru, randevu bekleme süresi ve vize ücreti."
 ---
 
 # Adım 16: Vize Türü ve Başvuru Kanalı
 
-> ⏱ Süre: Randevu için misyona göre 1-4 ay bekleme, ardından karar süresi   💶 Maliyet: 75 EUR vize ücreti + iDATA hizmet bedeli   📅 Ne zaman: Dönem başlangıcından en az 4-5 ay önce süreci başlat
+> ⏱ Süre: Randevu için misyona göre 1-4 ay bekleme, ardından karar süresi   💶 Maliyet: <Deger k="vize_kanali.ucret" /> vize ücreti + iDATA hizmet bedeli   📅 Ne zaman: Dönem başlangıcından en az 4-5 ay önce süreci başlat
 
 ::: info Bu adımda ne yapacaksın
 Hangi vize türüne başvuracağını belirleyeceksin, Alman Dışişleri Bakanlığı'nın çevrimiçi portalı Auslandsportal'a kaydolup randevu sırana gireceksin. Bekleme uzun sürebildiği için bu adımı kabulü beklerken de düşünmeye başlamak gerekiyor.
@@ -19,7 +19,7 @@ Almanya öğrenim amaçlı iki vize veriyor:
 | --- | --- | --- |
 | Kimin için | Henüz kesin kabulün yok, ama Almanya'da üniversite başvurusu için bulunmak veya ön koşulları tamamlamak istiyorsun | Üniversiteden kesin kabul mektubun (Zulassungsbescheid) var |
 | Geçerlilik | Azami 9 ay (AufenthG §17/2) | Programın süresine göre |
-| Sperrkonto tutarı | 1.091 EUR/ay | 992 EUR/ay ([Adım 17](/faz-4-vize/17-sperrkonto)) |
+| Sperrkonto tutarı | <Deger k="sperrkonto.chancenkarte_aylik" /> | <Deger k="sperrkonto.aylik_tutar" /> ([Adım 17](/faz-4-vize/17-sperrkonto)) |
 | Sonraki adım | Kabulü alınca Almanya'da öğrenci oturum iznine çevrilir | Doğrudan öğrenci oturum izni sürecine bağlanır |
 
 **Kısaca:** Kesin kabulün varsa öğrenci vizesine başvur. Kabulün henüz yoksa ve önce başvuru yapman gerekiyorsa aday öğrenci vizesi senin rotan.
@@ -63,7 +63,7 @@ Kabul mektubu olmadan Auslandsportal'da randevu kaydı açılıp açılamayacağ
 
 ## Ücret
 
-- **Vize ücreti: 75 EUR.** Öğrenci vizesi ulusal (D) vize; yasal ücret AufenthV §46/2'de 75 EUR. İnternette gördüğün 90 EUR rakamı kısa süreli Schengen vizesinin ücreti; öğrenci vizesiyle karıştırma.
+- **Vize ücreti: <Deger k="vize_kanali.ucret" />.** Öğrenci vizesi ulusal (D) vize; yasal ücret AufenthV §46/2'de belirlenmiş. İnternette gördüğün 90 EUR rakamı kısa süreli Schengen vizesinin ücreti; öğrenci vizesiyle karıştırma.
 - **Burs alanlar:** Kamu bursu alanlar (ör. DAAD) bu ücretten muaf (AufenthV §52/5).
 - **iDATA hizmet bedeli:** Auswärtiges Amt'ın sayfalarında farklı rakamlar geçiyor (39,92 EUR, Türkçe metinde 32,81 EUR, bir sayfada ayrıca 12 EUR randevu bedeli). Öğrenci vizesi için kesin toplamı portalda süreç sırasında göreceksin.
 - Yasa metnindeki "öğrenciler muaf" gibi bir okunuş (AufenthV §52/8) eski madde numaralarına atıf yapıyor; öğrencilerin ücretten muaf olduğunu varsayma.

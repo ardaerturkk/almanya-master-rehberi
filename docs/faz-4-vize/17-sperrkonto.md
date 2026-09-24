@@ -1,11 +1,11 @@
 ---
 title: "Adım 17: Sperrkonto Açma"
-description: "Almanya öğrenci vizesi için Sperrkonto (bloke hesap): 2026/27 tutarı 992 EUR/ay, sağlayıcı karşılaştırması ve alternatif finansman yolları."
+description: "Almanya öğrenci vizesi için Sperrkonto (bloke hesap): güncel aylık ve yıllık tutar, sağlayıcı karşılaştırması ve alternatif finansman yolları."
 ---
 
 # Adım 17: Sperrkonto Açma
 
-> ⏱ Süre: 1-2 hafta (sağlayıcı onayı)   💶 Maliyet: ~120-280 EUR (kurulum + yıl 1 aylık ücretler) + bloke edilen 992 EUR/ay   📅 Ne zaman: Vize randevusundan en az 2-3 hafta önce
+> ⏱ Süre: 1-2 hafta (sağlayıcı onayı)   💶 Maliyet: ~120-280 EUR (kurulum + yıl 1 aylık ücretler) + bloke edilen <Deger k="sperrkonto.aylik_tutar" />   📅 Ne zaman: Vize randevusundan en az 2-3 hafta önce
 
 ::: info Bu adımda ne yapacaksın
 Finansman kanıtı olarak bir Sperrkonto (bloke hesap) açacaksın. Bu, vize başvurusunun en
@@ -15,7 +15,7 @@ Sperrkonto tek yol değil; alternatiflerin karşılaştırması için aşağıya
 
 ## Ne kadar para bloke etmelisin?
 
-**Aylık 992 EUR, yıllık 11.904 EUR** (2026 itibariyle). Bu tutar BAföG §13/§13a'daki azami
+Bloke etmen gereken tutar **<Deger k="sperrkonto.aylik_tutar" />**, yani **<Deger k="sperrkonto.yillik_tutar" />** (2026 itibariyle). Bu tutar BAföG §13/§13a'daki azami
 destekleme oranına (Bedarfssatz) dayanıyor: 475 EUR temel ihtiyaç + 380 EUR barınma + 137 EUR
 sağlık/bakım sigortası ek payı (102 + 35).
 
@@ -23,7 +23,7 @@ sağlık/bakım sigortası ek payı (102 + 35).
 992 EUR rakamı BAföG yasasından hesaplanıyor: 475 (§13/1 no. 2) + 380 (§13/2 no. 2) + 102 + 35 (§13a/1) = 992 EUR. Yasa metninde 2026/27 kış dönemi için bir değişiklik yok. Auswärtiges Amt'ın Sperrkonto sayfası tutarı kendisi vermiyor; güncel tutar Auslandsportal'da (digital.diplo.de) yazıyor, Berlin ve München yabancılar dairelerinin sayfalarında da 992 EUR görünüyor. Kabinenin 12.08.2026'da kabul ettiği 30. BAföG-Änderungsgesetz'i (konut gideri payının 01.04.2027'den itibaren 440 EUR'ya çıkması planlanıyor) henüz yasalaşmadı; kabul edilirse tutar ileride değişebilir. Başvurmadan hemen önce Auslandsportal'daki tutara bak.
 :::
 
-Chancenkarte ve aday öğrenci vizesi (Studienplatzsuche) için farklı ve daha yüksek bir tutar geçerli (1.091 EUR/ay, 13.092 EUR/yıl); bunu öğrenci vizesiyle karıştırma.
+Chancenkarte ve aday öğrenci vizesi (Studienplatzsuche) için farklı ve daha yüksek bir tutar geçerli (<Deger k="sperrkonto.chancenkarte_aylik" />, <Deger k="sperrkonto.chancenkarte_yillik" />); bunu öğrenci vizesiyle karıştırma.
 
 ## Sperrkonto mu, alternatif mi?
 
@@ -34,7 +34,7 @@ bak. Kısaca:
 - **Sperrkonto**: Herkes için uygun, tamamen kendi başına açılabilir.
 - **Verpflichtungserklärung**: Almanya'da ikamet eden biri garantör olacaksa daha ucuz — ama
   garantörün pratikte Almanya'da yaşaması ve geliri Almanya'da olması gerekiyor, Türkiye'de yaşayan biri için bu yol gerçekçi değil.
-- **Burs**: Aylık asgari 992 EUR'u kapsayan resmi bir bursun varsa (DAAD, Erasmus+, vakıf)
+- **Burs**: Aylık asgari tutarı (<Deger k="sperrkonto.aylik_tutar" />) kapsayan resmi bir bursun varsa (DAAD, Erasmus+, vakıf)
   Sperrkonto'ya gerek yok.
 
 ## Sağlayıcı karşılaştırması
@@ -57,13 +57,13 @@ et.
 - [ ] Pasaport (geçerlilik süresi yeterli olmalı)
 - [ ] Kabul mektubu veya üniversite başvuru teyidi
 - [ ] Sağlayıcının kimlik doğrulama süreci için gerekli belgeler (video-ident vb.)
-- [ ] İlk yıl için gereken toplam tutar: kurulum ücreti + 11.904 EUR
+- [ ] İlk yıl için gereken toplam tutar: kurulum ücreti + <Deger k="sperrkonto.yillik_tutar" />
 
 ## Adımlar
 
 1. Yukarıdaki karşılaştırmaya göre bir sağlayıcı seç.
 2. Online başvuru formunu doldur, kimlik doğrulamasını (genelde video görüşme) tamamla.
-3. Hesabı 11.904 EUR (veya sağlayıcının istediği asgari tutar) ile fonla.
+3. Hesabı <Deger k="sperrkonto.yillik_tutar" /> (veya sağlayıcının istediği asgari tutar) ile fonla.
 4. Sağlayıcıdan aldığın onay belgesini vize başvuru dosyana ekle (Adım 19).
 5. Almanya'ya vardıktan ve Anmeldung'unu yaptıktan sonra hesabı aktifleştirip aylık çekim
    yapmaya başlayabilirsin (bkz. Adım 25).
@@ -72,7 +72,7 @@ et.
 
 - [ ] Sperrkonto (veya alternatif finansman kanıtı) açıldı ve fonlandı
 - [ ] Onay belgesi elinde
-- [ ] Güncel tutarı (992 EUR/ay) vize randevusundan hemen önce tekrar teyit ettin
+- [ ] Güncel tutarı (<Deger k="sperrkonto.aylik_tutar" />) vize randevusundan hemen önce tekrar teyit ettin
 
 ## Sık hatalar
 
