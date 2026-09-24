@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Almanya Master Rehberi//TR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almanya Master Takvimi
+BEGIN:VEVENT
+UID:hazirlik-20260819@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:Program araştırması ve dil sınavı hazırlığı başlasın
+DESCRIPTION:Faz 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Program araştırması ve dil sınavı hazırlığı başlasın
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dil-20270215@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Dil sınavı sonucu elinde olsun
+DESCRIPTION:Sonuç haftalar sürebilir; TU Berlin geçici belge kabul etmiy
+ or.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dil sınavı sonucu elinde olsun
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:belge-20270317@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Belge toplama ve yeminli tercüme
+DESCRIPTION:Faz 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Belge toplama ve yeminli tercüme
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vizekayit-20270404@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Auslandsportal'da vize randevu kaydını aç
+DESCRIPTION:Randevular kayıt tarihine göre sırayla veriliyor\, erken kay
+ ıt öneriliyor. Kabul mektubu olmadan kayıt açılıp açılamadığı d
+ oğrulanamadı; kabulü beklemeden denemeye değer.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Auslandsportal'da vize randevu kaydını aç
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:uniassist-20270520@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:uni-assist'e başvur (uni-assist kullanan programlarda)
+DESCRIPTION:uni-assist son tarihten en az 8 hafta önce öneriyor; Türkiye
+  için işlem 2-3 hafta\, genelde 4-6 hafta.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:uni-assist'e başvur (uni-assist kullanan programlarda)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:son-20270715@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Başvuru son tarihi
+DESCRIPTION:Program bazlı değişir; kendi programının tarihini yukarıy
+ a gir.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Başvuru son tarihi
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:konaklama-20270715@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Yurt başvurusu için hedef tarih
+DESCRIPTION:Şehre göre değişir (ör. Kiel için 15 Temmuz veya 15 Ocak 
+ hedefi\, Münih için 15 Ağustos).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yurt başvurusu için hedef tarih
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sperrkonto-20270719@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:Sperrkonto ve sağlık sigortası onayı elinde olsun
+DESCRIPTION:Randevudan en az 2 hafta önce.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sperrkonto ve sağlık sigortası onayı elinde olsun
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:randevu-20270802@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:Tahmini vize randevusu (kuyruk 4 ay varsayımıyla)
+DESCRIPTION:Gerçek tarihi portalda göreceksin.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tahmini vize randevusu (kuyruk 4 ay varsayımıyla)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:turkiye-20270910@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:Türkiye tarafı işler\, çıkış harcı\, bavul
+DESCRIPTION:Faz 5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Türkiye tarafı işler\, çıkış harcı\, bavul
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:karar-20270916@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:Vize kararı en geç bu tarihte (randevudan 45 gün sonra)
+DESCRIPTION:Auswärtiges Amt: en az 15\, bazen 45 güne kadar; bayramlarda 
+ daha uzun.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vize kararı en geç bu tarihte (randevudan 45 gün sonra)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:varis-20270924@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Varış
+DESCRIPTION:Anmeldung için taşınmadan itibaren 2 haftan var.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Varış
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:baslangic-20271001@almanya-master-rehberi
+DTSTAMP:20260924T154833Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Dönem başlangıcı
+DESCRIPTION:Ders başlangıcı genelde 2-3 hafta sonra.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dönem başlangıcı
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

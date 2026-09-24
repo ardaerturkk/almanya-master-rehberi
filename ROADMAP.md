@@ -118,13 +118,17 @@ v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzelti
 - [x] `referans/kaynaklar.md` değer tablosu (`<DegerTablosu />`)
 - [x] `.github/workflows/tazelik.yml` (haftalık: 120 günden eski değerler + kırık dış linkler → tek "Güncellik kontrolü" issue'su)
 
-## Paket 3: Okur deneyimi (P1)
+## Paket 3: Okur deneyimi (P1) — PR açık
 
-- [ ] Kalıcı checkbox'lar, `/checklist` ile ortak storage, sidebar ✓
-- [ ] İlerleme dışa/içe aktarma
-- [ ] Arayüz Türkçeleştirme, Türkçe/Almanca arama normalizasyonu
-- [ ] Takvimi yeniden yaz (WiSe/SoSe, gün bazlı, .ics)
-- [ ] Yazdırma CSS, "Uygun muyum?" sihirbazı, 375px mobil kontrol
+- [x] `- [ ]` listeleri gerçek, kalıcı onay kutuları (markdown-it kuralı `gorevListesi.ts` + `IlerlemeYoneticisi`)
+- [x] "Kontrol" listesi tamamlanınca `/checklist`'te adım otomatik işaretlenir (ortak storage), sidebar'da ✓
+- [x] İlerlemeyi dışa/içe aktarma: JSON dosyası ve paylaşılabilir bağlantı (`IlerlemeYedek`)
+- [x] Arayüz Türkçeleştirildi (Son güncelleme, Görünüm, Menü, Başa dön, arama, 404 + ana sayfa ve arama düğmesi, tarih tr-TR)
+- [x] Arama normalizasyonu: ı/i, ş/s, ğ/g, ü/u, ö/o, ç/c ve Almanca ä/ö/ü/ß (`processTerm`)
+- [x] Takvim yeniden yazıldı: WiSe/SoSe, gün bazlı `subtractDays`, vize tamponu (kuyruk + karar + tampon), `.ics` indirme
+- [x] `/checklist` yazdırma CSS'i
+- [x] "Uygun muyum?" sihirbazı (7 soru, kişiye özel rota)
+- [x] 375px kontrolü: 60 sayfada yatay taşma yok, geniş tablolar kaydırılabilir kapsayıcıda
 
 ## Paket 4: İçerik boşlukları (P1)
 
