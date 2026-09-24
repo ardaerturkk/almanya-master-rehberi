@@ -1,5 +1,6 @@
 ---
 title: "Checklist'im"
+description: "Almanya'da master sürecinin 32 adımını işaretleyebileceğin, ilerlemeni cihazlar arasında taşıyabileceğin ve yazdırabileceğin kişisel bir kontrol listesi."
 ---
 
 # Checklist'im

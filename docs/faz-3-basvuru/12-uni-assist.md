@@ -1,6 +1,6 @@
 ---
 title: "Adım 12: uni-assist Adım Adım"
-description: "uni-assist başvurusu adım adım: VPD nedir, ücretler (ilk ve ek program ücretleri), Türkiye'den ödeme yöntemleri, işlem süresi ve hangi üniversiteler kullanıyor."
+description: "uni-assist başvurusu adım adım: VPD nedir, ücretler, Türkiye'den ödeme yöntemleri, işlem süresi ve hangi üniversiteler uni-assist kullanıyor sorularının cevabı."
 ---
 
 # Adım 12: uni-assist Adım Adım

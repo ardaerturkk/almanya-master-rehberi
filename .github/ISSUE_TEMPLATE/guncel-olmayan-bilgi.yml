@@ -1,0 +1,43 @@
+name: Güncel olmayan bilgi
+description: Sitede yanlış veya eskimiş bir bilgi (tutar, süre, kural) gördüm.
+title: "[Güncel değil] "
+labels: ["guncel-degil"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler. Düzeltme için resmi bir kaynak linki şart: kaynaksız düzeltmeleri işleyemeyiz.
+  - type: input
+    id: sayfa
+    attributes:
+      label: Sayfa
+      description: Sayfanın adı veya adresi.
+      placeholder: "Adım 17: Sperrkonto Açma"
+    validations:
+      required: true
+  - type: textarea
+    id: eski
+    attributes:
+      label: Sitede yazan (eski değer)
+      description: Yanlış veya eskimiş olduğunu düşündüğün cümle ya da rakam.
+    validations:
+      required: true
+  - type: textarea
+    id: yeni
+    attributes:
+      label: Olması gereken (yeni değer)
+    validations:
+      required: true
+  - type: input
+    id: kaynak
+    attributes:
+      label: Kaynak linki
+      description: Resmi kaynak tercih edilir (yasa metni, Auswärtiges Amt, üniversite sayfası, ilgili kurum).
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: input
+    id: tarih
+    attributes:
+      label: Kaynağı kontrol ettiğin tarih
+      placeholder: "GG.AA.YYYY"

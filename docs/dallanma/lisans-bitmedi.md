@@ -1,5 +1,6 @@
 ---
 title: "Lisansım Henüz Bitmedi (Son Sınıf Başvurusu)"
+description: "Lisansın henüz bitmediyse Almanya master başvurusu: başvuruda diploma neden şart değil, zaman çizelgesi, şartlı kabul ve vize başvurusu için adım adım rehber."
 ---
 
 # Lisansım Henüz Bitmedi (Son Sınıf Başvurusu)

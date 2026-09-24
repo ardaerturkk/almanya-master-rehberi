@@ -1,5 +1,6 @@
 ---
 title: "Şartlı Kabul (Bedingte Zulassung) Aldım"
+description: "Şartlı kabul (bedingte Zulassung) aldıysan eksik belgeyi ne zamana kadar sunmalısın? Üniversiteye göre değişen süreler, örnekler ve kaçırmanın sonuçları."
 ---
 
 # Şartlı Kabul (Bedingte Zulassung) Aldım

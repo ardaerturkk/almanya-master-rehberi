@@ -1,5 +1,6 @@
 ---
 title: "Faz 7: Okurken ve Sonrasında"
+description: "Faz 7 Okurken ve Sonrasında: çalışma hakları, oturum izni uzatma, mezuniyet sonrası seçenekler. Bu faz sonunda elinde ne olmalı ve toplam süre ile maliyet."
 ---
 
 # Faz 7: Okurken ve Sonrasında

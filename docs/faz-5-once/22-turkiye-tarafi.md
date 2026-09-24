@@ -1,6 +1,6 @@
 ---
 title: "Adım 22: Türkiye Tarafı İşler"
-description: "Türkiye'den ayrılmadan önce: 2026 pasaport harcı ve defter bedeli, yurt dışı çıkış harcı, muafiyetler, apostil ve tercüme."
+description: "Türkiye'den ayrılmadan önce: 2026 pasaport harcı ve defter bedeli, yurt dışı çıkış harcı, muafiyetler, apostil ve tercüme işleri için kontrol listesi."
 ---
 
 # Adım 22: Türkiye Tarafı İşler

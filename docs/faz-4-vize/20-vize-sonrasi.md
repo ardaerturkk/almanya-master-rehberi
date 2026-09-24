@@ -1,5 +1,6 @@
 ---
 title: "Adım 20: Vizeyi Aldıktan Sonra"
+description: "Vizeni aldıktan sonra: vize etiketini kontrol etme, Studienbewerbervisum ve öğrenci vizesi sonrası yapılacaklar ile Almanya'ya giriş ve oturum izni hazırlığı."
 ---
 
 # Adım 20: Vizeyi Aldıktan Sonra

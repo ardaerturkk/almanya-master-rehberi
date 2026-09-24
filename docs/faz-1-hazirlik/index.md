@@ -1,5 +1,6 @@
 ---
 title: "Faz 1: Hazırlık"
+description: "Faz 1 Hazırlık: Almanya master sistemi, program bulma, uygunluk, dil sınavı, GRE, bütçe ve askerlik tecili. Bu faz sonunda elinde ne olmalı, süre ve maliyet."
 ---
 
 # Faz 1: Hazırlık

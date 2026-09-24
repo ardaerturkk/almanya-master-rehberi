@@ -1,6 +1,6 @@
 ---
 title: "Adım 9: Onay, Tasdik, Tercüme"
-description: "Diploma ve transkript için apostil, onaylı kopya ve yeminli tercüme: uni-assist Türkiye kuralı, Türkiye'de yeminli tercüman kabulü ve sık hatalar."
+description: "Diploma ve transkript için apostil, onaylı kopya ve yeminli tercüme: uni-assist Türkiye kuralı, Türkiye'de yeminli tercüman kabulü ve sık yapılan hatalar."
 ---
 
 # Adım 9: Onay, Tasdik, Tercüme

@@ -1,6 +1,6 @@
 ---
 title: "Adım 13: Üniversite Portalı"
-description: "uni-assist sonrası veya doğrudan başvuruda üniversite portalları: TUM, HU Berlin, LMU örnekleri, FAU ve TU Darmstadt başvuru ücreti ve tarihleri."
+description: "uni-assist sonrası veya doğrudan başvuruda üniversite portalları: TUM, HU Berlin ve LMU örnekleri ile FAU ve TU Darmstadt için başvuru ücreti ve tarihleri."
 ---
 
 # Adım 13: Üniversite Portalı

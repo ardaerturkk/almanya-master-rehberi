@@ -1,6 +1,6 @@
 ---
 title: "Kabulüm WiSe'ye yetişmezse: SoSe ve erteleme"
-description: "Kabul mektubu kış dönemine yetişmezse ne olur: yaz dönemi (SoSe) başvuru tarihleri, kabulün ertelenmesi, yeniden başvuru ve vize takvimi adım adım."
+description: "Kabul mektubu kış dönemine yetişmezse ne olur: yaz dönemi (SoSe) başvuru tarihleri, kabulün ertelenmesi, yeniden başvuru ve vize takvimi adım adım rehberi."
 ---
 
 # Kabulüm WiSe'ye yetişmezse: SoSe ve erteleme

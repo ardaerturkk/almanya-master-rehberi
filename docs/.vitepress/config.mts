@@ -52,6 +52,37 @@ export default defineConfig({
 
   head: [["link", { rel: "icon", href: "/almanya-master-rehberi/favicon.svg" }]],
 
+  sitemap: { hostname: "https://ardaerturkk.github.io/almanya-master-rehberi/" },
+
+  // Sayfa bazlı Open Graph ve Twitter meta etiketleri.
+  transformHead({ pageData }) {
+    const site = "https://ardaerturkk.github.io/almanya-master-rehberi/";
+    const yol = pageData.relativePath.replace(/(^|\/)index\.md$/, "$1").replace(/\.md$/, "");
+    const url = site + yol;
+    const baslik = pageData.relativePath === "index.md" ? "Almanya Master Rehberi" : `${pageData.title} | Almanya Master Rehberi`;
+    const aciklama =
+      pageData.frontmatter.description ||
+      pageData.description ||
+      "Almanya'da yüksek lisans yapmak isteyenler için sıfırdan yerleşene kadar adım adım rehber.";
+    const gorsel = site + "og-image.png";
+    return [
+      ["meta", { property: "og:type", content: "website" }],
+      ["meta", { property: "og:site_name", content: "Almanya Master Rehberi" }],
+      ["meta", { property: "og:locale", content: "tr_TR" }],
+      ["meta", { property: "og:title", content: baslik }],
+      ["meta", { property: "og:description", content: aciklama }],
+      ["meta", { property: "og:url", content: url }],
+      ["meta", { property: "og:image", content: gorsel }],
+      ["meta", { property: "og:image:width", content: "1200" }],
+      ["meta", { property: "og:image:height", content: "630" }],
+      ["meta", { name: "twitter:card", content: "summary_large_image" }],
+      ["meta", { name: "twitter:title", content: baslik }],
+      ["meta", { name: "twitter:description", content: aciklama }],
+      ["meta", { name: "twitter:image", content: gorsel }],
+      ["link", { rel: "canonical", href: url }],
+    ];
+  },
+
   themeConfig: {
     nav: [
       { text: "Başla", link: "/baslamadan-once" },
@@ -163,6 +194,11 @@ export default defineConfig({
         ],
       },
     ],
+
+    editLink: {
+      pattern: "https://github.com/ardaerturkk/almanya-master-rehberi/edit/main/docs/:path",
+      text: "Bu sayfada hata mı var? GitHub'da düzenle",
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/ardaerturkk/almanya-master-rehberi" },

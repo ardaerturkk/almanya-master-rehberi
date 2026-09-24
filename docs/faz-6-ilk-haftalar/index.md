@@ -1,5 +1,6 @@
 ---
 title: "Faz 6: Almanya'da İlk Haftalar"
+description: "Faz 6 İlk Haftalar: varış, Anmeldung, Immatrikulation, banka ve Steuer-ID, Ausländerbehörde ve sözleşmeler. Bu faz sonunda elinde ne olmalı, süre ve maliyet."
 ---
 
 # Faz 6: Almanya'da İlk Haftalar

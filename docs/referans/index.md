@@ -1,5 +1,6 @@
 ---
 title: "Referans"
+description: "Referans bölümü: sözlük, sık sorulan sorular, sorun giderme, belge şablonları, araçlar ile kaynaklar ve katkı sayfalarına hızlı erişim için giriş sayfası."
 ---
 
 # Referans

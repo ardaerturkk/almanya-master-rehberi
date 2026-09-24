@@ -1,5 +1,6 @@
 ---
 title: "Dallanma Sayfaları"
+description: "Ana rotadan sapma noktaları: dil seçimi, başvuru kanalı, finansman, 30 yaş üstü, şartlı kabul, lisansı bitmemiş adaylar, vize reddi, garantör ve SoSe kaydırma."
 ---
 
 # Dallanma Sayfaları

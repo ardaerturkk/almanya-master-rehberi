@@ -23,6 +23,7 @@ features:
     details: Bir adımda birden fazla yöntem varsa hepsi karşılaştırmalı anlatılır. Hiçbir bilgi kaynaksız yazılmaz.
   - title: Takılınca bak
     details: Sorun giderme, SSS ve sözlük her zaman bir tık uzakta.
+description: "Almanya'da yüksek lisans için Türkçe, kaynaklı, adım adım rehber: program bulmadan vizeye ve ikamet iznine kadar 7 faz, 32 adım ve tek net rota takip et."
 ---
 
 ::: info Bilgiler nasıl doğrulandı?

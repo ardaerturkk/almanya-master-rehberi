@@ -1,5 +1,6 @@
 ---
 title: "Faz 2: Belgeler"
+description: "Faz 2 Belgeler: başvuru için gereken belge listesi, apostil ve yeminli tercüme, CV ve motivasyon mektubu. Bu faz sonunda elinde ne olmalı, süre ve maliyet."
 ---
 
 # Faz 2: Belgeler

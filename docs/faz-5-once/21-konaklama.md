@@ -1,5 +1,6 @@
 ---
 title: "Adım 21: Konaklama"
+description: "Almanya'da konaklama: yurt, WG ve özel kiralık karşılaştırması, başvuru zamanı, bekleme süreleri, dolandırıcılık uyarıları ve kira sözleşmesi ipuçları."
 ---
 
 # Adım 21: Konaklama

@@ -1,5 +1,6 @@
 ---
 title: "Faz 3: Başvuru"
+description: "Faz 3 Başvuru: başvuru kanalı, uni-assist, üniversite portalları, bekleme süreci ve kabul mektubu. Bu faz sonunda elinde ne olmalı ve toplam süre ile maliyet."
 ---
 
 # Faz 3: Başvuru

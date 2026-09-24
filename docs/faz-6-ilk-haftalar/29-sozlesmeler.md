@@ -1,5 +1,6 @@
 ---
 title: "Adım 29: Rundfunkbeitrag ve Sözleşmeler"
+description: "Almanya'da Rundfunkbeitrag (yayın katkı payı), muafiyet koşulları, internet ve elektrik sözleşmeleri: öğrenciler ne öder, kim muaf olur, nelere dikkat etmeli."
 ---
 
 # Adım 29: Rundfunkbeitrag ve Sözleşmeler

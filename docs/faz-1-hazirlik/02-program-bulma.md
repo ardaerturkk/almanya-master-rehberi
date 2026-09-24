@@ -1,5 +1,6 @@
 ---
 title: "Adım 2: Program Bulma"
+description: "Almanya'da master programı bulma: Hochschulkompass ve DAAD veri tabanıyla arama, 10-15 programı 5-8'e daraltma ve başvuru öncesi kontrol edilecek noktalar."
 ---
 
 # Adım 2: Program Bulma

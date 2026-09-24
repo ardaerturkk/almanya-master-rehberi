@@ -1,5 +1,6 @@
 ---
 title: "30 Yaş Üstüyüm / Sigorta İstisnası"
+description: "30 yaşını dolduranlar için Almanya'da öğrenci sağlık sigortası tarifesinin ne zaman bittiği, özel sigortaya geçiş seçenekleri ve zamanlama rehberi ile örnekler."
 ---
 
 # 30 Yaş Üstüyüm / Sigorta İstisnası

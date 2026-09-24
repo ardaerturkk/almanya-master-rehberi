@@ -1,5 +1,6 @@
 ---
 title: "Adım 11: Başvuru Kanalını Belirleme"
+description: "Almanya'da master başvuru kanalı: uni-assist ve üniversite portalı genelde birlikte çalışır; TUM, HU Berlin ve LMU örnekleriyle hangi üniversite ne kullanıyor."
 ---
 
 # Adım 11: Başvuru Kanalını Belirleme

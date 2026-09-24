@@ -1,5 +1,6 @@
 ---
 title: "Faz 4: Vize"
+description: "Faz 4 Vize: vize türü ve başvuru kanalı, Sperrkonto, sağlık sigortası ve vize belgeleri. Bu faz sonunda elinde ne olmalı, toplam süre ve maliyet aralığı."
 ---
 
 # Faz 4: Vize

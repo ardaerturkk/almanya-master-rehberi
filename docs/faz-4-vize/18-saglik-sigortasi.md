@@ -1,5 +1,6 @@
 ---
 title: "Adım 18: Sağlık Sigortası"
+description: "Almanya'da öğrenci sağlık sigortası: yasal sigorta (GKV) ve özel sigorta farkı, aylık maliyet, 30 yaş sınırı ve vize başvurusu için gereken sigorta belgesi."
 ---
 
 # Adım 18: Sağlık Sigortası

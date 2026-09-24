@@ -1,5 +1,6 @@
 ---
 title: "uni-assist mi, Doğrudan Başvuru mu?"
+description: "uni-assist mi, üniversiteye doğrudan başvuru mu? VPD nedir, hangi üniversiteler uni-assist kullanır, süre, ücret ve Türkiye'den ödeme yöntemleri rehberi."
 ---
 
 # uni-assist mi, Doğrudan Başvuru mu?

@@ -1,5 +1,6 @@
 ---
 title: "Adım 8: Belge Listesi"
+description: "Almanya master başvurusu için standart belge listesi: diploma, transkript, dil sertifikası, CV, motivasyon mektubu ve programa göre ek belgeler kontrol listesi."
 ---
 
 # Adım 8: Belge Listesi

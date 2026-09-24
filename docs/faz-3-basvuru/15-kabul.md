@@ -1,5 +1,6 @@
 ---
 title: "Adım 15: Kabul (Zulassungsbescheid)"
+description: "Kabul mektubu (Zulassungsbescheid) geldi, şimdi ne yapmalı? Kesin, şartlı kabul ve bekleme listesi farkı, şartlı kabulde diploma teslim süreleri ve noktalar."
 ---
 
 # Adım 15: Kabul (Zulassungsbescheid)

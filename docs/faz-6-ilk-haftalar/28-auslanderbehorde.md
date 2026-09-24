@@ -1,5 +1,6 @@
 ---
 title: "Adım 28: Ausländerbehörde — Oturum İzni"
+description: "Ausländerbehörde ve öğrenci oturum izni: randevu alma, gereken belgeler, harç, kart basım süresi ve Türk vatandaşları için harç indirimi ihtimali rehberi."
 ---
 
 # Adım 28: Ausländerbehörde — Oturum İzni

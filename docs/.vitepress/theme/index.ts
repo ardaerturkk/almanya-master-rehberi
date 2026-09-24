@@ -12,6 +12,7 @@ import IlerlemeYoneticisi from "./components/IlerlemeYoneticisi.vue";
 import IlerlemeYedek from "./components/IlerlemeYedek.vue";
 import UygunMuyumSihirbazi from "./components/UygunMuyumSihirbazi.vue";
 import NotFound404 from "./components/NotFound404.vue";
+import SayfaGeriBildirim from "./components/SayfaGeriBildirim.vue";
 import "./custom.css";
 
 export default {
@@ -19,6 +20,7 @@ export default {
   Layout: () =>
     h(DefaultTheme.Layout, null, {
       "layout-bottom": () => h(IlerlemeYoneticisi),
+      "doc-after": () => h(SayfaGeriBildirim),
       "not-found": () => h(NotFound404),
     }),
   enhanceApp({ app }) {

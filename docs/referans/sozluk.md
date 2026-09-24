@@ -1,5 +1,6 @@
 ---
 title: "Sözlük"
+description: "Almanya master sürecinde karşına çıkan Almanca ve İngilizce terimlerin Türkçe sözlüğü: Anmeldung, Sperrkonto, Zulassungsbescheid, VPD, Klage ve yüzlerce terim."
 ---
 
 # Sözlük

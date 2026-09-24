@@ -1,6 +1,6 @@
 ---
 title: "Verpflichtungserklärung: garantörlük beyanı rehberi"
-description: "Almanya vizesi için Verpflichtungserklärung (garantörlük beyanı): kim verebilir, Ausländerbehörde'de nasıl alınır, hangi belgeler gerekir, ne kadar geçerlidir ve garantörün mali riski nedir."
+description: "Almanya vizesi için Verpflichtungserklärung: garantör kim olabilir, belgeler, geçerlilik süresi ve garantörün 5 yıllık mali riski. Sperrkonto ile karşılaştırma."
 ---
 
 # Verpflichtungserklärung: garantörlük beyanı rehberi
