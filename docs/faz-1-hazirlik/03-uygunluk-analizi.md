@@ -23,10 +23,8 @@ yabancı eğitim kurumlarının Almanya'daki tanınma durumunu gösteren resmi v
 **Nasıl kontrol edilir**: anabin.kmk.org → "Institutionen" → "Suchen nach Institutionen" →
 ülke olarak Türkiye seç → kurum adını yaz → sonuçtan kurumu aç → "Status" alanına bak.
 
-::: danger Genelleme yapma
-"Çoğu Türk devlet üniversitesi H+ statüsünde" gibi bir genelleme bu araştırmada resmi kaynaktan
-doğrulanamadı. **Kendi mezun olduğun üniversiteyi anabin'de tek tek kontrol et** — varsayımla
-hareket etme.
+::: info Türkiye için anabin durumu
+24.09.2026 itibarıyla anabin'de Türkiye için listelenen **231 kurumun 231'i H+** (129 devlet, 97 vakıf, 4 askeri okul, 1 akademi). H+ kabul garantisi değil: master'a kabul kararını ve derecenin değerlendirmesini hedef üniversite yapar. Üniversiten listede yoksa bu "tanınmıyor" demek değil, "henüz değerlendirilmemiş" demek; hedef üniversiteye sor. **Kendi mezun olduğun üniversiteyi yine de anabin'de kontrol et.**
 :::
 
 ## Not çevrimi: Bayerische Formel

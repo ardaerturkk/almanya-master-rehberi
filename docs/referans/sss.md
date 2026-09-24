@@ -57,7 +57,7 @@ Hayır, alternatifleri var (Verpflichtungserklärung, burs). Bkz.
 Hayır, Türkiye bu kapsamda değil. Bkz. [Adım 16](/faz-4-vize/16-vize-turu).
 
 **Vize reddi alırsam ne yapmalıyım?**
-Ret mektubundaki itiraz (Remonstration) süreç ve süresini takip et. Bkz.
+Türkiye'deki misyonlarda ret kararına karşı itiraz dilekçesi (Remonstration) 01.07.2025'ten beri yok; yeni başvuru veya Berlin İdare Mahkemesi'ne dava (süre 1 ay) yolu var. Bkz.
 [Vize Reddi Aldım](/dallanma/vize-reddi).
 
 ## Almanya'da

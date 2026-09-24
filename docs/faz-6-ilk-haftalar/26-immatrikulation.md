@@ -30,10 +30,8 @@ Kayıt, üniversitenin online portalında (CAU Kiel'de HISinOne) başlıyor:
 
 İşlem süresi yaklaşık 2 hafta — erken başvurman öneriliyor.
 
-::: warning Doğrulanmadı
-Anmeldebescheinigung'un (adres kayıt belgesi) immatrikulasyon için ayrıca istenip istenmediği
-net teyit edilemedi — kabul mektubunla kontrol et. Her üniversitenin kendi son tarihleri ve
-belge şartları farklı olabilir, bu sayfa CAU Kiel örneğine dayanıyor.
+::: info Adres kaydı (Anmeldebescheinigung) kayıtta istenir mi?
+İncelenen üniversitelerin (Kiel, TUM, FU Berlin, Tübingen) master kayıt belge listelerinde ikamet kaydı yok; kayıtta asıl istenenler sağlık sigortası bildirimi ve dönem katkı payı ödemesi. Yabancılar dairesi ise ikamet kaydını ister (bkz. [Adım 25](/faz-6-ilk-haftalar/25-anmeldung), [Adım 28](/faz-6-ilk-haftalar/28-auslanderbehorde)). Kendi üniversitenin listesi için kabul mektubuna bak; bu sayfa CAU Kiel örneğine dayanıyor.
 :::
 
 ## Immatrikulation sonrası

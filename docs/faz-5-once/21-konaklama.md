@@ -22,7 +22,7 @@ Almanya'da konut arayan uluslararası öğrenciler en çok bu adımda dolandır�
 | Kim için | En ucuz, en garantili ama en uzun bekleme | Sosyal, orta fiyat | Bağımsızlık isteyenler, daha pahalı |
 | Nasıl bulunur | Şehrin Studierendenwerk'i üzerinden online başvuru | WG-Gesucht.de gibi platformlar | Emlak siteleri, emlakçı |
 | Başvuru zamanı | Çok erken — Münih örneğinde kış 2026/27 kontenjan kurası için son tarih 15 Ağustos 2026 | Kabul sonrası, ama erken başlamak avantaj | Kabul sonrası |
-| Bekleme süresi | 3-6 ay, popüler yurtlarda 1 yıla kadar (**kesin ortalama doğrulanamadı**) | Görece hızlı | Görece hızlı |
+| Bekleme süresi | Şehre ve yurda göre çok değişiyor (aşağıya bak) | Görece hızlı | Görece hızlı |
 
 ## Yurt (Studentenwohnheim)
 
@@ -84,13 +84,18 @@ koş, kişisel veri paylaşma, şüpheli ilanı platforma bildir, dolandırıld�
 - Yurt başvurusunu kabul mektubu gelene kadar ertelemek — bekleme süresi çok uzun olabiliyor.
 - Kündigungsverzicht maddesini fark etmeden imzalamak.
 
+## Yurt bekleme süreleri şehre göre değişiyor
+
+Tek bir ortalama yok; her Studierendenwerk kendi durumunu yayınlıyor:
+
+- **München:** Studierendenwerk'in resmi PDF'i (Eylül 2026) yurt bazında yaklaşık bekleme süresi veriyor: yurda göre 1-2 semesterden 5-6 semestere kadar.
+- **Kiel:** Bekleme listesi birikmiyor, her dönem yeni bir kura çekiliyor. Yaz dönemi (SoSe) şansı daha yüksek; kış döneminde herkese yer çıkmıyor. Başvuru için hedef tarihler 15 Temmuz (kış) ve 15 Ocak (yaz), ama bunlar kesin son tarih değil.
+- **Berlin:** Yurt başına süre değişiyor (6 ay, 7-18 ay, 18 ay üstü gibi kategoriler); başvurduktan sonra her 30 günde gelen e-postaya yanıt vermezsen sıradan düşersin.
+
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [Studierendenwerk München Oberbayern — Bewerbungsprozess](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
 2. [WG-Gesucht — Güvenli oda arama rehberi](https://www.wg-gesucht.de/en/artikel/tipps-fuer-eine-sichere-zimmersuche-so-haben-unserioese-anbieterinnen-keine-chance)
 3. LKA Baden-Württemberg basın açıklaması (09.07.2024) — sahte emlak ilanları uyarısı
-
-::: warning Doğrulanmadı
-Yurt bekleme süresinin kesin ortalaması bulunamadı — her Studierendenwerk kendi "Wartezeiten"
-tablosunu yayınlıyor, hedef şehrinkini ayrıca kontrol et.
-:::
+4. [Studierendenwerk München, bekleme süreleri ve kira listesi (PDF)](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Wartezeiten_Mietpreisliste_deutsch.pdf)
+5. [Studierendenwerk Schleswig-Holstein, Wohnen FAQ](https://studentenwerk.sh/de/faq-wohnen) ve [Studierendenwerk Berlin, Wohnen](https://www.stw.berlin/wohnen/)

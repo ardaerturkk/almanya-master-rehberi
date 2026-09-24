@@ -1,85 +1,113 @@
 # Doğrulama Raporu
 
-Faz 3 (doğrulama turu) çıktısı. Bu tablo, yazım sırasında (Faz 2) her sayfaya işlenmiş
-"Doğrulanmadı/doğrulanamadı" işaretli iddiaların konsolide listesidir — sayfa yazılırken zaten
-kaynağıyla eşleştirilip durumu (doğrulandı/belirsiz) işaretlendi, buradaki tablo o işaretlemenin
-tek yerde toplanmış hali. "Belirsiz" satırlar, sitede de `::: warning Doğrulanmadı` kutusuyla
-okura açıkça gösteriliyor — hiçbiri sessizce "kesin bilgi" gibi sunulmuyor.
+Son güncelleme: 24.09.2026 (v2, Paket 1). Bu rapor, sayfalarda "doğrulanmadı" diye işaretli olan
+31 maddenin durumunu tutar. Ham bulgular, kaynak URL'leri ve doğrulama yöntemleri
+`docs-internal/arastirma-notlari/v2-*.md` dosyalarında.
 
-**Metodoloji notu**: Sayfa yazımı sırasında (Faz 2) her iddia, araştırma raporlarındaki
-kaynakla eşleştirilerek yazıldı — bu, ayrı bir "yaz, sonra doğrula" iki geçişli süreç yerine,
-yazarken doğrulama durumu (dogrulandi/belirsiz) `data/degerler.yml`'e de işlendi. Bu tablo o
-sürecin sonucudur; aşağıdaki "belirsiz" maddeler bir sonraki oturumda veya kullanıcı tarafından
-öncelikli olarak kontrol edilmelidir.
+Önceki sürümde özet "38 belirsiz madde" diyordu; tablonun kendisi 31 satırdı. Doğru sayı 31'dir.
 
 ## Durum özeti
 
-| Durum | Sayı (yaklaşık) |
+| Durum | Sayı |
 | --- | --- |
-| Doğrulandı (birincil kaynak, net) | ~70 madde (`data/degerler.yml` ve adım sayfalarındaki kaynak listelerinde) |
-| Belirsiz / doğrulanamadı (sayfada işaretli) | 38 madde (aşağıdaki tablo) |
+| Doğrulandı (birincil kaynak, yasa metni veya resmi kurum) | 20 |
+| Çelişkili, sayfada iki taraf kaynaklı gösteriliyor | 4 |
+| Kısmen doğrulandı, kalan kısım sayfada işaretli | 5 |
+| Bulunamadı, nedeni aşağıda | 2 |
+| **Toplam** | **31** |
 
-## Belirsiz/doğrulanamayan maddeler
+Açık kalan 11 madde (çelişkili + kısmen + bulunamadı) sayfada "Teyit etmen gerekenler" kutusu
+veya metin içi uyarıyla işaretli.
 
-| Sayfa | İddia | Durum | Not |
+Doğrulama yöntemleri: **doğrudan** (sayfa/yasa metni), **PDF** (resmi PDF), **Playwright**
+(gerçek tarayıcı), **arşiv** (web.archive.org), **özet** (yalnızca arama/WebFetch özeti, düşük
+güven).
+
+## Kapanan maddeler (20)
+
+| Sayfa | İddia | Sonuç | Kaynak / yöntem |
 | --- | --- | --- | --- |
-| [Adım 7: Askerlik](/faz-1-hazirlik/07-askerlik) | Askerlik tecili yaş sınırı: 32 mi 35 mi | **Belirsiz — KRİTİK** | Resmi kaynaklar arası çelişki, geri dönüşü olmayan konu. Arda'nın kendi kontrolü şart. |
-| [Adım 17: Sperrkonto](/faz-4-vize/17-sperrkonto) | 992 EUR/ay tutarının Mart 2026 BAföG güncellemesinden etkilenip etkilenmediği | Belirsiz | Yazım öncesi canlı kaynaktan tekrar kontrol edilmeli. |
-| [Adım 17: Sperrkonto](/faz-4-vize/17-sperrkonto) | Coracle sağlayıcısının operasyonel durumu | Belirsiz | Sağlayıcıyla doğrudan teyit gerekiyor. |
-| [Adım 16: Vize Türü](/faz-4-vize/16-vize-turu) | Vize başvuru ücreti: 75 EUR mi 90 EUR mu | Belirsiz | Ankara sayfasında karışıklık var. |
-| [Adım 5: GRE/GMAT](/faz-1-hazirlik/05-gre-gmat) | GRE Türkiye sınav merkezlerinin tam listesi | Belirsiz | ETS resmi sayfasından teyit edilmeli. |
-| [Almanca mı İngilizce mi](/dallanma/almanca-mi-ingilizce-mi) | TestDaF/Goethe/IELTS/TOEFL ücretleri | Belirsiz | Bot koruması nedeniyle hiçbir resmi sayfa açılamadı. |
-| [Adım 6: Bütçe](/faz-1-hazirlik/06-butce) | Şehir bazlı kira karşılaştırması (München/Berlin/Frankfurt) | Belirsiz | Ayrı odaklı araştırma gerekiyor. |
-| [Adım 6: Bütçe](/faz-1-hazirlik/06-butce) | DAAD ortalama yaşam maliyeti tahmini | Belirsiz | DAAD resmi sayfası 503 verdi, ikincil kaynaktan aktarıldı. |
-| [Adım 3: Uygunluk Analizi](/faz-1-hazirlik/03-uygunluk-analizi) | "Çoğu Türk üniversitesi H+ statüsünde" | Belirsiz | Genelleme kaldırıldı, okura kendi kontrolü öneriliyor. |
-| [Adım 2: Program Bulma](/faz-1-hazirlik/02-program-bulma) | DAAD arayüz detayları | Belirsiz | Sayfa sık 503 veriyor. |
-| [Adım 9: Onay/Tercüme](/faz-2-belgeler/09-onay-tercume) | Apostil işlem süresi | Belirsiz | Kaymakamlıktan önceden sorulmalı. |
-| [Adım 9: Onay/Tercüme](/faz-2-belgeler/09-onay-tercume) | Türkiye'de mi Almanya'da mı tercüme yaptırılmalı | **Belirsiz — kritik** | Başvuru sürecinin en riskli noktalarından biri. |
-| [Adım 10: CV/Motivasyon](/faz-2-belgeler/10-cv-motivasyon) | CV uzunluğu, motivasyon mektubu standardı | Belirsiz | Resmi tek kaynak yok, üçüncü parti rehberlere dayanıyor. |
-| [Adım 12: uni-assist](/faz-3-basvuru/12-uni-assist) | Türkiye'den ödeme yöntemi garantisi | Belirsiz | uni-assist kendi sayfası da net garanti vermiyor. |
-| [Adım 13: Üniversite Portalı](/faz-3-basvuru/13-universite-portali) | HU Berlin ve LMU portal detayları | Belirsiz | Birincil kaynaktan tam teyit edilemedi. |
-| [Adım 14: Beklemek](/faz-3-basvuru/14-beklemek) | Toplam bekleme süresi (uni-assist + üniversite) | Belirsiz | Genel bir rakam bulunamadı. |
-| [Adım 15: Kabul](/faz-3-basvuru/15-kabul) | Dil belgesi eksikliğinde şartlı kabul verilir mi | Belirsiz | Üniversiteye göre değişiyor, genelleme yapılmadı. |
-| [Adım 21: Konaklama](/faz-5-once/21-konaklama) | Yurt bekleme süresinin kesin ortalaması | Belirsiz | Her Studierendenwerk kendi tablosunu yayınlıyor. |
-| [Adım 22: Türkiye Tarafı](/faz-5-once/22-turkiye-tarafi) | Çıkış harcı tutarı (1.250 TL) | Belirsiz | GİB resmi sayfası açılamadı. |
-| [Adım 22: Türkiye Tarafı](/faz-5-once/22-turkiye-tarafi) | Pasaport harcı tam TL rakamları | Belirsiz | GİB resmi tarifesi doğrulanamadı, kaynaklar arası küçük fark var. |
-| [Adım 26: Immatrikulation](/faz-6-ilk-haftalar/26-immatrikulation) | Anmeldebescheinigung'un ayrıca istenip istenmediği | Belirsiz | Kabul mektubuyla kontrol edilmeli. |
-| [Adım 27: Banka/Vergi](/faz-6-ilk-haftalar/27-banka-vergi) | N26'nın Türk pasaportlu öğrenciler için belge listesi | Belirsiz | Uygulama içinden milliyete özel liste kontrol edilmeli. |
-| [Adım 28: Ausländerbehörde](/faz-6-ilk-haftalar/28-auslanderbehorde) | Kiel'in tam belge listesi ve harç | Belirsiz | JS-ağırlıklı sayfa nedeniyle tam çekilemedi. |
-| [Adım 29: Rundfunkbeitrag](/faz-6-ilk-haftalar/29-sozlesmeler) | Rundfunkbeitrag güncel tutar/muafiyet detayı | Belirsiz | Sayfa arama özeti üzerinden görüldü, doğrudan açılamadı. |
-| [Adım 30: Çalışma Hakları](/faz-7-sonrasi/30-calisma-haklari) | "26 hafta" Werkstudent kuralı | Belirsiz | Birincil kaynaktan (TK Beratungsblatt) tam teyit edilemedi. |
-| [Adım 32: Mezuniyet Sonrası](/faz-7-sonrasi/32-mezuniyet-sonrasi) | §20 ile Chancenkarte arasındaki tam sınır | Belirsiz | İki rotanın kesişimi netleşmedi. |
-| [Adım 32: Mezuniyet Sonrası](/faz-7-sonrasi/32-mezuniyet-sonrasi) | Niederlassungserlaubnis süresi (21/33 ay) | Belirsiz | bamf.de'den birincil teyit alınamadı (bot engeli). |
-| [Şartlı Kabul Aldım](/dallanma/sartli-kabul) | Bavyera eyaletindeki (FAU/TU Darmstadt) son tarih kuralları | Belirsiz | Birebir teyit edilemedi. |
-| [uni-assist mi Doğrudan mı](/dallanma/uni-assist-mi-dogrudan-mi) | Hangi üniversitelerin uni-assist kullandığı tam listesi | Belirsiz | uni-assist'in güncel listesinden kontrol edilmeli. |
-| [Finansman Kanıtları](/dallanma/finansman-kanitlari) | Ebeveyn geliri kanıtının bağımsız yol olarak kabulü | Belirsiz | Misyona göre değişebilir. |
-| [Vize Reddi Aldım](/dallanma/vize-reddi) | Remonstration süresi ve süreç detayları | **Belirsiz — hiç araştırılmadı** | Bu sayfa için ayrı bir araştırma turu gerekiyor. |
+| Adım 7 Askerlik | Yaş sınırı 32 mi 35 mi | **Yüksek lisans 32, doktora 35, lisans 28** | 7179 sayılı Kanun md. 20/4, Yönetmelik md. 52-55; mevzuat.gov.tr PDF, doğrudan |
+| Adım 17 Sperrkonto | 992 EUR/ay, Mart 2026 BAföG güncellemesi | **992 EUR/ay geçerli**, 2026/27 için yasada değişiklik yok | BAföG §13, §13a (475+380+102+35); yasa metni. AA sayfası tutar vermiyor, tutar Auslandsportal'da |
+| Adım 16 Vize | 75 EUR mu 90 EUR mu | **75 EUR ulusal vize**, 90 EUR Schengen | AufenthV §46/2, yasa metni |
+| Adım 6 Bütçe | DAAD yaşam maliyeti | **900-1.200 EUR/ay** | DAAD Finanzen sayfası, curl |
+| Adım 3 Uygunluk | Türk üniversiteleri H+ mı | **231 kurumun 231'i H+** (24.09.2026) | anabin, Playwright |
+| Adım 2 Program bulma | DAAD arayüz detayı | Eski `studienangebote` adresi yeni sayfaya yönleniyor | Doğrudan |
+| Adım 9 Tercüme | Türkiye'de mi Almanya'da mı | **Türkiye'de "yeminli tercüman" kaşeli çeviri kabul** | uni-assist Türkiye sayfası; Kiel, TU Berlin, TUM, Hildesheim sayfaları |
+| Adım 13 Portal | HU Berlin, LMU | HU: yurt dışı diplomada uni-assist; LMU: uni-assist yok, MoveIN/ayrı başvuru | HU arşiv kopyası (tarih teyidi gerekli), LMU sayfası |
+| Adım 15 Kabul | Dil belgesi eksikse şartlı kabul | Üniversiteye göre değişiyor; Kiel, FAU, TU Berlin örnekleri | Üniversite sayfaları |
+| Adım 21 Konaklama | Yurt bekleme süresi | München resmi PDF, Kiel kura, Berlin kategoriler | Studierendenwerk sayfaları |
+| Adım 22 Türkiye tarafı | Çıkış harcı 1.250 TL | **Doğrulandı**, öğrenci muafiyeti yok | Resmî Gazete 31.12.2025, PDF |
+| Adım 22 Türkiye tarafı | Pasaport harcı ve defter bedeli | **Defter bedeli 1.351 TL**; 1.424,31 TL yanlış hesap; harçlar NVİ tablosu | NVİ 2026 tablosu, Resmî Gazete Seri 98 |
+| Adım 26 Immatrikulation | Anmeldebescheinigung isteniyor mu | İncelenen 4 üniversite listesinde yok | Kiel, TUM, FU Berlin, Tübingen |
+| Adım 27 Banka | N26 belgeleri | Türk pasaportu kabul, Türk kimlik kartı kabul değil | N26 resmi PDF (Mayıs 2026) |
+| Adım 29 Rundfunkbeitrag | Tutar/muafiyet | **18,36 EUR/hane**, BAföG dışında Härtefall genelde yok | rundfunkbeitrag.de, RBStV §4/6 |
+| Adım 30 Çalışma | Werkstudent 26 hafta | 20 saati aşılan hafta sayısı yılda en fazla 26 | TK, DRV, SGB V §6 |
+| Adım 32 Mezuniyet | Niederlassungserlaubnis 21/33 ay | **21 ay (B1) / 27 ay (basit Almanca)**; 33 ay yanlış | AufenthG §18c, yasa metni |
+| Vize reddi | Remonstration | **1 Temmuz 2025'ten beri kaldırıldı**; yeni başvuru veya Klage (1 ay) | tuerkei.diplo.de, VwGO §74, VG Berlin Merkblatt |
+| Şartlı kabul | Bavyera FAU/TU Darmstadt | Tarihler kapandı; **TU Darmstadt Hessen'de**, Bavyera'da değil | FAU ve TU Darmstadt sayfaları |
+| uni-assist mi doğrudan mı | Üniversite listesi | ~160 üniversite; Kiel, HU, FU, TU Berlin, TUM listede; LMU, FAU, TU Darmstadt yok | uni-assist.de |
 
-## Öncelik sırası (bir sonraki oturum için)
+## Çelişkili (4): sayfada iki taraf gösteriliyor
 
-1. **Askerlik tecili yaş sınırı** (32 vs 35) — geri dönüşü olmayan bir konu, en yüksek öncelik.
-2. **Vize reddi/Remonstration süreci** — hiç araştırılmadı, ayrı bir agent turu gerekiyor.
-3. **Türkiye'de mi Almanya'da mı tercüme** — başvuru sürecini doğrudan etkiliyor.
-4. **Dil sınavı ücretleri** — bot korumasını aşacak farklı bir yöntem (örn. resmi PDF fiyat
-   listesi arama) denenmeli.
-5. Kalan "belirsiz" maddeler — çoğu tek bir hedefli WebFetch/WebSearch ile kapatılabilir.
+| Sayfa | Konu | İki taraf |
+| --- | --- | --- |
+| Adım 17 Sperrkonto | Coracle durumu | Coracle'ın yardım merkezi "yeni başvurular duraklatıldı" diyor, vitrin sayfası "Open Now / Coming Soon" gösteriyor. X-Patrio, Expatrio'nun eski adı; Coracle ayrı şirket (kaynak metinde hata düzeltildi) |
+| Adım 10 CV/motivasyon | Uzunluk standardı | DAAD'ın kendi sayfaları 1, 2 ve 3 sayfa diyor; resmi tek standart yok, sayfa bunu söylüyor |
+| Adım 32 Mezuniyet | §20 sonrası Chancenkarte | Tek ilk derece kararı (VG Cottbus, 10.03.2026) izin veriyor, içerik yalnızca ticari özetten; genel kural olarak alınmadı |
+| Finansman kanıtları | Ebeveyn geliri | Yasa kaynağı kısıtlamıyor, AA genel SSS ebeveyn gelirini sayıyor; Türkiye misyonlarının güncel bilgi notu yalnızca Verpflichtungserklärung ve Sperrkonto diyor |
 
-## Doğrulanan (kesin/birincil kaynaklı) ana bulgular
+## Kısmen doğrulandı (5)
 
-Referans için — bu değerler `data/degerler.yml`'de kaynak ve tarihle birlikte kayıtlı, sayfada
-"Doğrulanmadı" işareti taşımıyor:
+| Sayfa | Konu | Kapanan | Kalan |
+| --- | --- | --- | --- |
+| Almanca/İngilizce, Adım 4 | Sınav ücretleri | TestDaF (210/215 EUR, Türkiye merkezi 155 EUR), IELTS (12.210 TL), TOEFL (185 USD) | Goethe ve telc Türkiye TL ücreti: goethe.de fiyatları dinamik API, botla okunamadı; British Council Türkiye fiyatı Akamai 403 |
+| Adım 6 Bütçe | Şehir bazlı kira | München 850, Berlin 650, Frankfurt 630 EUR (WG, ikincil kaynak) | Kiel için güvenilir rakam yok |
+| Adım 12 uni-assist | Ödeme | Yöntemler (3D Secure kart, kişisel IBAN), Online-Überweisung Türkiye'de yok | Türkiye için çalışma garantisi yok, uni-assist da vermiyor |
+| Adım 14 Beklemek | Toplam bekleme | uni-assist Türkiye 2-3 hafta (21.09.2026) | Üniversite kısmı için resmi toplam rakam yok |
+| Adım 28 Ausländerbehörde | Kiel belge listesi ve harç | Harç: 100 EUR ilk, 93/96 EUR uzatma (AufenthV §45) | Kesin liste randevu davetiyesinde; Kiel'de Türk vatandaşı indirimi sayfada yazmıyor |
 
-- Sperrkonto: 992 EUR/ay (Auswärtiges Amt)
-- Çalışma gün limiti: 140 tam gün / 280 yarım gün (AufenthG §16b, gesetze-im-internet.de)
-- Asgari ücret: 13,90 EUR/saat 2026 (Bundesregierung)
-- Minijob sınırı: 603 EUR/ay (Minijob-Zentrale)
-- Anmeldung süresi: 2 hafta (BMG §17, gesetze-im-internet.de)
-- İş arama izni: 18 ay (AufenthG §20)
-- Mavi Kart eşikleri: 50.700 / 45.934,20 EUR (Bundesagentur für Arbeit ZAV)
-- APS gerekmiyor (Deutsche Botschaft Ankara Merkblatt)
-- Vize kanalı: iDATA (Deutsche Botschaft Ankara)
-- BW öğrenci harcı: 1.500 EUR/dönem (MWK Baden-Württemberg)
-- uni-assist ücretleri: 75/30 EUR (uni-assist.de)
-- Rundfunkbeitrag: 18,36 EUR/ay, sadece BAföG alanlar muaf
-- Kaution yasal üst sınırı: 3 aylık net kira (§551 BGB)
-- Steuer-ID: Anmeldung sonrası otomatik, ~4-8 hafta (BZSt)
+## Bulunamadı (2)
+
+| Sayfa | Konu | Neden bulunamadı |
+| --- | --- | --- |
+| Adım 5 GRE | Türkiye test merkezi listesi | ETS merkez listesi dinamik kayıt ekranında; statik sayfa yok. Sayfa okura kayıt ekranını gösteriyor |
+| Adım 9 Tercüme | Apostil işlem süresi | Kaymakamlık ve valilik sayfaları süre taahhüdü vermiyor; "aynı gün" yalnızca ticari sitelerde |
+
+## Değerler (`data/degerler.yml`)
+
+29 değerden 22'si doğrulandı, 7'si belirsiz: Sperrkonto sağlayıcı ücretleri (ticari kaynak), APS
+durumu (dolaylı doğrulama), iDATA hizmet bedeli (AA sayfalarında tutarsız), öğrenci harcı
+eyaletleri (yalnızca BW ve TUM), sağlık sigortası kasa bazlı tarifeler, Goethe Türkiye fiyatı,
+apostil süresi.
+
+## Bulunan ve düzeltilen olgusal hatalar
+
+| Hata | Eski | Yeni | Kaynak |
+| --- | --- | --- | --- |
+| Askerlik tecili yüksek lisans | 35 (çelişkili) | 32 (doktora 35) | 7179 sayılı Kanun md. 20/4 |
+| Lisans askerlik sınırı | 29 | 28 | Kanun md. 20/2 |
+| Remonstration hakkı | "Genel olarak mevcuttur" | 01.07.2025'ten beri kaldırıldı | tuerkei.diplo.de |
+| Dava süresi (Klage) | Yazılmamıştı | 1 ay (VwGO §74) | tuerkei.diplo.de, VwGO |
+| Coracle "eski adıyla X-Patrio" | Coracle = X-Patrio | X-Patrio = Expatrio; Coracle ayrı şirket | x-patrio.com yönlendirmesi, Presseportal 2018 |
+| "Türkiye'den biri Verpflichtungserklärung veremez" | Kesin yasak | Yasa yasaklamıyor; uygulama yönetmeliği Almanya'daki geliri istiyor | AufenthG §68, AVwV 68.1.2.1 |
+| Vize başvuru kanalı | iDATA'da randevu | Auslandsportal (VIDEX form adımı dahil), iDATA randevu/kabul noktası | tuerkei.diplo.de |
+| Randevu bekleme süresi | 1 hafta - 1 yıl | 1-4 ay | tuerkei.diplo.de |
+| Niederlassungserlaubnis basit Almanca | 33 ay | 27 ay | AufenthG §18c |
+| Pasaport defter bedeli | 1.351-1.424,31 TL | 1.351 TL | NVİ 2026 tablosu |
+| Pasaport harçları | 2.960,81 / 4.328,65 / 7.066,84 / 10.039,20 TL | 2.806,50 / 4.103 / 6.698,50 / 9.516 TL | NVİ 2026 tablosu |
+| Bedelli askerlik | "21 gün" | 300.000 gösterge x katsayı, 1 ay temel eğitim | 7179 md. 9 (7577 sayılı Kanunla değişti) |
+| Tercüme | "Alman mahkemesince yeminli" | Türkiye'de yeminli tercüman kabul | uni-assist Türkiye sayfası |
+| GRE ücreti | 220 USD (tr.ets.org) | 249 USD (01.08.2026'dan) | ets.org |
+| Vize ücreti, 18 yaş altı | 37,50 EUR | Kaynak bulunamadı, kaldırıldı | |
+| TU Darmstadt eyaleti | Bavyera | Hessen | tu-darmstadt.de |
+| Askerlik yıllık bildirim tarihi | "Her yıl 31 Ekim" | Kaynak yok, kaldırıldı; müşavirlik notları dönem başı/sonu bildirimi yazıyor | Eğitim Müşavirlikleri |
+
+## Sonraki paketlere kalanlar
+
+- Kısmen doğrulanan 5 ve bulunamayan 2 maddenin kalanı Paket 2'deki haftalık tazelik ve link
+  kontrolüyle izlenecek.
+- 30. BAföG-Änderungsgesetz'in §13a'yı değiştirip değiştirmediği ve Sperrkonto tutarının ne
+  zaman güncelleneceği izlenmeli.
+- iDATA sitesi Cloudflare arkasında; 8 ofis listesi ve randevu iptal/değiştirme kuralları
+  doğrulanamadı.

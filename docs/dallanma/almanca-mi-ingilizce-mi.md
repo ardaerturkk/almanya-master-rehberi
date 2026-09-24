@@ -35,12 +35,10 @@ sosyal boyutu) etkiliyor. Burada iki yolu karşılaştırıyoruz.
 Detaylı dil sınavı bilgisi (hangi sınav, ücret) için [Adım 4: Dil Sınavları](/faz-1-hazirlik/04-dil)
 sayfasına bak.
 
-::: warning Ücretler doğrulanamadı
-TestDaF, Goethe, IELTS, TOEFL ücretleri bu araştırmada bot koruması nedeniyle net
-doğrulanamadı — resmi sayfalardan güncel ücreti kontrol et.
+::: info Sınav ücretleri
+TestDaF (Almanya'da 210-215 EUR, Türkiye'de İstanbul Üniversitesi-Cerrahpaşa merkezinde 155 EUR), IELTS (IDP Türkiye 12.210 TL), TOEFL iBT (Türkiye 185 USD) ücretleri [Adım 4](/faz-1-hazirlik/04-dil) sayfasında kaynaklarıyla listeli. Goethe ve telc Türkiye ücretleri resmi sayfalardan alınamadı, kayıt ekranından teyit et.
 :::
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. Genel eğilim bilgisi Adım 4 ve Adım 5 araştırmasından derlenmiştir — bkz. ilgili sayfaların
-   kaynak listesi.
+1. Genel eğilim bilgisi için [Adım 4](/faz-1-hazirlik/04-dil) ve [Adım 5](/faz-1-hazirlik/05-gre-gmat) sayfalarının kaynak listelerine bak.

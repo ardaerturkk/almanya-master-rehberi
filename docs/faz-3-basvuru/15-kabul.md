@@ -21,11 +21,8 @@ kaybetmeden tamamlayacaksın.
 - **Bekleme listesi (Warteliste/Nachrückverfahren)**: kontenjanlı programlarda kabul alamayan
   adaylar otomatik olarak yedek sürece giriyor, ayrı başvuru gerekmiyor.
 
-::: warning Doğrulanmadı
-Dil belgesi eksikliğinde şartlı kabul verilip verilmediği net değil — çoğu üniversite dil
-belgesinin başvuru anında zaten sunulmuş olmasını şart koşuyor, eksiklik genelde ret veya
-eksik başvuru sayılmasına yol açıyor gibi görünüyor. Genelleme yapmadan kendi durumunu
-üniversiteyle teyit et.
+::: info Dil belgesi eksikse şartlı kabul var mı?
+Üniversiteye ve programa göre değişiyor. Kiel dil belgesini en geç kayıtta (Einschreibung) istiyor. FAU'da B2 ile başvurup kabul sonrası yoğun Almanca kursu ve DSH yapmak mümkün (bazı programlarda, ör. Germanistik, C1/C2 başvuruda şart). TU Berlin yabancı diplomalı adaylara "bedingte Zulassung" (şartlı kabul) vermediğini açıkça yazıyor; belgeler son tarihe kadar tamam olmalı. Kendi programının sayfasına bak ve emin olmak için üniversiteye yaz.
 :::
 
 ## Şartlı kabul aldıysan: süre kritik

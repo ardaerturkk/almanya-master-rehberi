@@ -3,10 +3,10 @@ import { ref, computed } from "vue";
 
 const baslangic = ref<string>("");
 
-function addMonths(date: Date, months: number): Date {
-  const d = new Date(date);
-  d.setMonth(d.getMonth() - months);
-  return d;
+const GUN_MS = 24 * 60 * 60 * 1000;
+
+function subtractDays(date: Date, days: number): Date {
+  return new Date(date.getTime() - days * GUN_MS);
 }
 
 function fmt(d: Date): string {
@@ -19,12 +19,13 @@ const plan = computed(() => {
   if (isNaN(start.getTime())) return null;
 
   return [
-    { label: "Faz 1: Hazırlık başlangıcı (program araştırması, dil sınavı hazırlığı)", date: addMonths(start, 13) },
-    { label: "Dil sınavı / gerekiyorsa GRE-GMAT", date: addMonths(start, 11) },
-    { label: "Faz 2: Belge toplama, apostil, tercüme", date: addMonths(start, 9) },
-    { label: "Faz 3: Başvuru son tarihi (tipik, program bazlı değişir!)", date: addMonths(start, 7) },
-    { label: "Faz 4: Vize süreci başlangıcı (kabul sonrası)", date: addMonths(start, 4) },
-    { label: "Faz 5: Konaklama, Türkiye tarafı işler, bavul", date: addMonths(start, 1.5) },
+    { label: "Faz 1: Hazırlık başlangıcı (program araştırması, dil sınavı hazırlığı)", date: subtractDays(start, 395) },
+    { label: "Dil sınavı / gerekiyorsa GRE-GMAT", date: subtractDays(start, 335) },
+    { label: "Faz 2: Belge toplama, tercüme", date: subtractDays(start, 275) },
+    { label: "Faz 3: Başvuru son tarihi (tipik, program bazlı değişir!)", date: subtractDays(start, 210) },
+    { label: "Faz 4: Vize randevu kaydını aç (kuyruk 1-4 ay + karar 15-45 gün; kabulü beklerken de yapılabilir)", date: subtractDays(start, 180) },
+    { label: "Faz 4: Sperrkonto, sigorta ve vize belgeleri hazır", date: subtractDays(start, 90) },
+    { label: "Faz 5: Konaklama, Türkiye tarafı işler, bavul", date: subtractDays(start, 45) },
     { label: "Varış / Faz 6 başlangıcı", date: start },
   ];
 });

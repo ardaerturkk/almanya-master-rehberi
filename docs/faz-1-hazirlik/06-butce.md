@@ -13,20 +13,11 @@ tahmin edeceksin — bu, Sperrkonto planlaması ve genel finansal hazırlık iç
 
 ## Aylık yaşam maliyeti
 
-DAAD'ın ortalama tahmini **~992 EUR/ay** — bu rakam aynı zamanda Sperrkonto hesaplamasında
-kullanılan BAföG azami oranıyla aynı (bkz. [Adım 17](/faz-4-vize/17-sperrkonto)).
-
-::: warning Doğrulanmadı
-DAAD'nin resmi maliyet sayfası bu araştırmada erişilemedi (503 hatası) — rakam ikincil kaynak
-üzerinden aktarıldı.
-:::
-
-Genel aralık kaynaklara göre şehre bağlı olarak **900-1.200 EUR/ay**, bazı kaynaklarda
-783-1.896 EUR gibi daha geniş bir aralık veriliyor (yaş, şehir, yaşam tarzına göre).
+DAAD, Almanya'da yaşamak için ayda yaklaşık **900-1.200 EUR** öngörüyor. Vize için ise ayrı bir rakam var: **992 EUR/ay** kanıtlaman gerekiyor (BAföG azami oranı, bkz. [Adım 17](/faz-4-vize/17-sperrkonto)); bu, gerçek harcamanla aynı olmak zorunda değil. Alman öğrencilerin ortalama aylık harcaması 876 EUR (kira ve yan giderler dahil ortalama 410 EUR; 22. Sozialerhebung, DZHW, 2023 verisi). Yaş, şehir ve yaşam tarzına göre bunun altına da üstüne de çıkabilirsin.
 
 | Kalem | Yaklaşık aylık tutar |
 | --- | --- |
-| Kira (Almanya ortalaması) | ~410 EUR — **büyük şehirlerde (München, Berlin, Frankfurt) bu çok daha yüksek, şehir bazlı kesin rakam bu araştırmada doğrulanamadı** |
+| Kira (Almanya ortalaması) | ~410 EUR (ortalama; büyük şehirlerde çok daha yüksek, aşağıdaki tabloya bak) |
 | Yemek | ~168-198 EUR |
 | Sağlık sigortası | ~120-160 EUR (bkz. [Adım 18](/faz-4-vize/18-saglik-sigortasi)) |
 | Öğrenim materyali | ~31 EUR |
@@ -85,13 +76,13 @@ tarzına göre gerçek harcaman 10.800-14.400 EUR/yıl aralığında olabilir.
   bu yetersiz kalabilir.
 - Semesterbeitrag'ı bütçeye dahil etmeyi unutmak.
 
+## Şehir bazlı WG odası kirası
+
+Serbest piyasada WG (ortak daire) odası için ilan fiyatı ortancası (WiSe 2026/27, Moses Mendelssohn Enstitüsü ve WG-Gesucht verisi, **ikincil kaynak**): München yaklaşık 850 EUR, Berlin 650 EUR, Frankfurt 630 EUR. Kiel için güvenilir bir rakam bulamadık; Kiel yurtlarında (Studierendenwerk SH) oda başına kira aylık yaklaşık 211-244 EUR. Kendi hedef şehrin için güncel ilanlara bak.
+
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. DAAD yaşam maliyeti tahmini (ikincil kaynak üzerinden, resmi sayfa erişilemedi)
+1. [DAAD — Finanzen, yaşam maliyeti](https://www.daad.de/de/in-deutschland-studieren/leben-in-deutschland/finanzen/) ve DZHW 22. Sozialerhebung (2023 verisi)
 2. Studis Online / haber kaynakları — Semesterbeitrag ortalaması (ikincil kaynak)
 3. Studierendenwerke.de / haber kaynağı — Deutschlandsemesterticket fiyatları (ikincil kaynak)
-
-::: warning Doğrulanmadı
-Şehir bazlı somut kira/yaşam maliyeti karşılaştırması (München/Berlin/Frankfurt vs küçük
-şehir) bu araştırmada derinlemesine doğrulanamadı — kendi hedef şehrin için ayrıca araştır.
-:::
+4. Kira: [Moses Mendelssohn Enstitüsü WG-fiyat endeksi](https://www.moses-mendelssohn-institut.de/aktuelles/WiSe2026) (ikincil kaynak) ve [Studierendenwerk Schleswig-Holstein](https://studentenwerk.sh/de/wohnheime-kiel) yurt kiraları

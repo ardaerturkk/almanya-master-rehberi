@@ -13,8 +13,7 @@ işlediğini karşılaştırıyoruz.
 ## Hangi üniversite hangisini kullanıyor?
 
 Bu, üniversitenin kendi kararı — başvurmadan önce uni-assist'in resmi üye üniversite
-listesinden (uni-assist.de/en/tools/uni-assist-universities/) kontrol etmen gerekiyor. Bu liste
-bu araştırmada doğrudan çekilmedi, başvuru öncesi kendin kontrol et.
+listesinden (uni-assist.de/en/tools/uni-assist-universities/) kontrol etmen gerekiyor. uni-assist yaklaşık 160 üniversite adına çalışıyor. Kiel, HU Berlin, FU Berlin, TU Berlin ve TUM listede; LMU, FAU Erlangen ve TU Darmstadt yok, kendi portallarını kullanıyor. Listeyi başvuru öncesi yine de uni-assist.de'den kontrol et.
 
 ## VPD nedir?
 
@@ -26,7 +25,7 @@ bir ön değerlendirme belgesi.
 | --- | --- | --- |
 | Süreç | Önce uni-assist'e başvuru → VPD alınır → VPD üniversiteye sunulur/değerlendirilir | Üniversitenin kendi International Office'i evrakları doğrudan değerlendirir |
 | Ücret | İlk program 75 EUR, her ek program 30 EUR (sonuçtan bağımsız, her dönem tekrar ödenir) | Genelde ücretsiz veya üniversitenin kendi (genelde düşük) ücreti |
-| İşlem süresi | Genel 4-6 hafta; **Türkiye "Orta ve Doğu Avrupa" grubunda ~2-3 hafta** (yoğun dönemde uzayabilir) | Üniversiteye göre değişir |
+| İşlem süresi | Genel 4-6 hafta; **Türkiye için güncel tabloda ~2-3 hafta** (yoğun dönemde uzayabilir) | Üniversiteye göre değişir |
 | Avantajı | Birden fazla üniversiteye başvuracaksan denklik değerlendirmesi bir kez yapılıp VPD tekrar kullanılabiliyor (bazı durumlarda) | Doğrudan iletişim, aracı yok |
 
 ## Ödeme yöntemleri (Türkiye'den)
@@ -52,8 +51,3 @@ Bu bir seçim değil — üniversitenin sistemine göre otomatik belirleniyor. Y
 2. [uni-assist — Deadlines & Processing Time](https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/)
 3. [uni-assist — VPD açıklaması](https://www.uni-assist.de/en/how-to-apply/plan-your-application/vpd/)
 4. [uni-assist — Ödeme seçenekleri](https://www.uni-assist.de/bewerben/kosten-zahlen/zahlungsoptionen/)
-
-::: warning Doğrulanmadı
-Hangi spesifik üniversitelerin uni-assist kullandığı bu araştırmada tek tek çekilmedi — güncel
-listeyi başvuru öncesi uni-assist.de'den kontrol et.
-:::

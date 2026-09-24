@@ -28,10 +28,8 @@ Bazı eski rehberlerde geçen "14. dönemden sonra öğrenci sigortası biter" k
 
 ## Diğer olası farklar
 
-::: warning Bu bölüm araştırılmadı
-30 yaş üstü öğrenciler için burs uygunluğu, BAföG şartları veya vize sürecinde ek bir fark
-olup olmadığı bu oturumda araştırılmadı. Eğer 30 yaşın üzerindeysen ve bu konularda endişen
-varsa, başvuracağın kurumla veya bir danışmanla doğrudan görüş.
+::: warning Bu sayfanın kapsamı
+Bu sayfa yalnızca sağlık sigortası tarifesi ve zamanlamasını anlatıyor. 30 yaş üstü öğrenciler için burs uygunluğu, BAföG şartları veya vize sürecinde ek bir fark olup olmadığı burada ele alınmıyor; bu konularda endişen varsa başvuracağın kurumla doğrudan görüş.
 :::
 
 ## Ne yapmalısın

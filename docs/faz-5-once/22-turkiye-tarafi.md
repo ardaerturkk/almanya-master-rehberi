@@ -1,5 +1,6 @@
 ---
 title: "Adım 22: Türkiye Tarafı İşler"
+description: "Türkiye'den ayrılmadan önce: 2026 pasaport harcı ve defter bedeli, yurt dışı çıkış harcı (1.250 TL), muafiyetler, apostil ve tercüme."
 ---
 
 # Adım 22: Türkiye Tarafı İşler
@@ -7,55 +8,34 @@ title: "Adım 22: Türkiye Tarafı İşler"
 > ⏱ Süre: Birkaç gün, çıkış harcı hariç anında   💶 Maliyet: Değişken, aşağıya bak   📅 Ne zaman: Uçuştan önceki 2-3 hafta
 
 ::: info Bu adımda ne yapacaksın
-Türkiye'den ayrılmadan önce halletmen gereken bürokratik işler var: apostil, tercüme, pasaport
-yenileme, çıkış harcı. Çoğu rakam bu araştırmada tam doğrulanamadı — sayfada işaretli, ödeme
-öncesi güncel tutarı resmi kanaldan teyit et.
+Türkiye'den ayrılmadan önce halletmen gereken bürokratik işler var: gerekiyorsa apostil ve tercüme, pasaport yenileme, çıkış harcı. Tutarlar resmi tarifelerden alındı; ödemeden önce yine de ilgili kanaldan güncel rakamı kontrol et.
 :::
 
-## Apostil
+## Apostil ve tercüme
 
-Diploma/transkript gibi resmi eğitim belgelerinin apostil şerhi **kaymakamlık veya valilikten**
-alınıyor (noterden değil). Lahey Sözleşmesi kapsamında devlet harcı olarak **ücretsiz** — ama
-belgeyi hazırlayan/tercüme eden bürolar operasyonel hizmet bedeli talep edebiliyor.
+Apostil ve tercümenin kuralları [Adım 9](/faz-2-belgeler/09-onay-tercume) sayfasında. Kısaca: apostil kaymakamlık veya valilikten ücretsiz alınır; başvuru için genelde gerekmiyor. Tercüme Türkiye'de, kaşesinde "yeminli tercüman" yazan tercümanla yapılabiliyor.
 
-::: warning Doğrulanmadı
-Apostil işleminin ne kadar sürdüğü (aynı gün mü, birkaç iş günü mü) bu araştırmada net teyit
-edilemedi. Gideceğin kaymakamlık/valilikten önceden süreyi sor.
-:::
+## Pasaport harcı (2026)
 
-## Yeminli tercüme
+NVİ'nin 2026 tarifesine göre harç geçerlilik süresine göre değişiyor, defter bedeli sabit **1.351 TL**:
 
-Almanya'daki kurumlar genelde Almanya'da mahkemece yeminli (vereidigter Übersetzer) tercümanın
-çevirisini tercih ediyor; Türkiye'de noter onaylı çeviri her zaman kabul görmeyebiliyor. Hangi
-ülkede yaptırman gerektiği **başvurduğun üniversite/kurumun kendi şartına göre değişiyor** —
-net bir "hep Almanya'da yaptır" kuralı yok. uni-assist gibi sistemlerde apostilli belge +
-Almanca veya İngilizce yeminli tercüme isteniyor.
+| Süre | Harç | Defter bedeli | Toplam |
+| --- | --- | --- | --- |
+| 6 ay | 2.806,50 TL | 1.351 TL | 4.157,50 TL |
+| 1 yıl | 4.103 TL | 1.351 TL | 5.454 TL |
+| 2 yıl | 6.698,50 TL | 1.351 TL | 8.049,50 TL |
+| 3 yıl | 9.516 TL | 1.351 TL | 10.867 TL |
+| 10 yıl | 13.410,40 TL | 1.351 TL | 14.761,40 TL |
 
-**Pratik öneri:** Kabul aldığın üniversitenin International Office'ine veya uni-assist'e
-doğrudan sor — hangi dilde ve nerede yapılmış tercümeyi kabul ediyorlar.
+İnternette "1.424,31 TL defter bedeli" veya "2.960,81 TL 6 aylık harç" gibi rakamlar görebilirsin; bunlar 2025 tutarlarının hatalı çarpılmasından çıkmış yanlış rakamlar. Resmi rakam NVİ'nin yayımladığı tablodadır. Ödeme: vergi dairesi, PTT, anlaşmalı bankalar, dijital.gib.gov.tr.
 
-## Pasaport harcı
+## Yurt dışı çıkış harcı (2026)
 
-::: warning Doğrulanmadı — GİB resmi tarifesinden teyit edilmedi
-Aşağıdaki rakamlar ikincil (haber) kaynaklarından derlendi, resmi GİB tarife sayfası bu
-araştırmada açılamadı. Vergi dairesinden veya ivd.gib.gov.tr'den güncel tutarı kontrol et.
-:::
+Yurt dışı çıkış harcı 2026'da **1.250 TL** (Resmî Gazete, 31.12.2025, 5. mükerrer sayı, Seri No: 1 tebliğ). Her yurt dışı çıkışında ödenir ve uçuştan **önce** ödenmesi gerekir: Dijital Vergi Dairesi (dijital.gib.gov.tr), GİB Mobil, banka uygulaması, vergi dairesi veya PTT.
 
-| Süre | Harç (yaklaşık) | Defter bedeli (yaklaşık) |
-| --- | --- | --- |
-| 6 ay | 2.960,81 TL | 1.351-1.424 TL (kaynaklar arası küçük fark var) |
-| 1 yıl | 4.328,65 TL | aynı |
-| 2 yıl | 7.066,84 TL | aynı |
-| 3 yıl | 10.039,20 TL | aynı |
-
-Ödeme: vergi dairesi, PTT, anlaşmalı bankalar, ivd.gib.gov.tr.
-
-## Yurt dışı çıkış harcı
-
-2026 itibariyle hâlâ yürürlükte, **1.250 TL** olarak raporlanıyor (**doğrulanmadı**, resmi GİB
-sayfasından teyit edilmedi). Her çıkışta (günübirlik dahil) tüm T.C. vatandaşları ödüyor, yeşil
-pasaport sahipleri dahil. 0-72 ay (7 yaş altı) çocuklar muaf. Ödeme: GİB Dijital Vergi Dairesi,
-GİB Mobil, anlaşmalı banka, PTT, havalimanı/sınır kapısı kioskları.
+- **Öğrenciler için özel muafiyet yok.** Burslu olman, yeşil pasaport veya uzun süre gitmen fark ettirmiyor.
+- **Muaf olanlar:** 7 yaşını doldurmamış çocuklar, çıkış anında **yurt dışında oturma izni** olanlar (belgelemek gerekir), pasavanla çıkanlar, KKTC'ye kimlikle gidenler, ticari araç mürettebatı. Yani Almanya'da oturma iznini aldıktan sonraki çıkışlarda muafiyet talep edebilirsin; ilk gidişte vizeyle çıkıyorsan ödersin. Muafiyetin havalimanında uygulanışına dair bir örnek bulamadık, belgeni yanında bulundur.
+- Ödediğin halde uçmadıysan iade başvurusu yapılabilir. Yılbaşında tutar değişir; Ocak ayının 10'una kadar önceki yılın tutarıyla ödenmiş harç geçerli.
 
 ## Askerlik tecili
 
@@ -64,38 +44,31 @@ tamamlandıktan sonra öğrenci belgeni alıp tecil sürecini başlatman gerekiy
 
 ## Neye ihtiyacın var
 
-- [ ] Apostilli diploma/transkript
-- [ ] Yeminli tercümeler (kurumun istediği dilde)
+- [ ] Diploma/transkript ve yeminli tercümeler (kurumun istediği dilde)
 - [ ] Geçerli pasaport (süresi program boyunca yeterli olmalı, gerekirse yenile)
 - [ ] Çıkış harcı ödeme makbuzu (havalimanında istenebiliyor)
 
 ## Adımlar
 
-1. Apostil işlemini kaymakamlık/valilikten yaptır.
-2. Tercümeleri kurumun istediği dilde ve formatta hazırlat.
-3. Pasaportunun geçerlilik süresini kontrol et, gerekirse yenile.
-4. Çıkış günü güncel çıkış harcı tutarını öde (havalimanı kioskundan da yapılabiliyor).
+1. Belge tercümelerini kurumun istediği dilde ve formatta hazırlat (bkz. Adım 9).
+2. Pasaportunun geçerlilik süresini kontrol et, gerekirse yenile.
+3. Uçuştan önce çıkış harcını öde (dijital.gib.gov.tr, GİB Mobil, banka veya PTT).
 
 ## Kontrol: Bu adım bitti mi?
 
-- [ ] Apostilli ve tercümeli belgeler elinde
+- [ ] Tercümeli belgeler elinde
 - [ ] Pasaport geçerli
-- [ ] Çıkış harcı güncel tutarı teyit edildi
+- [ ] Çıkış harcı ödendi (veya muafiyet belgen hazır)
 
 ## Sık hatalar
 
-- Tercümeyi hangi dilde/nerede yaptıracağını kuruma sormadan varsayımla hareket etmek.
+- Çıkış harcını uçuştan önce ödemeyi unutmak.
 - Pasaport geçerlilik süresini son ana kadar kontrol etmemek.
-- Çıkış harcının güncel tutarını bilmeden havalimanına gitmek.
+- Pasaport harcı için internetteki eski/yanlış rakamlara güvenmek.
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. Tahancı Hukuk — Apostil (ikincil kaynak, resmi teyit edilemedi)
-2. Okeanos Tercüme — Almanya'dan gelen evrakların Türkiye'de geçerliliği (ikincil kaynak)
-3. Bigpara/Hürriyet — 2026 pasaport ücretleri (ikincil kaynak, resmi GİB tarifesi teyit edilemedi)
-4. STB CPA Turkey — Yurt dışı çıkış harcı (ikincil kaynak, resmi GİB sayfası teyit edilemedi)
-
-::: danger Bu sayfadaki tutarların çoğu doğrulanamadı
-Ödeme yapmadan önce güncel rakamları mutlaka resmi kanaldan (dijital.gib.gov.tr, vergi
-dairesi) kontrol et — burada verilen tutarlar ikincil kaynaklı tahminlerdir.
-:::
+1. [NVİ, 2026 yılı harç ve hizmet bedelleri](https://nvi.gov.tr/edirne/2026-yili-harc-ve-hizmet-bedelleri) (pasaport harcı ve defter bedeli, 01.01.2026)
+2. [Resmî Gazete 31.12.2025, 5. mükerrer sayı: çıkış harcı tebliği (PDF)](https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M5-17.pdf) ve [ana tebliğ, RG 28.12.2024](https://www.resmigazete.gov.tr/eskiler/2024/12/20241228-24.htm)
+3. [Dijital Vergi Dairesi](https://dijital.gib.gov.tr) (ödeme)
+4. [Kaymakamlık apostil işlemleri (örnek)](https://www.onikisubat.gov.tr/apostil-islemleri)

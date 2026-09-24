@@ -25,8 +25,7 @@ Bu site şu sıralamayla kaynak kullanıyor:
 
 ## Tam kaynak listesi
 
-Kullanılan tüm kaynakların URL, kurum, erişim tarihi ve kullanıldığı yer detayı repodaki
-`SOURCES.md` dosyasında. Ham araştırma raporları `docs-internal/arastirma-notlari/` altında.
+Her sayfanın sonundaki "Kaynaklar" bölümünde o sayfada kullanılan kaynaklar ve son doğrulama tarihi var. Ayrıntılı kaynak listesi ve ham araştırma notları [GitHub reposunda](https://github.com/ardaerturkk/almanya-master-rehberi) (`SOURCES.md` ve `docs-internal/arastirma-notlari/`).
 
 ## Değişken değerler
 
@@ -35,9 +34,7 @@ kaynak ve doğrulama tarihiyle birlikte kayıtlı.
 
 ## Doğrulanamayan noktalar
 
-Bu bir doğruluk projesi — bulunamayan veya doğrulanamayan bilgi tahminle doldurulmadı. Sayfada
-`::: warning Doğrulanmadı` kutusuyla işaretli her nokta, gelecekteki bir doğrulama turunda
-kapatılmayı bekliyor. Bu tür bir nokta görürsen, güncel bilgiyi resmi kaynaktan kendin teyit et.
+Bulunamayan veya doğrulanamayan bilgi tahminle doldurulmadı. Sayfada "Teyit etmen gerekenler" veya "Doğrulanmadı" kutusuyla işaretli her nokta için resmi kaynak yeterli netlikte değildi veya kaynaklar çelişiyordu. Bu tür bir nokta görürsen, güncel bilgiyi resmi kaynaktan kendin teyit et; hata bulursan GitHub'da issue aç.
 
 ## Katkıda bulunma
 

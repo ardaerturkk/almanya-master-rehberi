@@ -25,9 +25,6 @@ features:
     details: Sorun giderme, SSS ve sözlük her zaman bir tık uzakta.
 ---
 
-::: info İçerik tamamlandı, doğrulama sürüyor
-32 adımın, 7 dallanmanın ve 6 referans sayfasının tamamı yazılı ve kaynaklı. Bazı sayfalarda
-`::: warning Doğrulanmadı` ile işaretli, henüz tam teyit edilememiş noktalar var — bunların
-listesi `docs-internal/dogrulama-raporu.md`'de. Değişken bilgileri (tutar, süre) kullanmadan
-önce her zaman "Kaynaklar" bölümündeki tarihe bak.
+::: info Bilgiler nasıl doğrulandı?
+Rehberdeki tutar, süre, yaş sınırı ve yasa maddesi gibi olgusal bilgiler resmi kaynaklarla (yasa metni, Auswärtiges Amt, üniversite sayfaları) karşılaştırıldı; her sayfanın sonunda kaynaklar ve doğrulama tarihi var. Son kontrol turu **24 Eylül 2026**'da yapıldı: daha önce "doğrulanmadı" diye işaretli 31 noktanın 20'si kapandı, 4'ünde kaynaklar birbiriyle çelişiyor (sayfada iki taraf da gösteriliyor), 5'i kısmen, 2'si hiç doğrulanamadı. Doğrulanamayan noktalar ilgili sayfada "Teyit etmen gerekenler" kutusuyla veya metin içinde açıkça işaretli; tahminle doldurulmadı. Tutarlar zamanla değişir, kullanmadan önce sayfanın sonundaki tarihe bak.
 :::

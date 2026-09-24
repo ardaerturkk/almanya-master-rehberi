@@ -1,5 +1,6 @@
 ---
 title: "Adım 17: Sperrkonto Açma"
+description: "Almanya öğrenci vizesi için Sperrkonto (bloke hesap): 2026/27 tutarı 992 EUR/ay, sağlayıcı karşılaştırması ve alternatif finansman yolları."
 ---
 
 # Adım 17: Sperrkonto Açma
@@ -16,17 +17,13 @@ Sperrkonto tek yol değil; alternatiflerin karşılaştırması için aşağıya
 
 **Aylık 992 EUR, yıllık 11.904 EUR** (2026 itibariyle). Bu tutar BAföG §13/§13a'daki azami
 destekleme oranına (Bedarfssatz) dayanıyor: 475 EUR temel ihtiyaç + 380 EUR barınma + 137 EUR
-sağlık/bakım sigortası ek payı.
+sağlık/bakım sigortası ek payı (102 + 35).
 
-::: warning Yazım sonrası doğrulanmalı
-Bu rakam Auswärtiges Amt'ın Sperrkonto sayfasında son güncelleme 21.10.2024 olarak görünüyor.
-BAföG oranlarında Mart 2026'da bir güncelleme yapıldığı iddiası var ama Sperrkonto tutarını
-etkileyip etkilemediği bu araştırmada teyit edilemedi. **Başvurudan hemen önce
-auswaertiges-amt.de/de/sperrkonto-375488 sayfasından güncel rakamı kontrol et.**
+::: tip Tutar 2026/27 için değişmedi
+992 EUR rakamı BAföG yasasından hesaplanıyor: 475 (§13/1 no. 2) + 380 (§13/2 no. 2) + 102 + 35 (§13a/1) = 992 EUR. Yasa metninde 2026/27 kış dönemi için bir değişiklik yok. Auswärtiges Amt'ın Sperrkonto sayfası tutarı kendisi vermiyor; güncel tutar Auslandsportal'da (digital.diplo.de) yazıyor, Berlin ve München yabancılar dairelerinin sayfalarında da 992 EUR görünüyor. Kabinenin 12.08.2026'da kabul ettiği 30. BAföG-Änderungsgesetz'i (konut gideri payının 01.04.2027'den itibaren 440 EUR'ya çıkması planlanıyor) henüz yasalaşmadı; kabul edilirse tutar ileride değişebilir. Başvurmadan hemen önce Auslandsportal'daki tutara bak.
 :::
 
-Chancenkarte/iş arama vizesi için farklı ve daha yüksek bir tutar geçerli (1.091 EUR/ay,
-13.092 EUR/yıl) — bu, öğrenci vizesiyle karıştırılmamalı.
+Chancenkarte ve aday öğrenci vizesi (Studienplatzsuche) için farklı ve daha yüksek bir tutar geçerli (1.091 EUR/ay, 13.092 EUR/yıl); bunu öğrenci vizesiyle karıştırma.
 
 ## Sperrkonto mu, alternatif mi?
 
@@ -36,7 +33,7 @@ bak. Kısaca:
 
 - **Sperrkonto**: Herkes için uygun, tamamen kendi başına açılabilir.
 - **Verpflichtungserklärung**: Almanya'da ikamet eden biri garantör olacaksa daha ucuz — ama
-  garantörün Almanya'da yaşıyor olması şart, Türkiye'den biri bu yolu kullanamaz.
+  garantörün pratikte Almanya'da yaşaması ve geliri Almanya'da olması gerekiyor, Türkiye'de yaşayan biri için bu yol gerçekçi değil.
 - **Burs**: Aylık asgari 992 EUR'u kapsayan resmi bir bursun varsa (DAAD, Erasmus+, vakıf)
   Sperrkonto'ya gerek yok.
 
@@ -45,12 +42,12 @@ bak. Kısaca:
 | Sağlayıcı | Kurulum ücreti | Aylık ücret | Not |
 | --- | --- | --- | --- |
 | **Fintiba** | 159 EUR | 9,90 EUR | 100 EUR tampon tutar öneriyor (ilk ödemeyle iade). En pahalı ama en köklü seçeneklerden biri. |
-| **Expatrio** | 119 EUR (07.07.2026 sonrası; öncesi 89 EUR) | 9 EUR (öncesi 5 EUR) | 12 aylık vize için toplam ~227 EUR — genelde Fintiba'dan biraz ucuz. |
-| **Coracle** (eski adıyla X-Patrio) | Belirsiz | Belirsiz | Operasyonel durumu bu araştırmada net teyit edilemedi. **Başvurmadan önce sağlayıcıyla doğrudan iletişime geç, güncel durumunu doğrula.** |
+| **Expatrio** (eski adı X-Patrio) | 119 EUR (07.07.2026 sonrası; öncesi 89 EUR) | 9 EUR (öncesi 5 EUR) | 12 aylık vize için toplam ~227 EUR — genelde Fintiba'dan biraz ucuz. |
+| **Coracle** | Kendi sitesinde "Coming Soon" | Belirsiz | Ayrı bir Hamburg şirketi (X-Patrio ile bağlantısı yok). Yardım merkezinde "yeni başvurular duraklatıldı" kategorisi var, vitrin sayfası ise açık gösteriyor; **başvurmadan önce sağlayıcıya sor.** |
 | **Deutsche Bank** | Değişken | Değişken | Geleneksel banka seçeneği; şubede yüz yüze kimlik doğrulama gerektirebiliyor — vize öncesi (henüz Almanya'da değilken) pratik bir engel oluşturabilir. |
 
 ::: warning Ticari kaynaklar
-Sağlayıcı ücretleri kendi resmi sitelerinden alındı — hepsi ticari kuruluş, fiyat ve şartlar
+Auswärtiges Amt 2022'de kendi sağlayıcı listesini kaldırdı ve hiçbir sağlayıcıyı önermiyor. Sağlayıcı ücretleri kendi resmi sitelerinden alındı — hepsi ticari kuruluş, fiyat ve şartlar
 sık değişebiliyor. Başvurmadan hemen önce sağlayıcının kendi sitesinden güncel rakamı kontrol
 et.
 :::
@@ -83,12 +80,12 @@ et.
   auswaertiges-amt.de'den kontrol et.
 - Sperrkonto ile sağlık sigortası primini karıştırmak: ikisi arasında doğrudan yasal bir
   bağlantı yok, sigorta primi hesaptan otomatik kesilmiyor.
-- Coracle gibi durumu net olmayan bir sağlayıcıyı son dakikada seçip başvuru sürecinin
-  ortasında sorun yaşamak.
+- Yeni başvuruları duraklatmış görünen bir sağlayıcıyı (Coracle) son dakikada seçmek.
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. [Auswärtiges Amt — Sperrkonto](https://www.auswaertiges-amt.de/de/sperrkonto-375488)
-2. [BAföG §13](https://www.gesetze-im-internet.de/baf_g/__13.html)
+1. [Auswärtiges Amt — Sperrkonto](https://www.auswaertiges-amt.de/de/sperrkonto-375488) (sağlayıcı listesi yok notu; tutar Auslandsportal'da)
+2. [BAföG §13](https://www.gesetze-im-internet.de/baf_g/__13.html) ve [§13a](https://www.gesetze-im-internet.de/baf_g/__13a.html) (992 EUR hesabı)
+2a. [Expatrio, X-Patrio yönlendirmesi](https://www.expatrio.com/) ve [Coracle](https://coracle.de/) (ticari)
 3. [Fintiba — Blocked Account Germany](https://www.fintiba.com/blocked-account-germany) (ticari kaynak)
 4. [Expatrio — Blocked Account ücretleri](https://help.expatrio.com/hc/en-us/articles/360029158292) (ticari kaynak)

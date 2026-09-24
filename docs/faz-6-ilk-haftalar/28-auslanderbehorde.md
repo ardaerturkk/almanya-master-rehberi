@@ -35,17 +35,13 @@ Genel beklenen belgeler (kabul mektubunda/randevu onayında kesinleşen listeyi 
 - [ ] Finansal yeterlilik kanıtı (Sperrkonto veya alternatif)
 - [ ] Biyometrik fotoğraf
 
-::: warning Doğrulanmadı
-Bu belge listesi genel bir çerçeve — Kiel'in kendi tam listesi bu araştırmada JS-ağırlıklı
-sayfa nedeniyle tam teyit edilemedi. Randevu onayındaki resmi listeyi esas al.
-:::
+Kiel, kesin listeyi randevu davetiyesinde bildiriyor; yukarıdaki genel çerçeve Kiel'in ve CAU International Center'in sayfalarıyla uyumlu. Randevu onayındaki resmi listeyi esas al.
 
 ## İzin süresi ve ücret
 
 - İkamet izni en az 1 yıl, genelde en fazla 2 yıl veriliyor (program 2 yıldan kısaysa program
   süresi kadar).
-- Ücret: yetişkinler için ~100 EUR, reşit olmayanlar için ~50 EUR (genel Alman tarifesi —
-  şehrine özel doğrulanmadı).
+- Ücret: ilk oturum izni **100 EUR**; uzatma 3 aydan uzunsa **93 EUR**, 3 aya kadar 96 EUR (AufenthV §45; Kiel şehri de 100 EUR yazıyor). Türk vatandaşları için AB-Türkiye Ortaklık Hukuku (AufenthV §52a) kapsamında indirim olabiliyor; hak edip etmediğini Ausländerbehörde'ye sor.
 - Elektronik ikamet izni kartının (eAT) basımı (Bundesdruckerei) genelde 4-6 hafta sürüyor.
 
 ::: info Ağustos 2025'ten beri
@@ -77,10 +73,8 @@ Sadece dijital biyometrik fotoğraf kabul ediliyor — sertifikalı bir fotoğra
 
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
-1. Kiel Şehri — Zuwanderungsabteilung randevu süreci (arama snippet üzerinden, tam sayfa
-   teyit edilemedi)
+1. [Kiel Şehri, Zuwanderung/Aufenthaltserlaubnis](https://www.kiel.de/de/politik_verwaltung/service/_leistung.php?id=265566681)
+2. [CAU International Center, oturum izni belgeleri](https://www.international.uni-kiel.de/en/incomings/planning-arrival-and-stay/residence-permit/what-documents-do-i-need-to-apply-for-a-residence-permit)
+3. [AufenthV §45, harçlar](https://www.gesetze-im-internet.de/aufenthv/__45.html) ve [§52a](https://www.gesetze-im-internet.de/aufenthv/__52a.html)
 
-::: warning Doğrulanmadı
-Bu sayfa Kiel örneğine dayanıyor ve tam belge listesi/harç bilgisi birincil kaynaktan eksiksiz
-teyit edilemedi — kendi şehrinin resmi sayfasını mutlaka kontrol et.
-:::
+Bu sayfa Kiel örneğine dayanıyor; kendi şehrinin resmi sayfasını kontrol et.

@@ -19,14 +19,11 @@ ve Almanya'da günlük kullanım için normal bir **Girokonto**.
 | | **N26** | **DKB** |
 | --- | --- | --- |
 | Açılış | Tam online, ~10 dk, akıllı telefon üzerinden | Video-Ident, ~5-10 dk |
-| AB dışı (Türkiye) vatandaşı şartı | Biyometrik oturma izni belgesi gerekebiliyor — **tam belge listesi doğrulanamadı** | Geçerli pasaport + geçerli oturma izni (Aufenthaltstitel) gerekiyor |
-| Ön koşul | Bazı kaynaklara göre Anmeldung olmadan da açılabiliyor — **net değil, doğrulanamadı** | Anmeldung ve oturma izni sonrası açılabiliyor |
+| AB dışı (Türkiye) vatandaşı şartı | Türk pasaportu kabul ediliyor, Türk kimlik kartı kabul edilmiyor. Oturum izni kartı (en az 1 yıl geçerli, kart formatında) yalnızca video doğrulamayla kabul | Geçerli pasaport + geçerli oturma izni (Aufenthaltstitel) gerekiyor |
+| Ön koşul | N26'nın resmi belge listesinde Anmeldung şartı yazmıyor; başvuru ekranında kendi durumun için teyit et | Anmeldung ve oturma izni sonrası açılabiliyor |
 | Kart teslimi | — | Posta ile 3-10 iş günü |
 
-::: warning Doğrulanmadı
-N26'nın Türk pasaportlu öğrenciler için tam olarak hangi belgeleri kabul ettiği bu araştırmada
-netleştirilemedi — başvurudan önce uygulama içinden kendi milliyetine özel listeyi kontrol et.
-:::
+N26'nın Mayıs 2026 tarihli resmi kimlik belgesi listesine göre Türk pasaportu kabul edilen belgeler arasında; Türk kimlik kartı kabul edilmiyor. Oturum izni yalnızca video doğrulamayla ve en az 1 yıl geçerliyse kabul.
 
 **Genel pratik yol**: Sperrkonto'nu Almanya'ya gitmeden aç, Anmeldung ve oturma izni sonrası
 normal bir Girokonto (N26/DKB gibi) aç.

@@ -17,19 +17,17 @@ harcamadan sonraki adımlara hazırlanacaksın.
 - Bu süreden SONRA üniversitenin kendi değerlendirme/seçim süreci **ayrı bir süre daha**
   alıyor — bu, programdan programa değişiyor, tek bir ortalama rakam bulunamadı.
 
-::: warning Doğrulanmadı
-Toplam bekleme süresi (uni-assist + üniversite değerlendirmesi) için genel bir rakam bu
-araştırmada bulunamadı. Bazı üniversite sayfalarında 6-8 hafta gibi eski rakamlar da geçiyor —
-kendi hedef üniversitenin güncel sayfasından takip et.
+::: info Toplam bekleme süresi
+uni-assist ve üniversite toplamı için resmi bir tek rakam yok. uni-assist Türkiye için 2-3 hafta (genelde 4-6 hafta) diyor; üniversite kısmı programa göre değişiyor (örneğin TU Darmstadt kendi sitesinde yaklaşık 6-8 hafta yazıyor). Kendi hedef üniversitenin güncel sayfasından takip et ve son başvuru tarihinden en az 8 hafta önce başvur.
 :::
 
 ## Bu süreyi nasıl değerlendirmelisin
 
-- [Adım 16-20](/faz-4-vize/16-vize-turu) (vize sürecinin) araştırmasına başla — bu süreç
+- [Adım 16-20](/faz-4-vize/16-vize-turu) (vize süreci) hakkında bilgi edinmeye başla; Auslandsportal'da randevu kaydını erken açmak kuyrukta sıra kazandırıyor — bu süreç
   paralel yürütülebilir.
-- [Adım 21](/faz-5-once/21-konaklama) (konaklama araştırması) — özellikle yurt başvuruları
+- [Adım 21](/faz-5-once/21-konaklama) (konaklama) — özellikle yurt başvuruları
   erken (bazı şehirlerde 6+ ay önce) yapılmalı, kabul beklerken bile başvuruya başlayabilirsin.
-- Sperrkonto ([Adım 17](/faz-4-vize/17-sperrkonto)) sağlayıcı araştırmasını şimdiden yap.
+- Sperrkonto ([Adım 17](/faz-4-vize/17-sperrkonto)) sağlayıcılarını şimdiden karşılaştır.
 
 ## Neye ihtiyacın var
 
@@ -39,7 +37,7 @@ kendi hedef üniversitenin güncel sayfasından takip et.
 ## Adımlar
 
 1. Başvuru durumunu düzenli aralıklarla (haftalık, günlük değil) portal üzerinden kontrol et.
-2. Bekleme süresini vize ve konaklama araştırmasına ayır.
+2. Bekleme süresini vize ve konaklama hazırlığına ayır.
 3. Son başvuru tarihini kaçırmış olabileceğin ek programlar varsa şimdi değerlendir.
 
 ## Kontrol: Bu adım bitti mi?
@@ -48,7 +46,7 @@ kendi hedef üniversitenin güncel sayfasından takip et.
 
 ## Sık hatalar
 
-- Bekleme sürecini pasif geçirip vize/konaklama araştırmasına kabul gelene kadar başlamamak —
+- Bekleme sürecini pasif geçirip vize ve konaklama hazırlığına kabul gelene kadar başlamamak —
   bu, sonradan zaman baskısı yaratır.
 - Portalı günlük kontrol edip gereksiz stres yaratmak.
 

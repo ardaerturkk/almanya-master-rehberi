@@ -39,15 +39,14 @@ sigorta açısından avantajlı:
 - Bu statüde artık ebeveyn üzerinden aile sigortasına (Familienversicherung) giremezsin, kendi
   öğrenci sağlık sigortan (KVdS) üzerinden sigortalı olursun ve primi kendin ödersin.
 
-::: warning Doğrulanmadı
-"12 aylık dönemde 26 haftadan fazla haftada 20 saati aşarsa statü düşer" kuralı bazı ikincil
-kaynaklarda geçiyor ama birincil kaynaktan (TK'nin resmi Beratungsblatt'ı) tam teyit edilemedi.
+::: info 26 hafta kuralı
+TK ve Deutsche Rentenversicherung'a göre, bir yıl içinde haftada 20 saati aşan hafta sayısı **en fazla 26** olabilir; fazlası Werkstudent statüsünü düşürür. Bu "toplam 26 hafta çalışma" demek değil, 20 saati aşılan hafta sayısıdır. Kural yasada değil, sosyal sigorta kurumlarının yorumunda (dayanak SGB V §6/1 no. 3). Ayrıca hafta sonu, akşam, gece veya ders olmayan dönemdeki çalışma ayrı değerlendiriliyor.
 :::
 
 ## Asgari ücret ve Minijob
 
 2026 itibariyle asgari ücret **13,90 EUR/saat** brüt (2027'de 14,60 EUR'a çıkacak). Minijob
-sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **603 EUR/ay (7.236 EUR/yıl)**.
+sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **603 EUR/ay (7.236 EUR/yıl)**; 2027'de **633 EUR/ay**. 603,01-2.000 EUR arası "Midijob" bölgesi (düşük prim).
 
 ## Neye ihtiyacın var
 
@@ -77,4 +76,5 @@ sınırı (vergisiz/sigortasız çalışabileceğin üst gelir) **603 EUR/ay (7.
 1. [AufenthG §16b — çalışma hakları](https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html)
 2. [Bundesregierung — Mindestlohn 2026](https://www.bundesregierung.de/breg-de/aktuelles/mindestlohn-steigt-2391010)
 3. [Minijob-Zentrale — Verdienstgrenze](https://www.minijob-zentrale.de/DE/die-minijobs/minijob-mit-verdienstgrenze)
-4. [TK — Werkstudentenregel](https://www.tk.de/firmenkunden/versicherung/versicherung-faq/haeufige-fragen-zu-studenten-und-praktikanten/was-besagt-die-werkstudenten-regel-2036662)
+4. [Deutsche Rentenversicherung, Werkstudentenprivileg](https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/summa-summarum/Lexikon/W/werkstudentenprivileg.html) ve [SGB V §6](https://www.gesetze-im-internet.de/sgb_5/__6.html)
+5. [TK — Werkstudentenregel](https://www.tk.de/firmenkunden/versicherung/versicherung-faq/haeufige-fragen-zu-studenten-und-praktikanten/was-besagt-die-werkstudenten-regel-2036662)

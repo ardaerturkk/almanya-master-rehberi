@@ -21,6 +21,6 @@ jobs:
           npm run docs:preview -- --port 4173 &
           npx wait-on http://localhost:4173/almanya-master-rehberi/
           npx linkinator http://localhost:4173/almanya-master-rehberi/ --recurse --silent \
-            --skip "idata\.com\.tr|daad\.de|hochschulkompass\.de"
+            --skip "idata\.com\.tr|daad\.de|hochschulkompass\.de|mevzuat\.gov\.tr|resmigazete\.gov\.tr"
       - name: Markdown lint
         run: npx markdownlint-cli2 "docs/**/*.md" "!docs/.vitepress/**"

@@ -87,3 +87,65 @@ immatrikulation/banka/Ausländerbehörde — tamamı araştırıldı, kaynakland
 - [x] Birden fazla yöntemi olan her adımda tüm yöntemler karşılaştırmalı anlatılmış
       (Sperrkonto/Verpflichtungserklärung/Burs, uni-assist/doğrudan, Almanca/İngilizce,
       yurt/WG/özel kiralık, N26/DKB)
+
+---
+
+# v2
+
+v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzeltir. Her paket ayrı
+`v2/paket-N-...` branch'i ve PR'dir.
+
+## Paket 1: Güven onarımı (P0) — PR açık
+
+- [x] Adım 4 (Dil Sınavları) ve Adım 31 (Oturum İzni Uzatma) tam yazıldı
+- [x] `dallanma/vize-reddi.md` araştırıldı ve yeniden yazıldı (Remonstration 01.07.2025'ten beri yok)
+- [x] `dogrulama-raporu.md`: 31 maddenin 20'si doğrulandı, 4 çelişkili (iki taraf gösteriliyor),
+      5 kısmen, 2 bulunamadı; rapor güncel
+- [x] Askerlik 32/35 çözüldü (7179 sayılı Kanun md. 20/4)
+- [x] Coracle / X-Patrio hatası düzeltildi (X-Patrio = Expatrio)
+- [x] Verpflichtungserklärung iddiası doğrulandı ve nüanslandı
+- [x] Sperrkonto 992 EUR/ay yasa metninden doğrulandı
+- [x] Takvim iç çelişkisi: Adım 16 vize süresi 1-4 ay olarak düzeltildi; takvim aracı ve sayfa
+      Paket 3'te yeniden yazılacak (SoSe/erteleme sayfası şimdiden eklendi)
+- [x] İç ses taraması temiz, ana sayfa bilgi kutusu yeniden yazıldı
+- [x] Yeni sayfa: `dallanma/sose-ve-erteleme.md` (kabul WiSe'ye yetişmezse SoSe / sonraki WiSe)
+
+## Paket 2: Tek veri kaynağı (P1)
+
+- [ ] `degerler.data.ts` data loader (js-yaml)
+- [ ] `<Deger k="..."/>` bileşeni, bilinmeyen anahtar build'i kırar
+- [ ] Sayfalardaki ve bileşenlerdeki elle yazılmış değerleri değiştir
+- [ ] `referans/kaynaklar.md` değer tablosu
+- [ ] `.github/workflows/tazelik.yml` (haftalık güncellik + link kontrolü)
+
+## Paket 3: Okur deneyimi (P1)
+
+- [ ] Kalıcı checkbox'lar, `/checklist` ile ortak storage, sidebar ✓
+- [ ] İlerleme dışa/içe aktarma
+- [ ] Arayüz Türkçeleştirme, Türkçe/Almanca arama normalizasyonu
+- [ ] Takvimi yeniden yaz (WiSe/SoSe, gün bazlı, .ics)
+- [ ] Yazdırma CSS, "Uygun muyum?" sihirbazı, 375px mobil kontrol
+
+## Paket 4: İçerik boşlukları (P1)
+
+- [ ] VIDEX formu (bulgular `docs-internal/arastirma-notlari/v2-03-vize-idata-videx.md`'de)
+- [ ] iDATA/Auslandsportal randevu stratejisi
+- [ ] SoSe dallanmasını genişlet
+- [ ] Verpflichtungserklärung pratik rehberi
+- [ ] Faz index sayfalarına "Bu fazın sonunda" özeti
+
+## Paket 5: Keşfedilebilirlik ve katkı (P2)
+
+- [ ] sitemap, robots.txt, OG/Twitter meta ve OG görseli
+- [ ] Sayfa bazlı `description`
+- [ ] editLink, issue şablonları, "işine yaradı mı?" bağlantısı
+
+## Paket 6: Kalite kapısı (P2)
+
+- [ ] Playwright smoke testleri (CI)
+- [ ] Lighthouse CI (mobil, hedef ≥ 95)
+- [ ] Erişilebilirlik (etiketler, kontrast, klavye)
+
+## Kullanıcıya sorulacak kararlar
+
+Analitik (GoatCounter/Plausible), yorum sistemi (Giscus) ve özel alan adı: Arda'ya soruldu, cevap bekleniyor.

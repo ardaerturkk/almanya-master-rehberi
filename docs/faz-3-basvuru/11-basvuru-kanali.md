@@ -27,9 +27,9 @@ ikisinin birlikte kullanılması:
 
 - **TUM**: Yurt dışı diploması olanlar önce uni-assist'e, aynı anda TUMonline'a başvurur, VPD
   sonucu TUMonline'a yüklenir.
-- **HU Berlin**: Yurt dışı yeterlilik varsa uni-assist üzerinden — **doğrulanmadı, birebir
-  teyit gerekir.**
-- **LMU München**: Bazı programlar (Informatik ailesi) için ayrı bir portal kullanıyor.
+- **HU Berlin**: Yurt dışı diplomayla master başvurusu uni-assist üzerinden.
+- **LMU München**: uni-assist kullanmıyor; programa ve International Office'e ayrı başvuru, bazı programlar MoveIN portalını kullanıyor (bkz. [Adım 13](/faz-3-basvuru/13-universite-portali)).
+- **FAU Erlangen-Nürnberg** ve **TU Darmstadt**: uni-assist kullanmıyor, kendi portalları var.
 
 ## Neye ihtiyacın var
 

@@ -27,11 +27,9 @@ istatistiği bulunamadı. **Her aday programın kendi başvuru sayfasını kontr
 
 ## GRE — Türkiye'de sınav
 
-- Merkezler: İstanbul, Ankara, İzmir + online (evden) — **doğrulanamadı, ETS'in resmi merkez
-  listesi ayrıca kontrol edilmeli.**
+- Merkezler: ETS kayıt ekranında ülke ve şehir seçerek Türkiye'deki güncel merkezleri görürsün; ev sürümü (evden çevrimiçi) de var. Şehir listesi ETS'in dinamik kayıt sayfasında olduğu için bu sayfada sabit bir liste vermiyoruz.
 - Ücret: ETS'in resmi sayfasına göre, 1 Ağustos 2026'dan itibaren Çin dışındaki tüm bölgeler
-  (Türkiye dahil) için **249 USD**. (tr.ets.org'da 220 USD gösteriyordu ama muhtemelen eski/
-  önbellek — **249 USD'yi esas al, kayıt öncesi canlı teyit et.**)
+  (Türkiye dahil) için **249 USD**. (tr.ets.org'daki 220 USD rakamı eski; **249 USD'yi esas al, kayıt ekranındaki tutarı teyit et.**)
 - Ek ücretler: yeniden planlama ~55 USD, ek skor raporu ~40 USD/alıcı, skor inceleme 50-60 USD.
 
 ## Neye ihtiyacın var
@@ -61,7 +59,3 @@ istatistiği bulunamadı. **Her aday programın kendi başvuru sayfasını kontr
 ## Kaynaklar (Son doğrulama: 24.09.2026)
 
 1. [ETS — GRE General Test ücretleri](https://www.ets.org/gre/test-takers/general-test/register/fees.html)
-
-::: warning Doğrulanmadı
-GRE Türkiye sınav merkezlerinin tam listesi bu araştırmada net teyit edilemedi.
-:::
