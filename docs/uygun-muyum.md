@@ -1,5 +1,6 @@
 ---
 title: "Uygun muyum? (Öz değerlendirme)"
+description: "Almanya'da master için kısa bir sihirbazla durumunu değerlendir: lisans, yaş, dil, finansman ve hedef dönemine göre sana özel rota."
 ---
 
 # Uygun muyum? (Öz değerlendirme)
@@ -8,6 +9,14 @@ title: "Uygun muyum? (Öz değerlendirme)"
 Almanya'da Master yapmak için temel şartları karşılayıp karşılamadığını hızlıca
 değerlendirmen için. Kesin cevap değil, yol haritanı netleştirmen için bir başlangıç noktası.
 :::
+
+## Kişisel rotanı bul
+
+Yedi kısa soruyu cevapla; hangi dallanma sayfalarının seni ilgilendirdiğini ve hangi adımları atlayabileceğini veya kısaltabileceğini göstereyim. Cevapların kaydedilmez.
+
+<ClientOnly>
+<UygunMuyumSihirbazi />
+</ClientOnly>
 
 ## Temel şartlar
 
@@ -28,9 +37,9 @@ Sperrkonto için yıllık **<Deger k="sperrkonto.yillik_tutar" />** (2026 itibar
 [Adım 17](/faz-4-vize/17-sperrkonto)'den kontrol et) bloke etmen gerekiyor — bu, tek başına
 büyük bir finansal taahhüt. Buna ek olarak:
 
-- uni-assist ücretleri (program başına 30-75 EUR)
+- uni-assist ücretleri (ilk program <Deger k="uni_assist.ilk_basvuru_ucreti" />, her ek program <Deger k="uni_assist.ek_basvuru_ucreti" />)
 - Dil sınavı ücretleri
-- Vize başvuru ücreti (~115 EUR)
+- Vize başvuru ücreti (<Deger k="vize_kanali.ucret" /> + iDATA hizmet bedeli)
 - Apostil/tercüme masrafları
 - Uçak bileti ve ilk yerleşme masrafları
 

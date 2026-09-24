@@ -5,13 +5,15 @@ title: "Checklist'im"
 # Checklist'im
 
 ::: info Bu sayfa ne için
-Sitedeki 32 adımın birleşik, yazdırılabilir görünümü. İşaretlediğin adımlar tarayıcının
-localStorage'ında saklanıyor — sayfayı kapatıp açsan bile ilerlemen kalıyor (ama sadece bu
-tarayıcıda/cihazda, hesaba bağlı değil).
+Sitedeki 32 adımın birleşik, yazdırılabilir görünümü. İşaretlediğin adımlar tarayıcının localStorage'ında saklanıyor: sayfayı kapatıp açsan bile ilerlemen kalıyor (ama sadece bu tarayıcıda, hesaba bağlı değil). Her adım sayfasındaki "Kontrol: Bu adım bitti mi?" listesini tamamen işaretlersen o adım burada otomatik tamamlanır ve sidebar'da ✓ görünür. Telefon ile bilgisayar arasında taşımak için aşağıdaki yedekleme araçlarını kullan.
 :::
 
 <ClientOnly>
 <ProgressBar storage-key="ana-adimlar" :total="32" label="Genel ilerleme (32 adım)" />
+</ClientOnly>
+
+<ClientOnly>
+<IlerlemeYedek />
 </ClientOnly>
 
 <ClientOnly>

@@ -80,12 +80,100 @@
   transition: width 0.2s ease;
 }
 
+/* Görev listeleri (- [ ] maddeleri) */
+.vp-doc ul.amr-tasklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.vp-doc li.amr-task-item {
+  margin: 6px 0;
+}
+
+.amr-task {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.amr-task-cb {
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+  flex-shrink: 0;
+  accent-color: var(--vp-c-brand-1);
+}
+
+.amr-task-cb:checked + .amr-task-metin {
+  color: var(--vp-c-text-3);
+  text-decoration: line-through;
+}
+
+.amr-task-cb:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+/* Sidebar'da tamamlanan adımlar */
+.VPSidebar a.link.amr-tamam .text::after {
+  content: " ✓";
+  color: var(--vp-c-green-1);
+  font-weight: 700;
+}
+
+/* Yazdırma: sidebar/nav gizli, tek sütun, işaretliler görünür */
 @media print {
   .VPNav,
   .VPSidebar,
+  .VPLocalNav,
   .VPDocFooter,
   .VPDocAside,
+  .VPFooter,
   .amr-no-print {
     display: none !important;
+  }
+
+  .VPContent.has-sidebar,
+  .VPDoc,
+  .VPDoc.has-sidebar {
+    padding: 0 !important;
+  }
+
+  .VPDoc .container,
+  .VPDoc .content,
+  .VPDoc .content-container {
+    display: block !important;
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  :root {
+    --vp-nav-height: 0px;
+    --vp-layout-top-height: 0px;
+  }
+
+  .VPContent {
+    padding-top: 0 !important;
+  }
+
+  .amr-card {
+    break-inside: avoid;
+    background: transparent !important;
+    border-color: #999 !important;
+  }
+
+  .amr-row input[type="checkbox"],
+  .amr-task-cb {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .amr-checked label {
+    color: #555 !important;
+  }
+
+  a[href]::after {
+    content: none !important;
   }
 }

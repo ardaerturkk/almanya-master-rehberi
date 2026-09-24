@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { load as yamlYukle } from "js-yaml";
+import { gorevListesi } from "./gorevListesi";
 
 // Bilinmeyen <Deger k="..." /> anahtarı build'i kırmalı. Vue SSR bileşen hatalarını yutabildiği
 // için kaynak dosyalar buildEnd'de ayrıca taranır.
@@ -38,6 +39,12 @@ export default defineConfig({
   base: "/almanya-master-rehberi/",
   cleanUrls: true,
   lastUpdated: true,
+
+  markdown: {
+    config: (md) => {
+      md.use(gorevListesi);
+    },
+  },
 
   buildEnd(siteConfig) {
     degerAnahtarlariniDogrula(siteConfig.srcDir);
@@ -168,7 +175,54 @@ export default defineConfig({
 
     search: {
       provider: "local",
+      options: {
+        miniSearch: {
+          options: {
+            // Arama ayarları tarayıcıya serileştirilerek taşınır: bu fonksiyon dış değişkene bağlı olmamalı.
+            // Türkçe (ı ş ğ ü ö ç İ) ve Almanca (ä ö ü ß) karakterleri sadeleştirir:
+            // "sozluk" ↔ "sözlük", "auslanderbehorde" ↔ "Ausländerbehörde".
+            processTerm: (terim: string) =>
+              terim
+                .replace(/İ/g, "i")
+                .replace(/ı/g, "i")
+                .toLowerCase()
+                .replace(/ß/g, "ss")
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, ""),
+          },
+        },
+        translations: {
+          button: { buttonText: "Ara", buttonAriaLabel: "Sitede ara" },
+          modal: {
+            displayDetails: "Ayrıntıları göster",
+            resetButtonTitle: "Aramayı temizle",
+            backButtonTitle: "Aramayı kapat",
+            noResultsText: "Sonuç bulunamadı:",
+            footer: {
+              selectText: "seç",
+              selectKeyAriaLabel: "enter",
+              navigateText: "gezin",
+              navigateUpKeyAriaLabel: "yukarı ok",
+              navigateDownKeyAriaLabel: "aşağı ok",
+              closeText: "kapat",
+              closeKeyAriaLabel: "esc",
+            },
+          },
+        },
+      },
     },
+
+    lastUpdated: {
+      text: "Son güncelleme",
+      formatOptions: { dateStyle: "long", forceLocale: true },
+    },
+    darkModeSwitchLabel: "Görünüm",
+    lightModeSwitchTitle: "Açık temaya geç",
+    darkModeSwitchTitle: "Koyu temaya geç",
+    sidebarMenuLabel: "Menü",
+    returnToTopLabel: "Başa dön",
+    langMenuLabel: "Dili değiştir",
+    skipToContentLabel: "İçeriğe geç",
 
     outline: {
       level: [2, 3],
