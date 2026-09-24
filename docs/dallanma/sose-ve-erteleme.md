@@ -97,7 +97,7 @@ TestDaF ve Goethe sertifikaları süresiz, TOEFL 2 yıl geçerli (bkz. [Adım 4]
 
 ## Vize açısından bilmen gerekenler
 
-- Yasa (AufenthG §16b/1), öğrenci vizesi ve oturum izninin üniversite kabulüne bağlı olduğunu söylüyor. Aday öğrenci vizesi (§17/2, 9 ay) kabul olmadan başvuru için ayrı bir yol; Sperrkonto tutarı bu vize için 1.091 EUR/ay.
+- Yasa (AufenthG §16b/1), öğrenci vizesi ve oturum izninin üniversite kabulüne bağlı olduğunu söylüyor. Aday öğrenci vizesi (§17/2, 9 ay) kabul olmadan başvuru için ayrı bir yol; Sperrkonto tutarı bu vize için <Deger k="sperrkonto.chancenkarte_aylik" />.
 - Türkiye'de kabul mektubu olmadan Auslandsportal'da randevu kaydı açılıp açılamayacağını açık bir cümle olarak bulamadık; Auslandsportal'da denediğinde ne olduğunu kendi başvurunda doğrula.
 - Vizeyi ne kadar önceden başvurabileceğin (Türkiye için) ve vizenin giriş penceresi bu sayfada doğrulanamadı; randevu sırasında sor.
 

@@ -54,3 +54,18 @@ sayfasına bak.
 
 Bu site bilgi verir, hukuki veya mali danışmanlık vermez. Nihai söz her zaman ilgili
 konsolosluk, Ausländerbehörde (yabancılar dairesi) veya üniversitenindir.
+
+## Değişken değerler (tutar, süre)
+
+Sayfalarda görünen tutar ve süreler `data/degerler.yml` dosyasından gelir. Markdown içinde:
+
+```md
+<Deger k="sperrkonto.aylik_tutar" />
+```
+
+Bileşen değeri basar; üzerine gelince (veya dokununca) kaynak linkini ve son doğrulama tarihini
+gösterir, `durum: belirsiz` ise "teyit et" rozeti ekler. Yml'de olmayan bir anahtar build'i kırar.
+Hesaplayıcılar sayısal değeri `sayi` alanından okur (`degerSayi("sperrkonto.aylik_tutar")`).
+Bir değeri güncellemek için yalnızca yml'i değiştirip `dogrulama_tarihi` alanını yenile.
+`.github/workflows/tazelik.yml` haftalık olarak 120 günden eski tarihleri ve kırık dış linkleri
+tek bir "Güncellik kontrolü" issue'sunda toplar.

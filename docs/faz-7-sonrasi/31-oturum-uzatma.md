@@ -38,7 +38,7 @@ Liste şehirden şehre değişiyor. Berlin, München ve Kiel sayfalarında ortak
 - [ ] Geçerli pasaport ve mevcut oturum kartı
 - [ ] Güncel öğrenci belgesi (Immatrikulationsbescheinigung)
 - [ ] Almanya'da geçerli sağlık sigortası kanıtı (yabancı sigorta çoğu zaman yetmez)
-- [ ] Geçim kanıtı (aylık 992 EUR, yıllık 11.904 EUR; Berlin uzatmada son 6 ayın hesap dökümünü de kabul ediyor)
+- [ ] Geçim kanıtı (<Deger k="sperrkonto.aylik_tutar" />, yıllık <Deger k="sperrkonto.yillik_tutar" />; Berlin uzatmada son 6 ayın hesap dökümünü de kabul ediyor)
 - [ ] İkamet kaydı (Meldebestätigung)
 - [ ] **İlerleme kanıtı:** Berlin Leistungsübersicht veya Studienprognose istiyor; München 4. yarıyıldan itibaren Leistungsnachweise istiyor, Regelstudienzeit aşılmışsa üniversiteden "makul sürede bitirebilir" yazısı istiyor
 - [ ] Harç ödemesi (biyometrik fotoğraf gerekip gerekmediğini dairene sor)
@@ -61,7 +61,7 @@ Hukuken tek şart, öğrenimin "makul sürede" bitirilebilir olması. Uygulamada
 
 ## Uzatma sırasında çalışma
 
-Oturum iznin yılda **140 tam gün veya 280 yarım gün** çalışmaya izin veriyor (bkz. [Adım 30](/faz-7-sonrasi/30-calisma-haklari)). Üniversite içindeki öğrenci işleri (studentische Nebentätigkeit) bu hesaba girmiyor.
+Oturum iznin yılda **<Deger k="calisma_limiti.tam_gun" /> veya <Deger k="calisma_limiti.yarim_gun" />** çalışmaya izin veriyor (bkz. [Adım 30](/faz-7-sonrasi/30-calisma-haklari)). Üniversite içindeki öğrenci işleri (studentische Nebentätigkeit) bu hesaba girmiyor.
 
 ## Adımlar
 

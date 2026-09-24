@@ -24,7 +24,7 @@ uzatma mümkün olabiliyor, garanti değil ama denemeye değer. Bkz.
 ## Vize aşamasında
 
 **Sperrkonto tutarının güncel olup olmadığından emin değilim**
-Başvurudan hemen önce Auslandsportal'daki (digital.diplo.de) güncel tutara bak. Bu rehberdeki rakam (992 EUR/ay) 24.09.2026'da BAföG yasasından hesaplanarak doğrulandı; ileride planlanan BAföG değişikliği tutarı etkileyebilir. Bkz. [Adım 17](/faz-4-vize/17-sperrkonto).
+Başvurudan hemen önce Auslandsportal'daki (digital.diplo.de) güncel tutara bak. Bu rehberdeki rakam (<Deger k="sperrkonto.aylik_tutar" />) 24.09.2026'da BAföG yasasından hesaplanarak doğrulandı; ileride planlanan BAföG değişikliği tutarı etkileyebilir. Bkz. [Adım 17](/faz-4-vize/17-sperrkonto).
 
 **Vize randevusu çok uzun sürede çıkıyor**
 Auswärtiges Amt, Türkiye'de öğrenci vizesi için misyona göre 1-4 ay bekleme bildiriyor. Randevular kayıt tarihine göre veriliyor, o yüzden Auslandsportal'a erken kayıt öneriliyor. Bkz.

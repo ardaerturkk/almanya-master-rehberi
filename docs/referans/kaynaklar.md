@@ -29,8 +29,11 @@ Her sayfanın sonundaki "Kaynaklar" bölümünde o sayfada kullanılan kaynaklar
 
 ## Değişken değerler
 
-Tüm sayısal/değişken değerler (tutarlar, süreler) `data/degerler.yml` dosyasında, her biri
-kaynak ve doğrulama tarihiyle birlikte kayıtlı.
+Sayfalarda görünen tutarlar ve süreler tek bir yerden gelir; her biri kaynak ve doğrulama tarihiyle
+kayıtlıdır. Sayfadaki bir değerin üzerine gelirsen (dokunursan) aynı kaynak ve tarih görünür.
+"Teyit et" rozeti taşıyanlar tam doğrulanamamış veya kaynakları çelişen değerlerdir.
+
+<DegerTablosu />
 
 ## Doğrulanamayan noktalar
 

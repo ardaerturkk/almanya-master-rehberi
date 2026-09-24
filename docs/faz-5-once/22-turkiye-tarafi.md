@@ -1,6 +1,6 @@
 ---
 title: "Adım 22: Türkiye Tarafı İşler"
-description: "Türkiye'den ayrılmadan önce: 2026 pasaport harcı ve defter bedeli, yurt dışı çıkış harcı (1.250 TL), muafiyetler, apostil ve tercüme."
+description: "Türkiye'den ayrılmadan önce: 2026 pasaport harcı ve defter bedeli, yurt dışı çıkış harcı, muafiyetler, apostil ve tercüme."
 ---
 
 # Adım 22: Türkiye Tarafı İşler
@@ -17,21 +17,23 @@ Apostil ve tercümenin kuralları [Adım 9](/faz-2-belgeler/09-onay-tercume) say
 
 ## Pasaport harcı (2026)
 
-NVİ'nin 2026 tarifesine göre harç geçerlilik süresine göre değişiyor, defter bedeli sabit **1.351 TL**:
+NVİ'nin 2026 tarifesine göre harç geçerlilik süresine göre değişiyor, defter bedeli sabit **<Deger k="tc_tarafi.pasaport_defter_bedeli" />**:
 
-| Süre | Harç | Defter bedeli | Toplam |
-| --- | --- | --- | --- |
-| 6 ay | 2.806,50 TL | 1.351 TL | 4.157,50 TL |
-| 1 yıl | 4.103 TL | 1.351 TL | 5.454 TL |
-| 2 yıl | 6.698,50 TL | 1.351 TL | 8.049,50 TL |
-| 3 yıl | 9.516 TL | 1.351 TL | 10.867 TL |
-| 10 yıl | 13.410,40 TL | 1.351 TL | 14.761,40 TL |
+| Süre | Harç | Defter bedeli |
+| --- | --- | --- |
+| 6 ay | <Deger k="tc_tarafi.pasaport_harci_6ay" /> | <Deger k="tc_tarafi.pasaport_defter_bedeli" /> |
+| 1 yıl | <Deger k="tc_tarafi.pasaport_harci_1yil" /> | <Deger k="tc_tarafi.pasaport_defter_bedeli" /> |
+| 2 yıl | <Deger k="tc_tarafi.pasaport_harci_2yil" /> | <Deger k="tc_tarafi.pasaport_defter_bedeli" /> |
+| 3 yıl | <Deger k="tc_tarafi.pasaport_harci_3yil" /> | <Deger k="tc_tarafi.pasaport_defter_bedeli" /> |
+| 10 yıl | <Deger k="tc_tarafi.pasaport_harci_10yil" /> | <Deger k="tc_tarafi.pasaport_defter_bedeli" /> |
+
+Toplam ödeme harç ile defter bedelinin toplamıdır.
 
 İnternette "1.424,31 TL defter bedeli" veya "2.960,81 TL 6 aylık harç" gibi rakamlar görebilirsin; bunlar 2025 tutarlarının hatalı çarpılmasından çıkmış yanlış rakamlar. Resmi rakam NVİ'nin yayımladığı tablodadır. Ödeme: vergi dairesi, PTT, anlaşmalı bankalar, dijital.gib.gov.tr.
 
 ## Yurt dışı çıkış harcı (2026)
 
-Yurt dışı çıkış harcı 2026'da **1.250 TL** (Resmî Gazete, 31.12.2025, 5. mükerrer sayı, Seri No: 1 tebliğ). Her yurt dışı çıkışında ödenir ve uçuştan **önce** ödenmesi gerekir: Dijital Vergi Dairesi (dijital.gib.gov.tr), GİB Mobil, banka uygulaması, vergi dairesi veya PTT.
+Yurt dışı çıkış harcı 2026'da **<Deger k="tc_tarafi.cikis_harci" />** (Resmî Gazete, 31.12.2025, 5. mükerrer sayı, Seri No: 1 tebliğ). Her yurt dışı çıkışında ödenir ve uçuştan **önce** ödenmesi gerekir: Dijital Vergi Dairesi (dijital.gib.gov.tr), GİB Mobil, banka uygulaması, vergi dairesi veya PTT.
 
 - **Öğrenciler için özel muafiyet yok.** Burslu olman, yeşil pasaport veya uzun süre gitmen fark ettirmiyor.
 - **Muaf olanlar:** 7 yaşını doldurmamış çocuklar, çıkış anında **yurt dışında oturma izni** olanlar (belgelemek gerekir), pasavanla çıkanlar, KKTC'ye kimlikle gidenler, ticari araç mürettebatı. Yani Almanya'da oturma iznini aldıktan sonraki çıkışlarda muafiyet talep edebilirsin; ilk gidişte vizeyle çıkıyorsan ödersin. Muafiyetin havalimanında uygulanışına dair bir örnek bulamadık, belgeni yanında bulundur.

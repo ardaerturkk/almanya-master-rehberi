@@ -1,4 +1,35 @@
 import { defineConfig } from "vitepress";
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
+import { load as yamlYukle } from "js-yaml";
+
+// Bilinmeyen <Deger k="..." /> anahtarı build'i kırmalı. Vue SSR bileşen hatalarını yutabildiği
+// için kaynak dosyalar buildEnd'de ayrıca taranır.
+function degerAnahtarlariniDogrula(srcDir: string) {
+  const veri = yamlYukle(readFileSync(join(srcDir, "..", "data", "degerler.yml"), "utf8")) as Record<
+    string,
+    Record<string, unknown>
+  >;
+  const hatalar: string[] = [];
+  const tara = (dizin: string) => {
+    for (const ad of readdirSync(dizin, { withFileTypes: true })) {
+      if (ad.name === "node_modules" || ad.name === ".vitepress" || ad.name === "public") continue;
+      const yol = join(dizin, ad.name);
+      if (ad.isDirectory()) tara(yol);
+      else if (ad.name.endsWith(".md")) {
+        const icerik = readFileSync(yol, "utf8");
+        for (const m of icerik.matchAll(/<Deger\s+k="([^"]+)"/g)) {
+          const [grup, anahtar, ...fazla] = m[1].split(".");
+          if (!(grup && anahtar && fazla.length === 0 && veri[grup]?.[anahtar])) {
+            hatalar.push(`${yol}: bilinmeyen değer anahtarı "${m[1]}"`);
+          }
+        }
+      }
+    }
+  };
+  tara(srcDir);
+  if (hatalar.length) throw new Error(`data/degerler.yml içinde olmayan anahtarlar:\n${hatalar.join("\n")}`);
+}
 
 export default defineConfig({
   lang: "tr-TR",
@@ -7,6 +38,10 @@ export default defineConfig({
   base: "/almanya-master-rehberi/",
   cleanUrls: true,
   lastUpdated: true,
+
+  buildEnd(siteConfig) {
+    degerAnahtarlariniDogrula(siteConfig.srcDir);
+  },
 
   head: [["link", { rel: "icon", href: "/almanya-master-rehberi/favicon.svg" }]],
 

@@ -24,8 +24,8 @@ itibaren yasal 2 haftalık süre sınırı var (BMG §17).
 **APS (Akademische Prüfstelle)** — Bazı ülkeler (Çin, Vietnam, Hindistan gibi) için zorunlu bir
 diploma doğrulama belgesi. **Türkiye bu kapsamda değil**, APS gerekmiyor.
 
-**Arbeitstagekonto** — Çalışma gün hesabı. AB dışı öğrencilerin yıllık 140 tam gün/280 yarım
-gün çalışma sınırının izlendiği sistem (AufenthG §16b).
+**Arbeitstagekonto** — Çalışma gün hesabı. AB dışı öğrencilerin yıllık <Deger k="calisma_limiti.gun_siniri" />
+çalışma sınırının izlendiği sistem (AufenthG §16b).
 
 **Aufenthaltserlaubnis** — Oturum/ikamet izni. Öğrenci vizesi ile geldikten sonra aldığın,
 Almanya'da kalmanı yasal kılan belge.
@@ -169,9 +169,9 @@ Einwohnermeldeamt).
 
 **Mietvertrag** — Kira sözleşmesi.
 
-**Mindestlohn** — Asgari ücret. 2026 itibariyle 13,90 EUR/saat.
+**Mindestlohn** — Asgari ücret. 2026 itibariyle <Deger k="asgari_ucret.saatlik" />.
 
-**Minijob-Grenze** — Minijob kazanç sınırı. 2026 itibariyle 603 EUR/ay.
+**Minijob-Grenze** — Minijob kazanç sınırı. 2026 itibariyle <Deger k="minijob_siniri.aylik" />.
 
 **Motivationsschreiben** — Motivasyon mektubu. Her programda zorunlu değil.
 
@@ -198,7 +198,7 @@ havuzuna göre kendiliğinden oluşuyor.
 **Rentenversicherung** — Emeklilik sigortası. Werkstudent'lerin ödemeye devam ettiği tek sosyal
 sigorta kalemi.
 
-**Rundfunkbeitrag** — Yayın katkı payı. Hane başına 18,36 EUR/ay (2026). Sadece BAföG alanlar
+**Rundfunkbeitrag** — Yayın katkı payı. Hane başına <Deger k="rundfunkbeitrag.aylik_tutar" /> (2026). Sadece BAföG alanlar
 muafiyet başvurabiliyor.
 
 ## S

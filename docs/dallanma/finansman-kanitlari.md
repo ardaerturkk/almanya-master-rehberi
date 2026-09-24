@@ -19,9 +19,9 @@ alternatif olarak listeliyor. Hangisinin senin durumunda pratik olduğu değişi
 
 | | **Sperrkonto** | **Verpflichtungserklärung** | **Burs** |
 | --- | --- | --- | --- |
-| Kim için uygun | Kendi imkânıyla başvuran herkes | Almanya'da ikamet eden bir yakının/tanıdığın varsa | Aylık asgari 992 EUR'u kapsayan resmi bir burs kazandıysan |
+| Kim için uygun | Kendi imkânıyla başvuran herkes | Almanya'da ikamet eden bir yakının/tanıdığın varsa | Aylık asgari tutarı (<Deger k="sperrkonto.aylik_tutar" />) kapsayan resmi bir burs kazandıysan |
 | Ön koşul | Yok — tamamen kendi başına açılır | Pratikte **garantörün Almanya'da yaşaması ve geliri Almanya'da olması** gerekiyor (aşağıya bak) | Burs, resmi bir kurumdan (DAAD, Erasmus+, vakıf) olmalı |
-| Maliyet | Kurulum ~120-160 EUR + aylık ~5-10 EUR + bloke edilen 11.904 EUR | Garantörün gelir durumuna bağlı, doğrudan bir "ücret" yok ama Ausländerbehörde harcı olabilir | Genelde ücretsiz (burs zaten kapsıyor) |
+| Maliyet | Kurulum ~120-160 EUR + aylık ~5-10 EUR + bloke edilen <Deger k="sperrkonto.yillik_tutar" /> | Garantörün gelir durumuna bağlı, doğrudan bir "ücret" yok ama Ausländerbehörde harcı olabilir | Genelde ücretsiz (burs zaten kapsıyor) |
 | Hız | 1-2 hafta (sağlayıcı onayı) | Garantörün oturduğu şehrin Ausländerbehörde'sine bağlı, değişken | Burs onay sürecine bağlı |
 | Esneklik | Parayı Almanya'da harcamak üzere aylık çekiyorsun | Garantör tüm masrafları üstlenmeyi taahhüt ediyor, ekstra hesap açmana gerek yok | Burs süresi kadar geçerli, burs biterse yeniden finansman kanıtı gerekebilir |
 
@@ -46,7 +46,7 @@ Vize başvurusunda belgenin **6 aydan eski olmaması** isteniyor. Garantörün g
 
 ## Burs
 
-Aylık asgari 992 EUR'u kapsayan resmi bir burs belgesi (DAAD, Erasmus+, vakıf bursları vb.)
+Aylık asgari tutarı (<Deger k="sperrkonto.aylik_tutar" />) kapsayan resmi bir burs belgesi (DAAD, Erasmus+, vakıf bursları vb.)
 finansman kanıtı olarak kabul ediliyor. Bursun tam süreyi kapsamadığı durumlarda (örneğin ilk
 6 ay burslu, sonrası değil) eksik kalan dönem için Sperrkonto veya Verpflichtungserklärung ile
 tamamlama gerekebilir — bu detay konsolosluğa göre değişebilir, kendi durumunu netleştirmek

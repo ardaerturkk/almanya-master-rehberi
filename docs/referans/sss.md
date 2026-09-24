@@ -63,7 +63,7 @@ Türkiye'deki misyonlarda ret kararına karşı itiraz dilekçesi (Remonstration
 ## Almanya'da
 
 **Ne kadar çalışabilirim?**
-Yılda 140 tam gün / 280 yarım gün (üniversite bünyesindeki Hilfskraft işleri hariç). Bkz.
+Yılda <Deger k="calisma_limiti.tam_gun" /> / <Deger k="calisma_limiti.yarim_gun" /> (üniversite bünyesindeki Hilfskraft işleri hariç). Bkz.
 [Adım 30](/faz-7-sonrasi/30-calisma-haklari).
 
 **30 yaşındayım, sigortam ne olacak?**

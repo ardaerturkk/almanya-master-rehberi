@@ -95,7 +95,7 @@ immatrikulation/banka/Ausländerbehörde — tamamı araştırıldı, kaynakland
 v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzeltir. Her paket ayrı
 `v2/paket-N-...` branch'i ve PR'dir.
 
-## Paket 1: Güven onarımı (P0) — PR açık
+## Paket 1: Güven onarımı (P0) — PR #1
 
 - [x] Adım 4 (Dil Sınavları) ve Adım 31 (Oturum İzni Uzatma) tam yazıldı
 - [x] `dallanma/vize-reddi.md` araştırıldı ve yeniden yazıldı (Remonstration 01.07.2025'ten beri yok)
@@ -110,13 +110,13 @@ v2, v1'de tespit edilen güven, veri ve deneyim sorunlarını 6 pakette düzelti
 - [x] İç ses taraması temiz, ana sayfa bilgi kutusu yeniden yazıldı
 - [x] Yeni sayfa: `dallanma/sose-ve-erteleme.md` (kabul WiSe'ye yetişmezse SoSe / sonraki WiSe)
 
-## Paket 2: Tek veri kaynağı (P1)
+## Paket 2: Tek veri kaynağı (P1) — PR açık
 
-- [ ] `degerler.data.ts` data loader (js-yaml)
-- [ ] `<Deger k="..."/>` bileşeni, bilinmeyen anahtar build'i kırar
-- [ ] Sayfalardaki ve bileşenlerdeki elle yazılmış değerleri değiştir
-- [ ] `referans/kaynaklar.md` değer tablosu
-- [ ] `.github/workflows/tazelik.yml` (haftalık güncellik + link kontrolü)
+- [x] `docs/.vitepress/degerler.data.ts` data loader (js-yaml), şema doğrulaması
+- [x] `<Deger k="..."/>` bileşeni (kaynak + tarih popover'ı, "teyit et" rozeti); bilinmeyen anahtar build'i kırar (`buildEnd` taraması + bileşen hatası)
+- [x] Sayfalardaki ve `ButceHesaplayici.vue` içindeki elle yazılmış değerler değiştirildi
+- [x] `referans/kaynaklar.md` değer tablosu (`<DegerTablosu />`)
+- [x] `.github/workflows/tazelik.yml` (haftalık: 120 günden eski değerler + kırık dış linkler → tek "Güncellik kontrolü" issue'su)
 
 ## Paket 3: Okur deneyimi (P1)
 

@@ -5,6 +5,8 @@ import ProgressBar from "./components/ProgressBar.vue";
 import BayerischeFormelHesaplayici from "./components/BayerischeFormelHesaplayici.vue";
 import ButceHesaplayici from "./components/ButceHesaplayici.vue";
 import GeriyeDoguTakvim from "./components/GeriyeDoguTakvim.vue";
+import Deger from "./components/Deger.vue";
+import DegerTablosu from "./components/DegerTablosu.vue";
 import "./custom.css";
 
 export default {
@@ -15,5 +17,7 @@ export default {
     app.component("BayerischeFormelHesaplayici", BayerischeFormelHesaplayici);
     app.component("ButceHesaplayici", ButceHesaplayici);
     app.component("GeriyeDoguTakvim", GeriyeDoguTakvim);
+    app.component("Deger", Deger);
+    app.component("DegerTablosu", DegerTablosu);
   },
 } satisfies Theme;

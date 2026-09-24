@@ -24,7 +24,7 @@ bir ön değerlendirme belgesi.
 | | **uni-assist (VPD yolu)** | **Doğrudan başvuru** |
 | --- | --- | --- |
 | Süreç | Önce uni-assist'e başvuru → VPD alınır → VPD üniversiteye sunulur/değerlendirilir | Üniversitenin kendi International Office'i evrakları doğrudan değerlendirir |
-| Ücret | İlk program 75 EUR, her ek program 30 EUR (sonuçtan bağımsız, her dönem tekrar ödenir) | Genelde ücretsiz veya üniversitenin kendi (genelde düşük) ücreti |
+| Ücret | İlk program <Deger k="uni_assist.ilk_basvuru_ucreti" />, her ek program <Deger k="uni_assist.ek_basvuru_ucreti" /> (sonuçtan bağımsız, her dönem tekrar ödenir) | Genelde ücretsiz veya üniversitenin kendi (genelde düşük) ücreti |
 | İşlem süresi | Genel 4-6 hafta; **Türkiye için güncel tabloda ~2-3 hafta** (yoğun dönemde uzayabilir) | Üniversiteye göre değişir |
 | Avantajı | Birden fazla üniversiteye başvuracaksan denklik değerlendirmesi bir kez yapılıp VPD tekrar kullanılabiliyor (bazı durumlarda) | Doğrudan iletişim, aracı yok |
 

@@ -4,7 +4,7 @@ title: "Adım 5: GRE / GMAT ve Diğer Testler"
 
 # Adım 5: GRE / GMAT ve Diğer Testler
 
-> ⏱ Süre: Hazırlık haftalar-aylar sürebilir   💶 Maliyet: GRE ~249 USD   📅 Ne zaman: Program araştırmasıyla (Adım 2) birlikte netleştir
+> ⏱ Süre: Hazırlık haftalar-aylar sürebilir   💶 Maliyet: GRE <Deger k="gre.ucret" />   📅 Ne zaman: Program araştırmasıyla (Adım 2) birlikte netleştir
 
 ::: info Bu adımda ne yapacaksın
 Hedeflediğin programların GRE/GMAT isteyip istemediğini kontrol edeceksin — çoğu Alman Master
@@ -29,7 +29,7 @@ istatistiği bulunamadı. **Her aday programın kendi başvuru sayfasını kontr
 
 - Merkezler: ETS kayıt ekranında ülke ve şehir seçerek Türkiye'deki güncel merkezleri görürsün; ev sürümü (evden çevrimiçi) de var. Şehir listesi ETS'in dinamik kayıt sayfasında olduğu için bu sayfada sabit bir liste vermiyoruz.
 - Ücret: ETS'in resmi sayfasına göre, 1 Ağustos 2026'dan itibaren Çin dışındaki tüm bölgeler
-  (Türkiye dahil) için **249 USD**. (tr.ets.org'daki 220 USD rakamı eski; **249 USD'yi esas al, kayıt ekranındaki tutarı teyit et.**)
+  (Türkiye dahil) için **<Deger k="gre.ucret" />**. (tr.ets.org'daki eski rakamı değil, kayıt ekranındaki güncel tutarı esas al.)
 - Ek ücretler: yeniden planlama ~55 USD, ek skor raporu ~40 USD/alıcı, skor inceleme 50-60 USD.
 
 ## Neye ihtiyacın var
