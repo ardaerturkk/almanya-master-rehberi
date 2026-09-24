@@ -1,5 +1,5 @@
 ---
-title: Adım 14: Beklemek
+title: "Adım 14: Beklemek"
 ---
 
 # Adım 14: Beklemek

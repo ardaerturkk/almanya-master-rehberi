@@ -1,5 +1,5 @@
 ---
-title: Vize Reddi Aldım
+title: "Vize Reddi Aldım"
 ---
 
 # Vize Reddi Aldım

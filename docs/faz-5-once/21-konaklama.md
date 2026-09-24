@@ -1,5 +1,5 @@
 ---
-title: Adım 21: Konaklama
+title: "Adım 21: Konaklama"
 ---
 
 # Adım 21: Konaklama

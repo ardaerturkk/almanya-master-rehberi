@@ -1,5 +1,5 @@
 ---
-title: Uygun muyum? (Öz değerlendirme)
+title: "Uygun muyum? (Öz değerlendirme)"
 ---
 
 # Uygun muyum? (Öz değerlendirme)

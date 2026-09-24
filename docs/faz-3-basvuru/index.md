@@ -1,5 +1,5 @@
 ---
-title: Faz 3: Başvuru
+title: "Faz 3: Başvuru"
 ---
 
 # Faz 3: Başvuru

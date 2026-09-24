@@ -1,5 +1,5 @@
 ---
-title: Adım 6: Bütçe Planı
+title: "Adım 6: Bütçe Planı"
 ---
 
 # Adım 6: Bütçe Planı

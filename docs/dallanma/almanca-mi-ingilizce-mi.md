@@ -1,5 +1,5 @@
 ---
-title: Almanca Programa mı, İngilizce Programa mı?
+title: "Almanca Programa mı, İngilizce Programa mı?"
 ---
 
 # Almanca Programa mı, İngilizce Programa mı?

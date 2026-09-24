@@ -1,5 +1,5 @@
 ---
-title: Sorun Giderme
+title: "Sorun Giderme"
 ---
 
 # Sorun Giderme

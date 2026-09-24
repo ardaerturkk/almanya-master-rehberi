@@ -1,5 +1,5 @@
 ---
-title: Adım 7: Askerlik Tecili
+title: "Adım 7: Askerlik Tecili"
 ---
 
 # Adım 7: Askerlik Tecili

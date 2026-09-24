@@ -1,5 +1,5 @@
 ---
-title: Adım 32: Mezuniyet Sonrası
+title: "Adım 32: Mezuniyet Sonrası"
 ---
 
 # Adım 32: Mezuniyet Sonrası

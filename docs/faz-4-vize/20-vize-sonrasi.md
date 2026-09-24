@@ -1,5 +1,5 @@
 ---
-title: Adım 20: Vizeyi Aldıktan Sonra
+title: "Adım 20: Vizeyi Aldıktan Sonra"
 ---
 
 # Adım 20: Vizeyi Aldıktan Sonra

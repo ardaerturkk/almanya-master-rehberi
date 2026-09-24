@@ -1,5 +1,5 @@
 ---
-title: Adım 26: Immatrikulation
+title: "Adım 26: Immatrikulation"
 ---
 
 # Adım 26: Immatrikulation

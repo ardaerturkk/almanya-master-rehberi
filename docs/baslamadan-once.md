@@ -1,5 +1,5 @@
 ---
-title: Başlamadan Önce
+title: "Başlamadan Önce"
 ---
 
 # Başlamadan Önce

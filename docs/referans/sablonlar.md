@@ -1,5 +1,5 @@
 ---
-title: Belge Şablonları
+title: "Belge Şablonları"
 ---
 
 # Belge Şablonları

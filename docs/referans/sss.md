@@ -1,5 +1,5 @@
 ---
-title: Sık Sorulan Sorular
+title: "Sık Sorulan Sorular"
 ---
 
 # Sık Sorulan Sorular

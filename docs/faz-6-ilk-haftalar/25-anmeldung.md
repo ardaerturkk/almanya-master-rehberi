@@ -1,5 +1,5 @@
 ---
-title: Adım 25: Anmeldung
+title: "Adım 25: Anmeldung"
 ---
 
 # Adım 25: Anmeldung

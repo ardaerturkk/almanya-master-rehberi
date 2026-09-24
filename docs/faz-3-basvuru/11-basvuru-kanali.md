@@ -1,5 +1,5 @@
 ---
-title: Adım 11: Başvuru Kanalını Belirleme
+title: "Adım 11: Başvuru Kanalını Belirleme"
 ---
 
 # Adım 11: Başvuru Kanalını Belirleme

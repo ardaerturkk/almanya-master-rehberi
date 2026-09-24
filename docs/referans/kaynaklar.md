@@ -1,5 +1,5 @@
 ---
-title: Kaynaklar ve Katkı
+title: "Kaynaklar ve Katkı"
 ---
 
 # Kaynaklar ve Katkı

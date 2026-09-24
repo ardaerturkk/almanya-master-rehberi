@@ -1,5 +1,5 @@
 ---
-title: Faz 5: Gitmeden Önce
+title: "Faz 5: Gitmeden Önce"
 ---
 
 # Faz 5: Gitmeden Önce

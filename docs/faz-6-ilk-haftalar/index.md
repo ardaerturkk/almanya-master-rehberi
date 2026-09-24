@@ -1,5 +1,5 @@
 ---
-title: Faz 6: Almanya'da İlk Haftalar
+title: "Faz 6: Almanya'da İlk Haftalar"
 ---
 
 # Faz 6: Almanya'da İlk Haftalar

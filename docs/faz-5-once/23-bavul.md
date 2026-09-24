@@ -1,5 +1,5 @@
 ---
-title: Adım 23: Bavul ve İlk Hafta Çantası
+title: "Adım 23: Bavul ve İlk Hafta Çantası"
 ---
 
 # Adım 23: Bavul ve İlk Hafta Çantası

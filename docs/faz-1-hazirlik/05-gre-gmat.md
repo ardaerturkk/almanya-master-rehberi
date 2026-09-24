@@ -1,5 +1,5 @@
 ---
-title: Adım 5: GRE / GMAT ve Diğer Testler
+title: "Adım 5: GRE / GMAT ve Diğer Testler"
 ---
 
 # Adım 5: GRE / GMAT ve Diğer Testler

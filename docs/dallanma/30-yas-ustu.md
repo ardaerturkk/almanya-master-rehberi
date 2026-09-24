@@ -1,5 +1,5 @@
 ---
-title: 30 Yaş Üstüyüm / Sigorta İstisnası
+title: "30 Yaş Üstüyüm / Sigorta İstisnası"
 ---
 
 # 30 Yaş Üstüyüm / Sigorta İstisnası

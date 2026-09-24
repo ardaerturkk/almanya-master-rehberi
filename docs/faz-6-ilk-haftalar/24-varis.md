@@ -1,5 +1,5 @@
 ---
-title: Adım 24: Varış Günü
+title: "Adım 24: Varış Günü"
 ---
 
 # Adım 24: Varış Günü

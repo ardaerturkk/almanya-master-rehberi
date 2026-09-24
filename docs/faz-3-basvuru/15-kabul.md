@@ -1,5 +1,5 @@
 ---
-title: Adım 15: Kabul (Zulassungsbescheid)
+title: "Adım 15: Kabul (Zulassungsbescheid)"
 ---
 
 # Adım 15: Kabul (Zulassungsbescheid)

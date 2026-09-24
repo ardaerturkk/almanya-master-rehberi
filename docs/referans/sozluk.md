@@ -1,5 +1,5 @@
 ---
-title: Sözlük
+title: "Sözlük"
 ---
 
 # Sözlük

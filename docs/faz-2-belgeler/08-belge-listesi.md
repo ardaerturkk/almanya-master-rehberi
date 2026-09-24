@@ -1,5 +1,5 @@
 ---
-title: Adım 8: Belge Listesi
+title: "Adım 8: Belge Listesi"
 ---
 
 # Adım 8: Belge Listesi

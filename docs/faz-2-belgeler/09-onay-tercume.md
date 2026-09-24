@@ -1,5 +1,5 @@
 ---
-title: Adım 9: Onay, Tasdik, Tercüme
+title: "Adım 9: Onay, Tasdik, Tercüme"
 ---
 
 # Adım 9: Onay, Tasdik, Tercüme

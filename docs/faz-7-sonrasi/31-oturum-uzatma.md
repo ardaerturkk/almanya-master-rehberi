@@ -1,5 +1,5 @@
 ---
-title: Adım 31: Oturum İzni Uzatma
+title: "Adım 31: Oturum İzni Uzatma"
 ---
 
 # Adım 31: Oturum İzni Uzatma

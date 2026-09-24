@@ -1,5 +1,5 @@
 ---
-title: Adım 16: Vize Türü ve Başvuru Kanalı
+title: "Adım 16: Vize Türü ve Başvuru Kanalı"
 ---
 
 # Adım 16: Vize Türü ve Başvuru Kanalı

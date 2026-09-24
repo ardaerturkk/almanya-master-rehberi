@@ -1,5 +1,5 @@
 ---
-title: Adım 2: Program Bulma
+title: "Adım 2: Program Bulma"
 ---
 
 # Adım 2: Program Bulma

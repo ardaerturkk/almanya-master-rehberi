@@ -1,5 +1,5 @@
 ---
-title: Adım 1: Almanya'da Master Sistemi
+title: "Adım 1: Almanya'da Master Sistemi"
 ---
 
 # Adım 1: Almanya'da Master Sistemi

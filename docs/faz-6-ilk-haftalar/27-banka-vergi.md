@@ -1,5 +1,5 @@
 ---
-title: Adım 27: Banka Hesabı ve Steuer-ID
+title: "Adım 27: Banka Hesabı ve Steuer-ID"
 ---
 
 # Adım 27: Banka Hesabı ve Steuer-ID

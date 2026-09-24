@@ -1,5 +1,5 @@
 ---
-title: Faz 7: Okurken ve Sonrasında
+title: "Faz 7: Okurken ve Sonrasında"
 ---
 
 # Faz 7: Okurken ve Sonrasında

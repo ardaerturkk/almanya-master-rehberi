@@ -1,5 +1,5 @@
 ---
-title: Şartlı Kabul (Bedingte Zulassung) Aldım
+title: "Şartlı Kabul (Bedingte Zulassung) Aldım"
 ---
 
 # Şartlı Kabul (Bedingte Zulassung) Aldım

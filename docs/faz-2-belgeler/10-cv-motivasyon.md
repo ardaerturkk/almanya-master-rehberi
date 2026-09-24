@@ -1,5 +1,5 @@
 ---
-title: Adım 10: CV, Motivasyon Mektubu, Referans
+title: "Adım 10: CV, Motivasyon Mektubu, Referans"
 ---
 
 # Adım 10: CV, Motivasyon Mektubu, Referans

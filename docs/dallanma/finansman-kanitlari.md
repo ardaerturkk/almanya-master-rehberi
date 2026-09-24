@@ -1,5 +1,5 @@
 ---
-title: Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?
+title: "Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?"
 ---
 
 # Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?

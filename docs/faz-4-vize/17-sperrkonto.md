@@ -1,5 +1,5 @@
 ---
-title: Adım 17: Sperrkonto Açma
+title: "Adım 17: Sperrkonto Açma"
 ---
 
 # Adım 17: Sperrkonto Açma

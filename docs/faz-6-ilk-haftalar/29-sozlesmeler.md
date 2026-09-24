@@ -1,5 +1,5 @@
 ---
-title: Adım 29: Rundfunkbeitrag ve Sözleşmeler
+title: "Adım 29: Rundfunkbeitrag ve Sözleşmeler"
 ---
 
 # Adım 29: Rundfunkbeitrag ve Sözleşmeler

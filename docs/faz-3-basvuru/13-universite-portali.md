@@ -1,5 +1,5 @@
 ---
-title: Adım 13: Üniversite Portalı
+title: "Adım 13: Üniversite Portalı"
 ---
 
 # Adım 13: Üniversite Portalı

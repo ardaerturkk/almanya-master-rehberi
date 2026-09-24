@@ -1,5 +1,5 @@
 ---
-title: Adım 3: Uygunluk Analizi
+title: "Adım 3: Uygunluk Analizi"
 ---
 
 # Adım 3: Uygunluk Analizi

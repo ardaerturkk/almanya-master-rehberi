@@ -1,5 +1,5 @@
 ---
-title: uni-assist mi, Doğrudan Başvuru mu?
+title: "uni-assist mi, Doğrudan Başvuru mu?"
 ---
 
 # uni-assist mi, Doğrudan Başvuru mu?

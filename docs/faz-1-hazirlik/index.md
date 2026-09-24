@@ -1,5 +1,5 @@
 ---
-title: Faz 1: Hazırlık
+title: "Faz 1: Hazırlık"
 ---
 
 # Faz 1: Hazırlık

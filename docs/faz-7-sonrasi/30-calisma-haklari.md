@@ -1,5 +1,5 @@
 ---
-title: Adım 30: Çalışma Hakları
+title: "Adım 30: Çalışma Hakları"
 ---
 
 # Adım 30: Çalışma Hakları

@@ -1,5 +1,5 @@
 ---
-title: Lisansım Henüz Bitmedi (Son Sınıf Başvurusu)
+title: "Lisansım Henüz Bitmedi (Son Sınıf Başvurusu)"
 ---
 
 # Lisansım Henüz Bitmedi (Son Sınıf Başvurusu)

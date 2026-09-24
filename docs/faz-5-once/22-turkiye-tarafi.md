@@ -1,5 +1,5 @@
 ---
-title: Adım 22: Türkiye Tarafı İşler
+title: "Adım 22: Türkiye Tarafı İşler"
 ---
 
 # Adım 22: Türkiye Tarafı İşler

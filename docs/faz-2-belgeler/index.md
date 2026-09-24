@@ -1,5 +1,5 @@
 ---
-title: Faz 2: Belgeler
+title: "Faz 2: Belgeler"
 ---
 
 # Faz 2: Belgeler

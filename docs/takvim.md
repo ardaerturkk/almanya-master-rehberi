@@ -1,5 +1,5 @@
 ---
-title: Takvim: Geriye Doğru Planlama
+title: "Takvim: Geriye Doğru Planlama"
 ---
 
 # Takvim: Geriye Doğru Planlama
