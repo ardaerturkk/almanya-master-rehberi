@@ -4,8 +4,13 @@ title: "Dallanma Sayfaları"
 
 # Dallanma Sayfaları
 
-::: warning Araştırma bekleniyor
-Bu sayfa henüz yazılmadı. İçerik, PROMPT.md'deki araştırma protokolüne göre yalnızca
-birincil/ikincil kaynaklarla doğrulandıktan sonra buraya girecek. `ROADMAP.md` ve `SOURCES.md`
-ilerlemeyi takip eder.
-:::
+Ana rotadan sapma noktaların burada. Aşağıdaki durumlardan biri seni tanımlıyorsa, ilgili
+sayfaya bak — ana adımların yanında bu bilgiyi de göz önünde bulundur.
+
+- [Almanca mı, İngilizce mi?](/dallanma/almanca-mi-ingilizce-mi) — program dili seçimi
+- [Sperrkonto mu, Verpflichtungserklärung mı, Burs mu?](/dallanma/finansman-kanitlari) — finansman kanıtı seçimi
+- [uni-assist mi, Doğrudan Başvuru mu?](/dallanma/uni-assist-mi-dogrudan-mi) — başvuru kanalı
+- [30 Yaş Üstüyüm](/dallanma/30-yas-ustu) — sigorta istisnası
+- [Şartlı Kabul Aldım](/dallanma/sartli-kabul) — bedingte Zulassung süreci
+- [Lisansım Henüz Bitmedi](/dallanma/lisans-bitmedi) — son sınıf başvurusu
+- [Vize Reddi Aldım](/dallanma/vize-reddi) — itiraz süreci
